@@ -66,6 +66,9 @@ msgstr "A kijelölt sor(ok) másolása balról"
 msgid "Copy Selected Diff (Left) to Clipboard\tCtrl+1"
 msgstr "A kijelölt különbség (bal) vágólapra másolása\tCtrl+1"
 
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+2"
+msgstr "A kijelölt különbség (jobb) vágólapra &másolása\tCtrl+2"
+
 msgid "Copy Selected Diff (Middle) to Clipboard\tCtrl+2"
 msgstr "A kijelölt különbség (középső) vágólapra &másolása\tCtrl+2"
 
@@ -5017,6 +5020,9 @@ msgstr "Visszafejtés"
 msgid "URL Handling"
 msgstr "URL-kezelés"
 
+msgid "Decoding / Encoding"
+msgstr "Dekódolás / kódolás"
+
 msgid "Make Uppercase"
 msgstr "Nagybetűsítés"
 
@@ -5133,6 +5139,9 @@ msgstr "Natív kód kibontása"
 
 msgid "Convert Text with AI..."
 msgstr "Text konvertálása MI-vel..."
+
+msgid "Unescape Java properties files"
+msgstr "Java tulajdonságfájlok feloldása"
 
 msgid "Make characters uppercase"
 msgstr "Nagybetűsítés"
