@@ -702,9 +702,22 @@ void CImgMergeFrame::OnMDIActivate(BOOL bActivate, CWnd* pActivateWnd, CWnd* pDe
 
 void CImgMergeFrame::OnClose() 
 {
+	// Prevent re-entry while dialog is showing
+	if (m_bInOnClose)
+		return;
+
+	struct OnCloseGuard
+	{
+		bool &m_flag;
+		explicit OnCloseGuard(bool &flag) : m_flag(flag) { m_flag = true; }
+		~OnCloseGuard() { m_flag = false; }
+	} guard(m_bInOnClose);
+
 	// Allow user to cancel closing
 	if (!PromptAndSaveIfNeeded(true))
+	{
 		return;
+	}
 
 	// clean up pointers.
 	CMergeFrameCommon::OnClose();
