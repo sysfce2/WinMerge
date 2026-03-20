@@ -560,11 +560,11 @@ int CImgMergeFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	}
 
 	m_wndFilePathBar.SetPaneCount(m_pImgMergeWindow->GetPaneCount());
-	m_wndFilePathBar.SetOnSetFocusCallback([&](int pane) {
+	m_wndFilePathBar.SetOnSetFocusCallback([this](int pane) {
 		if (m_nActivePane != pane)
 			m_pImgMergeWindow->SetActivePane(pane);
 	});
-	m_wndFilePathBar.SetOnCaptionChangedCallback([&](int pane, const String& sText) {
+	m_wndFilePathBar.SetOnCaptionChangedCallback([this](int pane, const String& sText) {
 		if (m_strDesc[pane] != sText)
 		{
 			m_strDesc[pane] = sText;
@@ -574,7 +574,7 @@ int CImgMergeFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 		}
 		m_pImgMergeWindow->SetActivePane(pane);
 	});
-	m_wndFilePathBar.SetOnFileSelectedCallback([&](int pane, const String& sFilepath) {
+	m_wndFilePathBar.SetOnFileSelectedCallback([this](int pane, const String& sFilepath) {
 		ChangeFile(pane, sFilepath);
 		m_pImgMergeWindow->SetActivePane(pane);
 	});
