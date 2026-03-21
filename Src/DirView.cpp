@@ -564,16 +564,20 @@ void CDirView::ReloadColumns()
 
 /**
  * @brief Redisplay items in subfolder
- * @param [in] diffpos First item position in subfolder.
+ * @param [in] parent Parent item (nullptr for root level).
  * @param [in] level Indent level
  * @param [in,out] index Index of the item to be inserted.
  * @param [in,out] alldiffs Number of different items
  * @return returns -1 if the comparison of some items was interrupted or an error occurred
  */
-int CDirView::RedisplayChildren(DIFFITEM *diffpos, int level, UINT &index, int &alldiffs)
+int CDirView::RedisplayChildren(DIFFITEM *parent, int level, UINT &index, int &alldiffs)
 {
 	int result = 0;
 	const CDiffContext &ctxt = GetDiffContext();
+
+	// Get first child of parent (or first root item if parent is nullptr)
+	DIFFITEM *diffpos = parent ? ctxt.GetFirstChildDiffPosition(parent) : ctxt.GetFirstDiffPosition();
+
 	while (diffpos != nullptr)
 	{
 		DIFFITEM *curdiffpos = diffpos;
@@ -595,7 +599,7 @@ int CDirView::RedisplayChildren(DIFFITEM *diffpos, int level, UINT &index, int &
 				{
 					if (di.customFlags & ViewCustomFlags::EXPANDED)
 					{
-						if (RedisplayChildren(ctxt.GetFirstChildDiffPosition(curdiffpos), level + 1, index, alldiffs) < 0)
+						if (RedisplayChildren(curdiffpos, level + 1, index, alldiffs) < 0)
 							result = -1;
 					}
 				}
@@ -609,7 +613,7 @@ int CDirView::RedisplayChildren(DIFFITEM *diffpos, int level, UINT &index, int &
 				}
 				if (di.HasChildren())
 				{
-					if (RedisplayChildren(ctxt.GetFirstChildDiffPosition(curdiffpos), level + 1, index, alldiffs) < 0)
+					if (RedisplayChildren(curdiffpos, level + 1, index, alldiffs) < 0)
 						result = -1;
 				}
 			}
@@ -649,8 +653,7 @@ void CDirView::Redisplay()
 
 	m_dirfilter.displayFilterHelper.SetDiffContext(&ctxt);
 	int alldiffs = 0;
-	DIFFITEM *diffpos = ctxt.GetFirstDiffPosition();
-	const int result = RedisplayChildren(diffpos, 0, cnt, alldiffs);
+	const int result = RedisplayChildren(nullptr, 0, cnt, alldiffs);
 	const unsigned int threadState = pDoc->m_diffThread.GetThreadState();
 	GetParentFrame()->SetLastCompareResult((threadState != CDiffThread::THREAD_COMPLETED || result < 0) ? -1 : alldiffs);
 	SortColumnsAppropriately();
@@ -1374,10 +1377,9 @@ void CDirView::ExpandSubdir(int sel, bool bRecursive)
 	if (bRecursive)
 		ExpandSubdirs(ctxt, dip);
 
-	DIFFITEM *diffpos = ctxt.GetFirstChildDiffPosition(GetItemKey(sel));
 	UINT indext = sel + 1;
 	int alldiffs;
-	RedisplayChildren(diffpos, dip.GetDepth() + 1, indext, alldiffs);
+	RedisplayChildren(GetItemKey(sel), dip.GetDepth() + 1, indext, alldiffs);
 
 	SortColumnsAppropriately();
 
