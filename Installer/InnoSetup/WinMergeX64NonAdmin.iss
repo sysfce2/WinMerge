@@ -505,6 +505,7 @@ Source: ..\..\Translations\ShellExtension\Hungarian.po; DestDir: {app}\Languages
 Source: ..\..\Translations\WinMerge\Italian.po; DestDir: {app}\Languages; Components: Languages\Italian; Flags: ignoreversion comparetimestamp
 Source: ..\..\Translations\ShellExtension\Italian.po; DestDir: {app}\Languages\ShellExtension; Components: Languages\Italian; Flags: ignoreversion comparetimestamp
 Source: ..\..\Translations\Docs\Readme\ReadMe-Italian.txt; DestDir: {app}\Docs; Components: Languages\Italian
+Source: ..\..\Build\Manual\htmlhelp\WinMergeItalian.chm; DestDir: {app}\Docs; Components: Languages\Italian
 Source: ..\..\Translations\WinMerge\Japanese.po; DestDir: {app}\Languages; Components: Languages\Japanese; Flags: ignoreversion comparetimestamp
 Source: ..\..\Translations\ShellExtension\Japanese.po; DestDir: {app}\Languages\ShellExtension; Components: Languages\Japanese; Flags: ignoreversion comparetimestamp
 Source: ..\..\Translations\Docs\Readme\ReadMe-Japanese.txt; DestDir: {app}\Docs; Components: Languages\Japanese
