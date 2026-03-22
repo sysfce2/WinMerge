@@ -9,6 +9,8 @@
 #include "paths.h"
 #include "DirItem.h"
 #include "DirViewColItems.h"
+#include "RenameMoveDetection.h"
+#include "FilterExpression.h"
 #include <iostream>
 #include <Poco/Thread.h>
 #ifdef _MSC_VER
@@ -219,6 +221,7 @@ int main()
 			std::wcout << L"  p <left-path> <right-path>   : Set folder paths to compare\n";
 			std::wcout << L"  f <filter-mask>              : Set file mask filter (e.g., *.c;*.h)\n";
 			std::wcout << L"  m <compare-method>           : Set compare method (FullContents, Date, etc.)\n";
+			std::wcout << L"  r <key-expression>           : Set rename/move detection key (e.g., {{content}})\n";
 			std::wcout << L"  c                            : Start folder comparison\n";
 			std::wcout << L"  d [detail]                   : Display comparison results (add 'detail' for Date, Size, Diff count)\n";
 			std::wcout << L"  s                            : Show comparison statistics\n";
@@ -262,10 +265,52 @@ int main()
 				continue;
 			}
 		}
+		else if (cmd[0] == L'r') // Set rename/move detection key
+		{
+			if (cmd.length() < 3)
+			{
+				std::wcout << L"Usage: r <key-expression>\n";
+				std::wcout << L"Example: r {{Name}}\n";
+				std::wcout << L"Available keys: {{Name}}, {{BaseName}}, {{Size}}, {{Date}}, etc.\n";
+				continue;
+			}
+
+			std::wstring keyExpr = cmd.substr(2);
+
+			// Create or reset RenameMoveDetection object
+			if (!pCtx)
+				pCtx = std::make_unique<CDiffContext>(paths, dm);
+
+			if (!pCtx->m_pRenameMoveDetection)
+				pCtx->m_pRenameMoveDetection = std::make_unique<RenameMoveDetection>();
+
+			// Parse and set the key expression
+			auto expr = std::make_unique<FilterExpression>(ucr::toUTF8(keyExpr));
+			if (expr->errorCode != 0)
+			{
+				std::wcout << L"Error parsing expression: " << FormatFilterErrorSummary(*expr) << L"\n";
+				continue;
+			}
+
+			pCtx->m_pRenameMoveDetection->SetRenameMoveKeyExpression(expr.get());
+			std::wcout << L"Rename/move detection key set: " << keyExpr << L"\n";
+		}
 		else if (cmd[0] == L'c') // Compare
 		{
+			// Preserve RenameMoveDetection if already set
+			std::unique_ptr<RenameMoveDetection> preservedRenameMoveDetection;
+			if (pCtx && pCtx->m_pRenameMoveDetection)
+				preservedRenameMoveDetection = std::move(pCtx->m_pRenameMoveDetection);
+
 			pCtx = std::make_unique<CDiffContext>(paths, dm);
 			pCmpStats = std::make_unique<CompareStats>(paths.GetSize());
+
+			// Restore RenameMoveDetection
+			if (preservedRenameMoveDetection)
+			{
+				pCtx->m_pRenameMoveDetection = std::move(preservedRenameMoveDetection);
+				pCtx->m_pRenameMoveDetection->GetRenameMoveKeyExpression()->SetDiffContext(pCtx.get());
+			}
 
 			DIFFOPTIONS options = {0};
 			options.nIgnoreWhitespace = false;
@@ -296,6 +341,11 @@ int main()
 				String subdir[3] = { _T(""), _T(""), _T("") };
 				DirScan_GetItems(paths, subdir, myStruct,
 					casesensitive, depth, nullptr, myStruct->context->m_bWalkUniques);
+				if (myStruct->context->m_pRenameMoveDetection)
+				{
+					myStruct->context->m_pRenameMoveDetection->Detect(*myStruct->context, true);
+					myStruct->context->m_pRenameMoveDetection->Merge(*myStruct->context, true);
+				}
 				});
 			diffThread.SetCompareFunction([](DiffFuncStruct* myStruct) {
 				DirScan_CompareItems(myStruct, nullptr);
