@@ -8,9 +8,9 @@
 #include "DirScan.h"
 #include "paths.h"
 #include "DirItem.h"
+#include "DirViewColItems.h"
 #include <iostream>
 #include <Poco/Thread.h>
-#include <ctime>
 #ifdef _MSC_VER
 #include <crtdbg.h>
 #endif
@@ -53,90 +53,29 @@ std::vector<std::wstring> ParseQuotedArgs(const std::wstring& input)
 	return tokens;
 }
 
-std::wstring FormatFileSize(uint64_t size)
+std::wstring GetColumnDisplay(const DirViewColItems& colItems, CDiffContext* pCtxt, const DIFFITEM* pdi, const String& columnName)
 {
-	if (size == DirItem::FILE_SIZE_NONE)
-		return L"N/A";
-
-	// Use locality's localized formatting if needed, or simple format
-	if (size < 1024)
-		return std::to_wstring(size) + L" B";
-	else if (size < 1024 * 1024)
-		return std::to_wstring(size / 1024) + L" KB";
-	else if (size < 1024 * 1024 * 1024)
-		return std::to_wstring(size / (1024 * 1024)) + L" MB";
-	else
-		return std::to_wstring(size / (1024 * 1024 * 1024)) + L" GB";
+	for (int col = 0; col < colItems.GetColCount(); ++col)
+	{
+		const DirColInfo* colInfo = colItems.GetDirColInfo(col);
+		if (colInfo && colInfo->regName == columnName)
+		{
+			return colItems.ColGetTextToDisplay(pCtxt, col, *pdi);
+		}
+	}
+	return L"";
 }
 
-std::wstring FormatDateTime(const Poco::Timestamp& timestamp)
-{
-	if (timestamp == Poco::Timestamp::TIMEVAL_MIN)
-		return L"N/A";
-
-	time_t rawtime = timestamp.epochTime();
-	struct tm timeinfo;
-	localtime_s(&timeinfo, &rawtime);
-
-	wchar_t buffer[80];
-	wcsftime(buffer, sizeof(buffer) / sizeof(wchar_t), L"%Y-%m-%d %H:%M:%S", &timeinfo);
-	return buffer;
-}
-
-std::wstring GetStatusAbbr(const DIFFITEM& di, int nDirs)
-{
-	if (di.diffcode.isResultError())
-		return L"Error";
-	else if (di.diffcode.isResultAbort())
-		return L"Aborted";
-	else if (di.diffcode.isResultFiltered())
-		return L"Skipped";
-	else if (di.diffcode.isSideFirstOnly())
-		return L"Left Only";
-	else if (di.diffcode.isSideSecondOnly())
-		return (nDirs < 3) ? L"Right Only" : L"Middle Only";
-	else if (di.diffcode.isSideThirdOnly())
-		return L"Right Only";
-	else if (nDirs > 2 && !di.diffcode.existsFirst())
-		return L"No Left";
-	else if (nDirs > 2 && !di.diffcode.existsSecond())
-		return L"No Middle";
-	else if (nDirs > 2 && !di.diffcode.existsThird())
-		return L"No Right";
-	else if (di.diffcode.isResultSame())
-		return L"Identical";
-	else if (di.diffcode.isResultDiff())
-		return L"Different";
-	return L"Unknown";
-}
-
-void PrintDiffItemTree(DIFFITEM* pdi, int indent, int nDirs, bool showDetails = false)
+void PrintDiffItemTree(const DirViewColItems& colItems, CDiffContext* pCtxt, DIFFITEM* pdi, int indent, int nDirs, bool showDetails = false)
 {
 	if (!pdi)
 		return;
 
 	std::wstring indentStr(indent * 2, L' ');
-	std::wstring itemName;
 
-	// Get item name
-	if (nDirs < 3)
-	{
-		if (pdi->diffcode.existsFirst())
-			itemName = pdi->diffFileInfo[0].filename;
-		else if (pdi->diffcode.existsSecond())
-			itemName = pdi->diffFileInfo[1].filename;
-	}
-	else
-	{
-		if (pdi->diffcode.existsFirst())
-			itemName = pdi->diffFileInfo[0].filename;
-		else if (pdi->diffcode.existsSecond())
-			itemName = pdi->diffFileInfo[1].filename;
-		else if (pdi->diffcode.existsThird())
-			itemName = pdi->diffFileInfo[2].filename;
-	}
-
-	std::wstring status = GetStatusAbbr(*pdi, nDirs);
+	// Get item name and status using DirViewColItems
+	std::wstring itemName = GetColumnDisplay(colItems, pCtxt, pdi, _T("Name"));
+	std::wstring status = GetColumnDisplay(colItems, pCtxt, pdi, _T("StatusAbbr"));
 	std::wstring typeStr = pdi->diffcode.isDirectory() ? L"[DIR] " : L"[FILE]";
 	std::wcout << indentStr << typeStr << L" " << itemName << L": " << status;
 
@@ -144,52 +83,95 @@ void PrintDiffItemTree(DIFFITEM* pdi, int indent, int nDirs, bool showDetails = 
 	{
 		std::wcout << L" | ";
 
-		// Show size information with professional formatting
+		// Show size information using DirViewColItems
 		if (!pdi->diffcode.isDirectory())
 		{
 			if (nDirs < 3)
 			{
 				if (pdi->diffcode.existsFirst())
-					std::wcout << L"L:" << FormatFileSize(pdi->diffFileInfo[0].size) << L" ";
+				{
+					std::wstring size = GetColumnDisplay(colItems, pCtxt, pdi, _T("LsizeShort"));
+					if (!size.empty())
+						std::wcout << L"L:" << size << L" ";
+				}
 				if (pdi->diffcode.existsSecond())
-					std::wcout << L"R:" << FormatFileSize(pdi->diffFileInfo[1].size) << L" ";
+				{
+					std::wstring size = GetColumnDisplay(colItems, pCtxt, pdi, _T("RsizeShort"));
+					if (!size.empty())
+						std::wcout << L"R:" << size << L" ";
+				}
 			}
 			else
 			{
 				if (pdi->diffcode.existsFirst())
-					std::wcout << L"L:" << FormatFileSize(pdi->diffFileInfo[0].size) << L" ";
+				{
+					std::wstring size = GetColumnDisplay(colItems, pCtxt, pdi, _T("LsizeShort"));
+					if (!size.empty())
+						std::wcout << L"L:" << size << L" ";
+				}
 				if (pdi->diffcode.existsSecond())
-					std::wcout << L"M:" << FormatFileSize(pdi->diffFileInfo[1].size) << L" ";
+				{
+					std::wstring size = GetColumnDisplay(colItems, pCtxt, pdi, _T("MsizeShort"));
+					if (!size.empty())
+						std::wcout << L"M:" << size << L" ";
+				}
 				if (pdi->diffcode.existsThird())
-					std::wcout << L"R:" << FormatFileSize(pdi->diffFileInfo[2].size) << L" ";
+				{
+					std::wstring size = GetColumnDisplay(colItems, pCtxt, pdi, _T("RsizeShort"));
+					if (!size.empty())
+						std::wcout << L"R:" << size << L" ";
+				}
 			}
 			std::wcout << L"| ";
 		}
 
-		// Show date information with WinMerge's professional formatting
+		// Show date information using DirViewColItems
 		if (nDirs < 3)
 		{
 			if (pdi->diffcode.existsFirst())
-				std::wcout << L"L:" << FormatDateTime(pdi->diffFileInfo[0].mtime) << L" ";
+			{
+				std::wstring date = GetColumnDisplay(colItems, pCtxt, pdi, _T("Lmtime"));
+				if (!date.empty())
+					std::wcout << L"L:" << date << L" ";
+			}
 			if (pdi->diffcode.existsSecond())
-				std::wcout << L"R:" << FormatDateTime(pdi->diffFileInfo[1].mtime) << L" ";
+			{
+				std::wstring date = GetColumnDisplay(colItems, pCtxt, pdi, _T("Rmtime"));
+				if (!date.empty())
+					std::wcout << L"R:" << date << L" ";
+			}
 		}
 		else
 		{
 			if (pdi->diffcode.existsFirst())
-				std::wcout << L"L:" << FormatDateTime(pdi->diffFileInfo[0].mtime) << L" ";
+			{
+				std::wstring date = GetColumnDisplay(colItems, pCtxt, pdi, _T("Lmtime"));
+				if (!date.empty())
+					std::wcout << L"L:" << date << L" ";
+			}
 			if (pdi->diffcode.existsSecond())
-				std::wcout << L"M:" << FormatDateTime(pdi->diffFileInfo[1].mtime) << L" ";
+			{
+				std::wstring date = GetColumnDisplay(colItems, pCtxt, pdi, _T("Mmtime"));
+				if (!date.empty())
+					std::wcout << L"M:" << date << L" ";
+			}
 			if (pdi->diffcode.existsThird())
-				std::wcout << L"R:" << FormatDateTime(pdi->diffFileInfo[2].mtime) << L" ";
+			{
+				std::wstring date = GetColumnDisplay(colItems, pCtxt, pdi, _T("Rmtime"));
+				if (!date.empty())
+					std::wcout << L"R:" << date << L" ";
+			}
 		}
 
-		// Show diff counts
+		// Show diff counts using DirViewColItems
 		if (pdi->diffcode.isResultDiff() && !pdi->diffcode.isDirectory())
 		{
-			std::wcout << L"| Diffs:" << pdi->nsdiffs;
-			if (pdi->nidiffs > 0)
-				std::wcout << L" Ignored:" << pdi->nidiffs;
+			std::wstring diffs = GetColumnDisplay(colItems, pCtxt, pdi, _T("Snsdiffs"));
+			if (!diffs.empty())
+				std::wcout << L"| Diffs:" << diffs;
+			std::wstring ignoredDiffs = GetColumnDisplay(colItems, pCtxt, pdi, _T("Snidiffs"));
+			if (!ignoredDiffs.empty() && ignoredDiffs != _T("0"))
+				std::wcout << L" Ignored:" << ignoredDiffs;
 		}
 	}
 
@@ -198,7 +180,7 @@ void PrintDiffItemTree(DIFFITEM* pdi, int indent, int nDirs, bool showDetails = 
 	DIFFITEM* child = pdi->GetFirstChild();
 	while (child)
 	{
-		PrintDiffItemTree(child, indent + 1, nDirs, showDetails);
+		PrintDiffItemTree(colItems, pCtxt, child, indent + 1, nDirs, showDetails);
 		child = child->GetFwdSiblingLink();
 	}
 }
@@ -355,9 +337,14 @@ int main()
 			std::wcout << L":\n";
 			std::wcout << L"==================\n";
 			int nDirs = pCtx->GetCompareDirs();
+
+			// Create DirViewColItems for professional WinMerge formatting
+			std::vector<String> additionalProperties;
+			DirViewColItems colItems(nDirs, additionalProperties);
+
 			while (pos)
 			{
-				PrintDiffItemTree(pos, 0, nDirs, showDetails);
+				PrintDiffItemTree(colItems, pCtx.get(), pos, 0, nDirs, showDetails);
 				pos = pos->GetFwdSiblingLink();
 			}
 		}
