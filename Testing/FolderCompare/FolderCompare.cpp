@@ -196,6 +196,7 @@ int main()
 	FileFilterHelper filter;
 	filter.SetMaskOrExpression(_T("*.*"));
 	std::unique_ptr<CDiffContext> pCtx; // Store context for comparison results
+	std::unique_ptr<CompareStats> pCmpStats;
 
 	std::wcout << L"WinMerge folder comparison test tool\n";
 	std::wcout << L"Type 'h' for help.\n";
@@ -220,6 +221,7 @@ int main()
 			std::wcout << L"  m <compare-method>           : Set compare method (FullContents, Date, etc.)\n";
 			std::wcout << L"  c                            : Start folder comparison\n";
 			std::wcout << L"  d [detail]                   : Display comparison results (add 'detail' for Date, Size, Diff count)\n";
+			std::wcout << L"  s                            : Show comparison statistics\n";
 			std::wcout << L"  q                            : Quit the program\n";
 			std::wcout << L"  h                            : Show this help message\n\n";
 		}
@@ -262,9 +264,8 @@ int main()
 		}
 		else if (cmd[0] == L'c') // Compare
 		{
-			CompareStats cmpstats(paths.GetSize());
-
 			pCtx = std::make_unique<CDiffContext>(paths, dm);
+			pCmpStats = std::make_unique<CompareStats>(paths.GetSize());
 
 			DIFFOPTIONS options = {0};
 			options.nIgnoreWhitespace = false;
@@ -281,7 +282,7 @@ int main()
 			pCtx->m_nQuickCompareLimit = 4 * 1024 * 1024;
 			pCtx->m_bPluginsEnabled = false;
 			pCtx->m_bWalkUniques = true;
-			pCtx->m_pCompareStats = &cmpstats;
+			pCtx->m_pCompareStats = pCmpStats.get();
 			pCtx->m_bRecursive = true;
 			pCtx->m_piFilterGlobal = &filter;
 			filter.SetDiffContext(pCtx.get());
@@ -304,7 +305,7 @@ int main()
 			while (diffThread.GetThreadState() != CDiffThread::THREAD_COMPLETED)
 			{
 				Poco::Thread::sleep(200);
-				std::wcout << L"Comparing " << cmpstats.GetComparedItems() << L" items...\r";
+				std::wcout << L"Comparing " << pCmpStats->GetComparedItems() << L" items...\r";
 			}
 			std::wcout << L"\nComparison completed.\n";
 		}
@@ -347,6 +348,60 @@ int main()
 				PrintDiffItemTree(colItems, pCtx.get(), pos, 0, nDirs, showDetails);
 				pos = pos->GetFwdSiblingLink();
 			}
+		}
+		else if (cmd[0] == L's') // Show statistics
+		{
+			if (!pCtx || !pCtx->m_pCompareStats)
+			{
+				std::wcout << L"No comparison results available. Run 'c' command first.\n";
+				continue;
+			}
+
+			const CompareStats* stats = pCtx->m_pCompareStats;
+			int nDirs = pCtx->GetCompareDirs();
+
+			std::wcout << L"\n==================\n";
+			std::wcout << L"Comparison Statistics\n";
+			std::wcout << L"==================\n\n";
+
+			std::wcout << L"Total Items:    " << stats->GetTotalItems() << L"\n";
+			std::wcout << L"Compared Items: " << stats->GetComparedItems() << L"\n\n";
+
+			// Files
+			std::wcout << L"Files:\n";
+			std::wcout << L"  Identical:       " << stats->GetCount(CompareStats::RESULT_SAME) << L"\n";
+			std::wcout << L"  Different:       " << stats->GetCount(CompareStats::RESULT_DIFF) << L"\n";
+			std::wcout << L"  Binary Identical:" << stats->GetCount(CompareStats::RESULT_BINSAME) << L"\n";
+			std::wcout << L"  Binary Different:" << stats->GetCount(CompareStats::RESULT_BINDIFF) << L"\n";
+			std::wcout << L"  Left Only:       " << stats->GetCount(CompareStats::RESULT_LUNIQUE) << L"\n";
+			if (nDirs > 2)
+			{
+				std::wcout << L"  Middle Only:     " << stats->GetCount(CompareStats::RESULT_MUNIQUE) << L"\n";
+				std::wcout << L"  Left Missing:    " << stats->GetCount(CompareStats::RESULT_LMISSING) << L"\n";
+				std::wcout << L"  Middle Missing:  " << stats->GetCount(CompareStats::RESULT_MMISSING) << L"\n";
+				std::wcout << L"  Right Missing:   " << stats->GetCount(CompareStats::RESULT_RMISSING) << L"\n";
+			}
+			std::wcout << L"  Right Only:      " << stats->GetCount(CompareStats::RESULT_RUNIQUE) << L"\n";
+			std::wcout << L"  Skipped:         " << stats->GetCount(CompareStats::RESULT_SKIP) << L"\n";
+
+			// Directories
+			std::wcout << L"\nDirectories:\n";
+			std::wcout << L"  Identical:       " << stats->GetCount(CompareStats::RESULT_DIRSAME) << L"\n";
+			std::wcout << L"  Different:       " << stats->GetCount(CompareStats::RESULT_DIRDIFF) << L"\n";
+			std::wcout << L"  Left Only:       " << stats->GetCount(CompareStats::RESULT_LDIRUNIQUE) << L"\n";
+			if (nDirs > 2)
+			{
+				std::wcout << L"  Middle Only:     " << stats->GetCount(CompareStats::RESULT_MDIRUNIQUE) << L"\n";
+				std::wcout << L"  Left Missing:    " << stats->GetCount(CompareStats::RESULT_LDIRMISSING) << L"\n";
+				std::wcout << L"  Middle Missing:  " << stats->GetCount(CompareStats::RESULT_MDIRMISSING) << L"\n";
+				std::wcout << L"  Right Missing:   " << stats->GetCount(CompareStats::RESULT_RDIRMISSING) << L"\n";
+			}
+			std::wcout << L"  Right Only:      " << stats->GetCount(CompareStats::RESULT_RDIRUNIQUE) << L"\n";
+			std::wcout << L"  Skipped:         " << stats->GetCount(CompareStats::RESULT_DIRSKIP) << L"\n";
+
+			// Errors
+			std::wcout << L"\nErrors:            " << stats->GetCount(CompareStats::RESULT_ERROR) << L"\n";
+			std::wcout << L"==================\n\n";
 		}
 		else
 		{
