@@ -4975,6 +4975,12 @@ msgstr "Filter verkställt"
 msgid "Compare %1"
 msgstr ""
 
+msgid "&Filter by This Column"
+msgstr ""
+
+msgid "&Filter by This Column..."
+msgstr ""
+
 #, c-format
 msgid "Clipboard at %s"
 msgstr "Klippbordet vid %s"
@@ -5204,6 +5210,9 @@ msgstr "Okänt fel"
 msgid "Invalid property name"
 msgstr ""
 
+msgid "Invalid directive"
+msgstr ""
+
 msgid "Equals"
 msgstr "Lika med"
 
@@ -5239,6 +5248,18 @@ msgstr "Innehåller (RegExp)"
 
 msgid "Not Contains (regex)"
 msgstr "Innehåller inte (RegExp)"
+
+msgid "Match (wildcard)"
+msgstr ""
+
+msgid "Not match (wildcard)"
+msgstr ""
+
+msgid "Match (regex)"
+msgstr ""
+
+msgid "Not match (regex)"
+msgstr ""
 
 msgid "Light"
 msgstr "Ljus"

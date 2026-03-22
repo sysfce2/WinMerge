@@ -4605,6 +4605,12 @@ msgstr "Zastosowano filtr"
 msgid "Compare %1"
 msgstr "Porównaj %1"
 
+msgid "&Filter by This Column"
+msgstr ""
+
+msgid "&Filter by This Column..."
+msgstr ""
+
 #, c-format
 msgid "Clipboard at %s"
 msgstr "Schowek w %s"
@@ -4778,6 +4784,9 @@ msgstr "Nieznany błąd"
 msgid "Invalid property name"
 msgstr "Nieprawidłowa nazwa właściwości"
 
+msgid "Invalid directive"
+msgstr ""
+
 msgid "Equals"
 msgstr "Równe"
 
@@ -4813,6 +4822,18 @@ msgstr "Zawiera (wyrażenie regularne)"
 
 msgid "Not Contains (regex)"
 msgstr "Nie zawiera (wyrażenie regularne)"
+
+msgid "Match (wildcard)"
+msgstr ""
+
+msgid "Not match (wildcard)"
+msgstr ""
+
+msgid "Match (regex)"
+msgstr ""
+
+msgid "Not match (regex)"
+msgstr ""
 
 msgid "Light"
 msgstr "Jasny"

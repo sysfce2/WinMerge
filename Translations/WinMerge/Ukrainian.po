@@ -4987,6 +4987,12 @@ msgstr "Застосован Фільтр"
 msgid "Compare %1"
 msgstr "Порівняти %1"
 
+msgid "&Filter by This Column"
+msgstr ""
+
+msgid "&Filter by This Column..."
+msgstr ""
+
 #, c-format
 msgid "Clipboard at %s"
 msgstr "Буфера обміну в %s"
@@ -5215,6 +5221,9 @@ msgstr "Невідома помилка"
 msgid "Invalid property name"
 msgstr "Неприпустимиа назва властивості"
 
+msgid "Invalid directive"
+msgstr ""
+
 msgid "Equals"
 msgstr "Дорівнює"
 
@@ -5250,6 +5259,18 @@ msgstr "Містить (регулярний вираз)"
 
 msgid "Not Contains (regex)"
 msgstr "Не містить (регулярний вираз)"
+
+msgid "Match (wildcard)"
+msgstr ""
+
+msgid "Not match (wildcard)"
+msgstr ""
+
+msgid "Match (regex)"
+msgstr ""
+
+msgid "Not match (regex)"
+msgstr ""
 
 msgid "Light"
 msgstr "Світла"
