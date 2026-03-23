@@ -71,7 +71,7 @@ perché mostra gli elementi solo nelle cartelle selezionate.</para>
 
           <listitem>
             <para>Il metodo <guilabel >Contenuti rapidi</guilabel > per il confronto dei file,
-descritto in <xref linkend="Configurazione" />, può essere utile quando
+descritto in <xref linkend="Configuration" />, può essere utile quando
 confronti file binari di grandi dimensioni;e viene utilizzato
 automaticamente per confrontare file più grandi di 4 MB.I possibili
 svantaggi sono che i filtri di riga non funzionano e non vi sono
@@ -384,7 +384,7 @@ interrotto.Il risultato è sconosciuto.</member>
 le scorciatoie del menu contestuale per navigare nella finestra Confronto
 cartelle.Puoi anche utilizzare i pulsanti della barra degli strumenti.Ad
 esempio, il pulsante <inlinemediaobject>
-<imageobject> <imagedata content Depth="15"
+<imageobject> <imagedata contentdepth="15"
 fileref="screenshots/nextdiff_btn.png" /> </imageobject><textobject>
             <phrase>Pulsante Differenza successiva</phrase>
           </textobject>
@@ -398,7 +398,7 @@ diversi.</para>
       </note>
 
       <para>È possibile selezionare più file e cartelle.Tuttavia, alcune operazioni
-(come <comando>Rinomina</comando>) non sono disponibili con selezioni
+(come <command>Rinomina</command>) non sono disponibili con selezioni
 multiple.</para>
 
       <para>Usa i pulsanti di navigazione (<guibutton >Differenza successiva</guibutton
@@ -536,7 +536,7 @@ con le scorciatoie <guimenuitem >Sinistra</guimenuitem >, <guimenuitem
 
       <warning>
         <para>Ti consigliamo vivamente di mantenere abilitata l'opzione <guilabel >Invia i
-file eliminati nel cestino</guilabel > (Vedi <xref linkend="Configurazione"
+file eliminati nel cestino</guilabel > (Vedi <xref linkend="Configuration"
 />), in modo da poter annullare le eliminazioni in caso di
 incidenti.Inoltre, dovresti mantenere abilitato il Cestino: l'opzione
 WinMerge non funziona se disabiliti il ​​Cestino in Windows.Ancora una

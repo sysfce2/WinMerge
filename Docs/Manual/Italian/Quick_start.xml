@@ -1,219 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <article id="Quick_start">
-  <title>Quick start</title>
+  <title>Avvio rapido</title>
 
   <section>
     <title><indexterm>
-        <primary>getting started with WinMerge</primary>
-      </indexterm><indexterm>
-        <primary>choosing files and folders</primary>
+        <primary>iniziare con WinMerge</primary>
+      </indexterm>><indexterm>
+        <primary>scelta di file e cartelle</primary>
 
-        <secondary>getting started</secondary>
-      </indexterm>Selecting files and folders to compare</title>
+        <secondary>iniziare</secondary>
+      </indexterm>Selezione di file e cartelle da confrontare</title>
 
-    <para>After you have installed WinMerge, step through the procedure and
-    discussions in this topic to learn basic WinMerge operations and concepts.
-    The methods shown are not the only ways to do things: there are usually
-    several ways to do each task. When you are done, you can go on to learn
-    other methods and more advanced skills, which are covered in other help
-    topics.</para>
+    <para>Dopo aver installato WinMerge, seguire la procedura e le discussioni
+contenute in questo argomento per apprendere le operazioni e i concetti di
+base di WinMerge.I metodi mostrati non sono gli unici modi per eseguire le
+operazioni: in genere esistono diversi modi per eseguire ciascuna
+attività.Una volta terminato, puoi continuare ad apprendere altri metodi e
+competenze più avanzate, trattate in altri argomenti della guida.</para>
 
     <section>
-      <title><indexterm><primary>WinMerge window</primary></indexterm>Open the WinMerge window</title>
+      <title><indexterm><primary>Finestra WinMerge</primary></indexterm>Apri la finestra WinMerge</title>
 
-      <para>Here are some of the methods you can use:</para>
+      <para>Ecco alcuni dei metodi che puoi utilizzare:</para>
 
       <itemizedlist>
         <listitem>
-          <para>Double-click the WinMerge desktop shortcut.</para>
+          <para>Fare doppio clic sul collegamento sul desktop WinMerge.</para>
         </listitem>
 
         <listitem>
-          <para>Navigate to the WinMerge launcher in your Start menu.</para>
+          <para>Passare al launcher WinMerge nel menu Start.</para>
         </listitem>
 
         <listitem>
-          <para>In a Command Prompt window, cd to the WinMerge installation
-          folder and enter <command>WinMergeU</command>.</para>
+          <para>In una finestra del prompt dei comandi, vai alla cartella di installazione
+di WinMerge e inserisci <command>WinMergeU</command>.</para>
         </listitem>
 
         <listitem>
-          <para>Press <keycombo><keycap>Windows</keycap><keycap>R</keycap></keycombo> and enter <command>winmerge</command>.</para>
+          <para>Premi <keycombo><keycap>Windows</keycap><keycap>R</keycap></keycombo> e
+inserisci <command>winmerge</command>.</para>
         </listitem>
       </itemizedlist>
     </section>
 
     <section>
-      <title>Open the <guilabel>Select Files or Folders</guilabel> dialog</title>
+      <title>Apri la finestra di dialogo <guilabel >Seleziona file o cartelle</guilabel ></title>
 
-      <para>In the WinMerge window use the following methods to open the <guilabel>Select Files or Folders</guilabel> dialog:</para>
+      <para>Nella finestra WinMerge utilizza i seguenti metodi per aprire la finestra di
+dialogo <guilabel >Seleziona file o cartelle</guilabel >:</para>
 
       <itemizedlist>
         <listitem>
-          <para>Click <menuchoice><guimenu>File</guimenu><guimenuitem>Open</guimenuitem></menuchoice>.</para>
+          <para>Fai clic su <menuchoice ><guimenu >File</guimenu ><guimenuitem
+>Apri</guimenuitem ></menuchoice >.</para>
         </listitem>
 
         <listitem>
-          <para>Click the
-            <inlinemediaobject>
-              <imageobject>
-                <imagedata contentwidth="16" fileref="screenshots/open_icon.png" />
-              </imageobject>
-              <textobject><phrase>WinMerge open button</phrase></textobject>
-            </inlinemediaobject>
-            Open tool bar button.
-          </para>
+          <para>Fai clic sul pulsante <inlinemediaobject>
+<imageobject> <imagedata contentwidth="16"
+fileref="screenshots/open_icon.png" /> </imageobject><textobject><phrase>Pulsante di apertura di WinMerge</phrase></textobject>
+            </inlinemediaobject> Apri
+della barra degli strumenti.</para>
         </listitem>
 
         <listitem>
-          <para>Press <keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo>.</para>
+          <para>Premi <keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo>.</para>
         </listitem>
       </itemizedlist>
     </section>
 
     <section>
-      <title><indexterm><primary>Select Files or Folders dialog</primary></indexterm>
-        The <guilabel>Select Files or Folders</guilabel> dialog</title>
+      <title><indexterm><primary>Seleziona la finestra di dialogo File o Cartelle</primary></indexterm> La finestra di dialogo <guilabel
+>Seleziona file o cartelle</guilabel ></title>
 
       <para>
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="screenshots/OpenDlg1.png" format="PNG" />
-          </imageobject>
-          <textobject>
-            <phrase>Select Files or Folders window</phrase>
+<mediaobject>
+<imageobject> <imagedata fileref="screenshots/OpenDlg1.png" format="PNG" />
+</imageobject><textobject>
+            <phrase>Seleziona la finestra File o Cartelle</phrase>
           </textobject>
-        </mediaobject>
-      </para>
+        </mediaobject></para>
 
       <section>
-        <title>Specify the files and folders</title>
+        <title>Specificare i file e le cartelle</title>
 
-        <para>In the <guilabel>1st</guilabel> and <guilabel>2nd</guilabel>
-        fields, specify the files and folders to compare. Use any of these
-        methods:</para>
+        <para>Nei campi <guilabel >1°</guilabel > e <guilabel >2°</guilabel >, specifica i
+file e le cartelle da confrontare.Utilizza uno di questi metodi:</para>
 
         <para><itemizedlist>
             <listitem>
-              <para>Enter the path names directly into the fields.</para>
+              <para>Immettere i nomi dei percorsi direttamente nei campi.</para>
             </listitem>
 
             <listitem>
-              <para>Click the <guibutton>Browse</guibutton> button to navigate
-              to the desired path.</para>
+              <para>Fai clic sul pulsante <guibutton >Sfoglia</guibutton > per raggiungere il
+percorso desiderato.</para>
 
-              <para>In the Open dialog, the text, <literal>Folder
-              Selection</literal>, is initially displayed in the <guilabel>File
-              name</guilabel> field. Your selection depends on the type of
-              comparison you want to do:</para>
+              <para>Nella finestra di dialogo Apri, il testo <literal >Selezione
+cartella</literal >, viene inizialmente visualizzato nel campo <guilabel
+>Nome file</guilabel >.La selezione dipende dal tipo di confronto che
+desideri eseguire:</para>
 
               <itemizedlist>
                 <listitem>
-                  <para>If you are comparing files, select the target file. The
-                  <literal>Folder Selection</literal> text is overwritten with
-                  your selection.</para>
+                  <para>Se stai confrontando file, seleziona il file di destinazione.Il testo
+<literal>Selezione cartella</literal> viene sovrascritto con la tua
+selezione.</para>
                 </listitem>
 
                 <listitem>
-                  <para>If you are comparing folders, open the target folder; do
-                  not select a file. The <literal>Folder Selection</literal>
-                  text remains in place.</para>
+                  <para>Se stai confrontando cartelle, apri la cartella di destinazione;non
+selezionare un file.Il testo <literal>Selezione cartella</literal> rimane al
+suo posto.</para>
                 </listitem>
               </itemizedlist>
 
-              <para>Click <guibutton>Open</guibutton> to dismiss the Open dialog
-              and load your selection in the <guilabel>1st</guilabel> or
-              <guilabel>2nd</guilabel> field. If you specified folders, the
-              field includes a backslash ( \ ) at end of the path.</para>
+              <para>Fai clic su <guibutton >Apri</guibutton > per chiudere la finestra di
+dialogo Apri e caricare la selezione nel campo <guilabel >1°</guilabel > o
+<guilabel >2°</guilabel >.Se hai specificato le cartelle, il campo include
+una barra rovesciata ( \ ) alla fine del percorso.</para>
             </listitem>
 
             <listitem>
-              <para>Click the combo box and choose a previously-used
-              path.</para>
+              <para>Fare clic sulla casella combinata e scegliere un percorso utilizzato in
+precedenza.</para>
 
               <tip>
-                <para>To make it easier to select frequently-used paths,
-                consider enabling the <guilabel>Open-dialog
-                Auto-completion</guilabel> option. With this option, WinMerge
-                shows a list of paths available as you type in the fields. See
-                <xref linkend="Configuration" /> for details.</para>
+                <para>Per rendere più semplice la selezione dei percorsi utilizzati di frequente,
+valuta la possibilità di abilitare l'opzione <guilabel >Completamento
+automatico finestra di apertura</guilabel >.Con questa opzione, WinMerge
+mostra un elenco di percorsi disponibili durante la digitazione nei
+campi.Vedi <xref linkend="Configuration" /> per i dettagli.</para>
               </tip>
               <para></para>
             </listitem>
 
             <listitem>
-              <para>Drag and drop a file or folder into the dialog or the
-              <guilabel>1st</guilabel> or <guilabel>2nd</guilabel>
-              field.</para>
+              <para>Trascina e rilascia un file o una cartella nella finestra di dialogo o nel
+campo <guilabel >1°</guilabel > o <guilabel >2°</guilabel >.</para>
             </listitem>
           </itemizedlist></para>
 
-        <para><note>
-            <para>You can select only one pair of files or one pair of folders
-            to compare. If you select a file and a folder or if one of the files
-            or folders is not found, WinMerge disables the
-            <guibutton>Compare</guibutton> button in the dialog.</para>
+        <para><note><para>È possibile selezionare solo una coppia di file o una coppia di cartelle da
+confrontare.Se selezioni un file e una cartella o se uno dei file o delle
+cartelle non viene trovato, WinMerge disabilita il pulsante <guibutton
+>Confronta</guibutton > nella finestra di dialogo.</para>
 
-            <para>The status message at the bottom of the dialog also informs
-            you if one of the paths is invalid.</para>
-          </note></para>
+            <para>Il messaggio di stato nella parte inferiore della finestra di dialogo
+informa inoltre se uno dei percorsi non è valido.</para>
+</note></para>
       </section>
 
       <section>
-        <title>Control the scope of folder comparisons</title>
+        <title>Controlla l'ambito dei confronti delle cartelle</title>
 
-        <para>If you are comparing folders, you can use the
-        <guilabel>Filter</guilabel> field to eliminate some files from the
-        operation. The field specifies a subset of files in the selected paths
-        that are to be included; all unspecified files are excluded.</para>
+        <para>Se stai confrontando cartelle, puoi usare il campo <guilabel
+>Filtro</guilabel > per eliminare alcuni file dall'operazione.Il campo
+specifica un sottoinsieme di file nei percorsi selezionati che devono essere
+inclusi;tutti i file non specificati sono esclusi.</para>
 
-        <para>You can enter file masks to filter files with certain extensions.
-        For example, this expression includes only C and C++ source files; all
-        other file types are eliminated from your selection.</para>
+        <para>È possibile inserire maschere di file per filtrare i file con determinate
+estensioni.Ad esempio, questa espressione include solo file di origine C e
+C++;tutti gli altri tipi di file vengono eliminati dalla selezione.</para>
 
         <para><filename><userinput>*.cpp;*.hpp;*.c;*.h</userinput></filename></para>
 
-        <para>For more robust filtering, enter a filter file instead of file
-        masks: click the <guibutton>Select</guibutton> button next to the
-        <guilabel>Filters</guilabel> field to choose from a list of available
-        filters. File filters contain any number of rules to either include or
-        exclude files. WinMerge installs a set of filter files, which you can
-        edit or augment with your own files.</para>
+        <para>Per un filtraggio più efficace, inserisci un file filtro invece delle
+maschere file: fai clic sul pulsante <guibutton >Seleziona</guibutton >
+accanto al campo <guilabel >Filtri</guilabel > per scegliere da un elenco di
+filtri disponibili.I filtri di file contengono un numero qualsiasi di regole
+per includere o escludere file.WinMerge installa una serie di file filtro,
+che puoi modificare o aumentare con i tuoi file.</para>
 
-        <para>See <xref linkend="Filters" /> for full details about file masks
-        and filter files.</para>
+        <para>Vedi <xref linkend="Filters" /> per i dettagli completi sulle maschere di
+file e sui file di filtro.</para>
 
-        <para>The <guilabel>Include subfolders</guilabel> check box provides
-        another way to control the scope of folder comparisons. If you check
-        this option, WinMerge recursively compares subfolders, and shows all the
-        files and folders it finds in one view. If you disable the option, only
-        the current folder is compared, and subfolders are listed by name
-        (without their contents), so you can browse into them.</para>
+        <para>La casella di controllo <guilabel >Includi sottocartelle</guilabel >
+fornisce un altro modo per controllare l'ambito dei confronti delle
+cartelle.Se selezioni questa opzione, WinMerge confronta ricorsivamente le
+sottocartelle e mostra tutti i file e le cartelle che trova in un'unica
+visualizzazione.Se disabiliti l'opzione, viene confrontata solo la cartella
+corrente e le sottocartelle vengono elencate per nome (senza il loro
+contenuto), in modo da poterle sfogliare.</para>
       </section>
 
       <section>
-        <title>Use Unpacker plugins</title>
-        <para>The Unpacker field enables you to perform compare operations on
-        plug-ins.</para>
+        <title>Utilizza i plugin Unpacker</title>
+        <para>Il campo Unpacker consente di eseguire operazioni di confronto sui plug-in.</para>
       </section>
     </section>
 
     <section>
-      <title>Other ways to open files and folders<indexterm>
-          <primary>project files</primary>
-        </indexterm><indexterm>
-          <primary>command line</primary>
+      <title>Altri modi per aprire file e cartelle<indexterm>
+          <primary>file di progetto</primary>
+        </indexterm>><indexterm>
+          <primary>riga di comando</primary>
 
-          <secondary>opening files and folders</secondary>
+          <secondary>apertura di file e cartelle</secondary>
         </indexterm></title>
 
-      <para>The <guilabel>Select Files or Folders</guilabel> dialog is the main interface for opening
-      files and folders. But you can use many other ways, too:</para>
+      <para>La finestra di dialogo <guilabel >Seleziona file o cartelle</guilabel > è
+l'interfaccia principale per l'apertura di file e cartelle.Ma puoi usare
+anche molti altri modi:</para>
 
       <itemizedlist>
         <listitem>
-          <simpara><xref linkend="OpenPaths_project" /> are the easiest and fastest
-          way to open frequently used paths.</simpara>
+          <simpara><xref linkend="OpenPaths_project" /> rappresenta il modo più semplice e
+veloce per aprire i percorsi utilizzati di frequente.</simpara>
         </listitem>
 
         <listitem>
@@ -221,14 +215,14 @@
         </listitem>
 
         <listitem>
-          <simpara>Use the <xref linkend="Command_line" /> interface to start
-          WinMerge from other applications, from a command prompt, or a batch or
-          script file.</simpara>
+          <simpara>Utilizzare l'interfaccia <xref linkend="Command_line" /> per avviare
+WinMerge da altre applicazioni, da un prompt dei comandi o da un file batch
+o script.</simpara>
         </listitem>
 
         <listitem>
-          <simpara>Drag and drop files and folders directly into the WinMerge
-          window or on the WinMerge desktop shortcut.</simpara>
+          <simpara>Trascina e rilascia file e cartelle direttamente nella finestra WinMerge o
+sul collegamento sul desktop di WinMerge.</simpara>
         </listitem>
       </itemizedlist>
     </section>
@@ -236,144 +230,127 @@
 
   <section>
     <title><indexterm>
-        <primary>comparing folders</primary>
+        <primary>confronto delle cartelle</primary>
 
-        <secondary>getting started</secondary>
-      </indexterm><indexterm>
-        <primary>Folder Compare window</primary>
+        <secondary>iniziare</secondary>
+      </indexterm>><indexterm>
+        <primary>Finestra Confronta cartelle</primary>
 
-        <secondary>getting started</secondary>
-      </indexterm>Comparing folders</title>
+        <secondary>iniziare</secondary>
+      </indexterm>Confronto di cartelle</title>
 
-    <para>If you selected two folders in the Open dialog, the Folder Compare
-    window is opened. The Folder Compare window is a tabular list of items found
-    in the compared folders. Each row displays information about a found file,
-    with the file name in the left column and additional information in the
-    other columns:</para>
+    <para>Se hai selezionato due cartelle nella finestra di dialogo Apri, viene aperta
+la finestra Confronto cartelle.La finestra Confronto cartelle è un elenco
+tabellare degli elementi trovati nelle cartelle confrontate.Ogni riga
+visualizza le informazioni su un file trovato, con il nome del file nella
+colonna di sinistra e informazioni aggiuntive nelle altre colonne:</para>
 
     <mediaobject>
-      <imageobject>
-        <imagedata contentwidth="600" fileref="screenshots/foldercomp1.png"
-                   format="PNG" />
-      </imageobject>
-
-      <textobject>
-        <phrase>Folder Compare window</phrase>
+<imageobject> <imagedata contentwidth="600"
+fileref="screenshots/foldercomp1.png" format="PNG" /> </imageobject><textobject>
+        <phrase>Finestra Confronta cartelle</phrase>
       </textobject>
     </mediaobject>
 
-    <para>WinMerge does not have a concept of <wordasword>original</wordasword>
-    and <wordasword>changed</wordasword> sides. Instead, it simply shows what is
-    different between two selected folders. A file or folder that is found only
-    on one side is simply shown as a unique item on that side, not as added or
-    removed. For example, in the <guilabel>Comparison Result </guilabel>column
-    of the preceding figure, <filename>Merge.aps</filename> and
-    <filename>Merge.rc.bak</filename> are each found in only one of the compared
-    folders.</para>
+    <para>WinMerge non ha il concetto di lato <wordasword>originale</wordasword> e
+<wordasword>modificato</wordasword>.Invece, mostra semplicemente cosa c'è di
+diverso tra due cartelle selezionate.Un file o una cartella che si trova
+solo su un lato viene semplicemente mostrato come un elemento univoco su
+quel lato, non come aggiunto o rimosso.Ad esempio, nella colonna <guilabel
+>Risultato del confronto </guilabel >della figura precedente,
+<filename>Merge.aps</filename> e <filename>Merge.rc.bak</filename> si
+trovano ciascuno solo in una delle cartelle confrontate.</para>
 
-    <para>You can manage files and folders in many ways using the
-    <guimenu>Merge</guimenu> menu, toolbar buttons, or context (right-click)
-    menu. The most important action is making files or folders identical in both
-    sides by selecting one of several Copy items. When you copy a file or folder
-    to other side, the Comparison Result value changes to
-    <literal>Identical</literal>.</para>
+    <para>Puoi gestire file e cartelle in molti modi usando il menu <guimenu
+>Unisci</guimenu >, i pulsanti della barra degli strumenti o il menu
+contestuale (clicca con il tasto destro).L'azione più importante è rendere i
+file o le cartelle identici su entrambi i lati selezionando uno dei numerosi
+elementi Copia.Quando copi un file o una cartella sull'altro lato, il valore
+del risultato del confronto cambia in <literal>Identical</literal>.</para>
 
-    <para>If a file or folder exists in both sides (and it is not a binary file)
-    it can be opened for file comparison using one of these
-    methods:<itemizedlist>
+    <para>Se un file o una cartella esiste su entrambi i lati (e non è un file
+binario), può essere aperto per il confronto dei file utilizzando uno di
+questi metodi:<itemizedlist>
         <listitem>
-          <simpara>Click <menuchoice>
-              <guimenuitem>Compare</guimenuitem>
-
-              <guimenuitem>Merge</guimenuitem>
-            </menuchoice> in the WinMerge menu.</simpara>
+          <simpara>Fai clic su <menuchoice> <guimenuitem >Confronta</guimenuitem > <guimenuitem
+>Unisci</guimenuitem > </menuchoice > nel menu WinMerge.</simpara>
         </listitem>
 
         <listitem>
-          <simpara>Right-click the row and choose the
-          <guimenuitem>Compare</guimenuitem> shortcut.</simpara>
+          <simpara>Fai clic con il tasto destro sulla riga e scegli la scorciatoia <guimenuitem
+>Confronta</guimenuitem >.</simpara>
         </listitem>
 
         <listitem>
-          <simpara>Double-click the row.</simpara>
+          <simpara>Fare doppio clic sulla riga.</simpara>
         </listitem>
 
         <listitem>
-          <simpara>Select the row and press <keycap>Enter</keycap>.</simpara>
+          <simpara>Seleziona la riga e premi <keycap>Invio</keycap>.</simpara>
         </listitem>
-      </itemizedlist>If you compare a subfolder, the new folder's comparison
-    table is loaded in the current Folder Compare window . When you are done
-    with that folder's comparison, you can navigate back to its parent folder by
-    double-clicking the <inlinemediaobject>
-        <imageobject>
-          <imagedata contentwidth="23" fileref="screenshots/nav_uparrow_btn.png" />
-        </imageobject>
-
-        <textobject>
-          <phrase>Navigator up arrow button</phrase>
+      </itemizedlist>Se confronti una sottocartella, la tabella di confronto della nuova cartella
+viene caricata nella finestra Confronto cartelle corrente.Una volta
+terminato il confronto della cartella, puoi tornare alla cartella principale
+facendo doppio clic sulla freccia su <inlinemediaobject>
+<imageobject> <imagedata contentwidth="23"
+fileref="screenshots/nav_uparrow_btn.png" /> </imageobject><textobject>
+          <phrase>Pulsante freccia su del navigatore</phrase>
         </textobject>
-      </inlinemediaobject> up arrow at the top of the Filename column.</para>
+      </inlinemediaobject> nella parte superiore della colonna Nome file.</para>
 
-    <para>If you compare a file, WinMerge opens the File Compare window,
-    described in the next section. If you change a file in the File Compare
-    window, and then return to the Folder Compare window, you will see the
-    file's data is updated there.</para>
+    <para>Se confronti un file, WinMerge apre la finestra Confronta file, descritta
+nella sezione successiva.Se modifichi un file nella finestra Confronta file
+e poi ritorni alla finestra Confronta cartelle, vedrai che i dati del file
+vengono aggiornati lì.</para>
   </section>
 
   <section id="QuickStart_comparingfiles">
     <title><indexterm>
-        <primary>comparing files</primary>
+        <primary>confronto dei file</primary>
 
-        <secondary>getting started</secondary>
-      </indexterm><indexterm>
-        <primary>File Compare window</primary>
+        <secondary>iniziare</secondary>
+      </indexterm>><indexterm>
+        <primary>Finestra Confronta file</primary>
 
-        <secondary>getting started</secondary>
-      </indexterm>Comparing files</title>
+        <secondary>iniziare</secondary>
+      </indexterm>Confronto di file</title>
 
     <mediaobject>
-      <imageobject>
-        <imagedata contentwidth="600" fileref="screenshots/filecomp1.png"
-                   format="PNG" />
-      </imageobject>
-
-      <textobject>
-        <phrase>File Compare window</phrase>
+<imageobject> <imagedata contentwidth="600"
+fileref="screenshots/filecomp1.png" format="PNG" /> </imageobject><textobject>
+        <phrase>Finestra Confronta file</phrase>
       </textobject>
     </mediaobject>
 
-    <para>The File Compare window shows the two selected files side by side, in
-    separate File panes. Different lines are highlighted with a background
-    color. One or more consecutive different lines form one difference (or
-    <glossterm>diff</glossterm>). In the preceding example, a single difference
-    is selected in the File panes and displayed by itself in the Diff Pane.
-    WinMerge mainly works with these differences, not separate lines. When you
-    merge a difference, you copy all of its lines from one side to the
-    other.</para>
+    <para>La finestra Confronto file mostra i due file selezionati fianco a fianco, in
+riquadri File separati.Le diverse linee sono evidenziate con un colore di
+sfondo.Una o più linee diverse consecutive formano una differenza (o
+<glossterm>diff</glossterm>).Nell'esempio precedente, una singola differenza
+viene selezionata nei riquadri File e visualizzata da sola nel riquadro
+Diff.WinMerge funziona principalmente con queste differenze, non con linee
+separate.Quando unisci una differenza, copi tutte le sue linee da un lato
+all'altro.</para>
 
     <para><important>
-        <para>Notice how WinMerge fills missing lines, so that similar lines are
-        always aligned vertically, side by side. This is different from most
-        other compare/merge programs, and can take a while to learn.</para>
+        <para>Nota come WinMerge riempie le righe mancanti, in modo che le righe simili
+siano sempre allineate verticalmente, una accanto all'altra.Questo è diverso
+dalla maggior parte degli altri programmi di confronto/unione e può
+richiedere del tempo per essere appreso.</para>
       </important></para>
 
-    <para>WinMerge has a simple integrated editor that features basic typing,
-    copying, cutting and pasting of text. If <guilabel>Automatic
-    rescan</guilabel> is enabled, WinMerge updates file differences while you
-    edit a file. If <guilabel>Automatic rescan</guilabel> is disabled, you can
-    update files by selecting <menuchoice>
-        <guimenu>Edit</guimenu>
-
-        <guimenuitem>Refresh</guimenuitem>
-      </menuchoice>, clicking the <inlinemediaobject>
-        <imageobject>
-          <imagedata contentwidth="16" fileref="screenshots/refresh_btn.png" />
-        </imageobject>
-
-        <textobject>
-          <phrase>Refresh button</phrase>
+    <para>WinMerge ha un semplice editor integrato che consente di digitare, copiare,
+tagliare e incollare testo di base.Se la <guilabel >Riscansione
+automatica</guilabel > è abilitata, WinMerge aggiorna le differenze tra i
+file mentre modifichi un file.Se la <guilabel >Riscansione
+automatica</guilabel > è disabilitata, puoi aggiornare i file selezionando
+<menuchoice> <guimenu >Modifica</guimenu > <guimenuitem
+>Aggiorna</guimenuitem > </menuchoice >, facendo clic sul pulsante
+<inlinemediaobject>
+<imageobject> <imagedata contentwidth="16"
+fileref="screenshots/refresh_btn.png" /> </imageobject><textobject>
+          <phrase>Pulsante Aggiorna</phrase>
         </textobject>
-      </inlinemediaobject> toolbar button, or pressing
-    <keycap>F5</keycap>.</para>
+      </inlinemediaobject> nella barra degli strumenti,
+o premendo <keycap >F5</keycap >.</para>
   </section>
 </article>

@@ -23,58 +23,56 @@ rep="norepeat"><option>/?</option></arg></cmdsynopsis></para>
 <command>WinMergeU</command> <arg choice="opt"
 rep="norepeat"><option>/r</option></arg> <arg choice="opt"
 rep="norepeat"><option>/r-</option></arg> <arg choice="opt"
-rep="norepeat"><option>/e</option></arg> <arg
-choice="opt"rep="norepeat"><option>/f</option>
-<replaceable>filtro</replaceable></arg> <arg choice="opt"
-rep="norepeat"><option>/m</option> <replaceable>metodo di
+rep="norepeat"><option>/e</option></arg> <arg choice="opt"
+rep="norepeat"><option>/f</option> <replaceable>filtro</replaceable></arg>
+<arg choice="opt" rep="norepeat"><option>/m</option> <replaceable>metodo di
 confronto</replaceable></arg> <arg choice="opt"
 rep="norepeat"><option>/t</option><replaceable>tipo
 finestra</replaceable></arg> <arg><option>/x</option></arg>
 <arg><option>/xq</option></arg> <arg><option>/s</option></arg>
 <arg><option>/sw</option></arg> <arg><option>/s-</option></arg> <arg
-choice="opt"rep="norepeat"><option>/ul</option></arg> <arg choice="opt"
+choice="opt" rep="norepeat"><option>/ul</option></arg> <arg choice="opt"
 rep="norepeat"><option>/um</option></arg> <arg choice="opt"
 rep="norepeat"><option>/ur</option></arg> <arg choice="opt"
-rep="norepeat"><option>/u</option></arg> <arg
-choice="opt"rep="norepeat"><option>/wl</option></arg> <arg choice="opt"
+rep="norepeat"><option>/u</option></arg> <arg choice="opt"
+rep="norepeat"><option>/wl</option></arg> <arg choice="opt"
 rep="norepeat"><option>/wm</option></arg> <arg choice="opt"
 rep="norepeat"><option>/wr</option></arg> <arg choice="opt"
-rep="norepeat"><option>/new</option></arg> <arg
-choice="opt"rep="norepeat"><option>/self-compare</option></arg> <arg
-choice="opt" rep="norepeat"><option>/clipboard-compare</option></arg>
+rep="norepeat"><option>/new</option></arg> <arg choice="opt"
+rep="norepeat"><option>/self-compare</option></arg> <arg choice="opt"
+rep="norepeat"><option>/clipboard-compare</option></arg>
 <arg><option>/minimize</option></arg> <arg><option>/maximize</option></arg>
-<arg choice="opt"rep="norepeat"><option>/fl</option></arg> <arg choice="opt"
-rep="norepeat"><option>/fm</option></arg> <arg choice="opt"
+<arg choice="opt" rep="norepeat"><option>/fl</option></arg> <arg
+choice="opt" rep="norepeat"><option>/fm</option></arg> <arg choice="opt"
 rep="norepeat"><option>/fr</option></arg> <arg choice="opt"
 rep="norepeat"><option>/l</option><replaceable>numero di
 linea</replaceable></arg> <arg choice="opt"
 rep="norepeat"><option>/c</option> <replaceable>charpos</replaceable></arg>
 <arg choice="opt" rep="norepeat"><option>/table-delimiter</option>
-<replaceable>delimitatore</replaceable></arg> <arg
-choice="opt"rep="norepeat"><option>/dl</option>
+<replaceable>delimitatore</replaceable></arg> <arg choice="opt"
+rep="norepeat"><option>/dl</option>
 <replaceable>leftdesc</replaceable></arg> <arg choice="opt"
 rep="norepeat"><option>/dm</option>
 <replaceable>middledesc</replaceable></arg> <arg choice="opt"
 rep="norepeat"><option>/dr</option><replaceable>rightdesc</replaceable></arg>
 <arg choice="opt" rep="norepeat"><option>/al</option></arg> <arg
 choice="opt" rep="norepeat"><option>/am</option></arg> <arg choice="opt"
-rep="norepeat"><option>/ar</option></arg> <arg
-choice="opt"rep="norepeat"><option>/noninteractive</option></arg> <arg
-choice="opt" rep="norepeat"><option>/noprefs</option></arg> <arg
-choice="opt" rep="norepeat"><option>/enableexitcode</option></arg> <arg
-choice="opt"rep="norepeat"><option>/ignorews</option></arg> <arg
-choice="opt" rep="norepeat"><option>/ignoreblanklines</option></arg> <arg
-choice="opt" rep="norepeat"><option>/ignorecase</option></arg> <arg
-choice="opt"rep="norepeat"><option>/ignoreeol</option></arg> <arg
-choice="opt" rep="norepeat"><option>/ignorecodepage</option></arg> <arg
-choice="opt" rep="norepeat"><option>/ignorecomments</option></arg> <arg
-choice="opt"
+rep="norepeat"><option>/ar</option></arg> <arg choice="opt"
+rep="norepeat"><option>/noninteractive</option></arg> <arg choice="opt"
+rep="norepeat"><option>/noprefs</option></arg> <arg choice="opt"
+rep="norepeat"><option>/enableexitcode</option></arg> <arg choice="opt"
+rep="norepeat"><option>/ignorews</option></arg> <arg choice="opt"
+rep="norepeat"><option>/ignoreblanklines</option></arg> <arg choice="opt"
+rep="norepeat"><option>/ignorecase</option></arg> <arg choice="opt"
+rep="norepeat"><option>/ignoreeol</option></arg> <arg choice="opt"
+rep="norepeat"><option>/ignorecodepage</option></arg> <arg choice="opt"
+rep="norepeat"><option>/ignorecomments</option></arg> <arg choice="opt"
 rep="norepeat"><option>/unpacker</option><replaceable>nome-unpacker</replaceable></arg>
 <arg choice="opt" rep="norepeat"><option>/prediffer</option>
 <replaceable>nome-prediffer</replaceable></arg> <arg choice="opt"
 rep="norepeat"><option>/cp</option>
-<replaceable>codepage</replaceable></arg> <arg
-choice="opt"rep="norepeat"><option>/fileext</option> <replaceable>estensione
+<replaceable>codepage</replaceable></arg> <arg choice="opt"
+rep="norepeat"><option>/fileext</option> <replaceable>estensione
 file</replaceable></arg> <arg choice="opt"
 rep="norepeat"><option>/cfg</option>
 <replaceable>nome=valore</replaceable></arg> <arg choice="opt"
@@ -83,7 +81,7 @@ rep="norepeat"><option>/inifile</option><replaceable>fileini</replaceable></arg>
 <arg cchoice="opt"
 rep="norepeat"><replaceable>middlepath</replaceable></arg> <arg
 choice="plain" rep="norepeat"><replaceable>rightpath</replaceable></arg>
-<arg choice="opt"rep="norepeat"><option>/o</option>
+<arg choice="opt" rep="norepeat"><option>/o</option>
 <replaceable>outputpath</replaceable></arg> <arg choice="opt"
 rep="norepeat"><option>/o</option>
 <replaceable>reportpath</replaceable></arg></cmdsynopsis></para>
@@ -99,7 +97,7 @@ percorsi non hanno caratteri di prefisso.</para>
 
   <variablelist>
     <varlistentry>
-      <term><opzione>/?</opzione></term>
+      <term><option>/?</option></term>
       <listitem>
         <para>Apre la Guida di WinMerge in questo argomento.</para>
       </listitem>
@@ -109,7 +107,7 @@ percorsi non hanno caratteri di prefisso.</para>
       <indexterm>
         <primary>confronto ricorsivo di cartelle</primary>
       </indexterm>
-      <term><opzione>/r</opzione></term>
+      <term><option>/r</option></term>
       <listitem>
         <para>Confronta tutti i file in tutte le sottocartelle (confronto ricorsivo).Le
 cartelle univoche (presenti solo su un lato) sono elencate nel risultato del
@@ -124,7 +122,7 @@ superiore delle due cartelle di destinazione.Non confronta le sottocartelle.</pa
       <indexterm>
         <primary>confronto di cartelle non ricorsivo</primary>
       </indexterm>
-      <term><opzione>/r-</opzione></term>
+      <term><option>/r-</option></term>
       <listitem>
         <para>Confronta tutti i file all'interno delle cartelle specificate ma esclude i
 file e le sottocartelle all'interno delle relative sottocartelle.Ciò
@@ -138,7 +136,7 @@ consente un tempo di confronto più breve.</para>
         <secondary>chiusura</secondary>
       </indexterm>
 
-      <term><opzione>/e</opzione></term>
+      <term><option>/e</option></term>
       <listitem>
         <para>Ti consente di chiudere WinMerge con la semplice pressione del tasto
 <keycap>Esc</keycap>.Ciò è utile quando usi WinMerge come applicazione di
@@ -154,7 +152,7 @@ più volte per chiudere tutte le finestre.</para>
         <secondary>applicandolo nella riga di comando</secondary>
       </indexterm>
 
-      <term><opzione>/f</opzione></term>
+      <term><option>/f</option></term>
       <listitem>
         <para>Applica un filtro specificato per limitare il confronto.Il filtro può essere
 una maschera di file come <filename><userinput>*.h
@@ -196,7 +194,7 @@ delle parole chiave <userinput>Testo</userinput>,
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/x</opzione></term>
+      <term><option>/x</option></term>
       <listitem>
         <para>Chiude WinMerge (dopo aver visualizzato una finestra di dialogo informativa)
 quando si avvia un confronto di file identici.Dopo il confronto il parametro
@@ -209,7 +207,7 @@ differenze.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/xq</opzione></term>
+      <term><option>/xq</option></term>
       <listitem>
         <para>È simile a <option>/x</option> ma non mostra il messaggio sui file identici.</para>
       </listitem>
@@ -221,7 +219,7 @@ differenze.</para>
         <secondary>istanze limitanti</secondary>
       </indexterm>
 
-      <term><opzione>/s</opzione></term>
+      <term><option>/s</option></term>
       <listitem>
         <para>Limita le finestre WinMerge a una singola istanza.Ad esempio, se WinMerge è
 già in esecuzione, nella stessa istanza si apre un nuovo confronto.Senza
@@ -232,7 +230,7 @@ in una nuova finestra.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/sw</opzione></term>
+      <term><option>/sw</option></term>
       <listitem>
         <para>Limita la finestra WinMerge a un'istanza e all'opzione /s.Tuttavia, attende
 che l'istanza che visualizza la finestra termini.</para>
@@ -240,7 +238,7 @@ che l'istanza che visualizza la finestra termini.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/s-</opzione></term>
+      <term><option>/s-</option></term>
       <listitem>
         <para>Assicurati che venga sempre eseguita un'altra istanza, ignorando il valore
 dell'opzione "Consenti l'esecuzione di una sola istanza".</para>
@@ -252,7 +250,7 @@ dell'opzione "Consenti l'esecuzione di una sola istanza".</para>
         <primary>Elenco MRU</primary>
       </indexterm>
 
-      <term><opzione>/ul</opzione></term>
+      <term><option>/ul</option></term>
       <listitem>
         <para>Impedisce a WinMerge di aggiungere il percorso sinistro all'elenco dei
 prodotti più utilizzati di recente (MRU).Le applicazioni esterne non devono
@@ -262,7 +260,7 @@ o cartelle.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/um</opzione></term>
+      <term><option>/um</option></term>
       <listitem>
         <para>Impedisce a WinMerge di aggiungere il percorso intermedio all'elenco dei
 prodotti più utilizzati di recente (MRU).Le applicazioni esterne non devono
@@ -272,7 +270,7 @@ o cartelle.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/ur</opzione></term>
+      <term><option>/ur</option></term>
       <listitem>
         <para>Impedisce a WinMerge di aggiungere il percorso corretto all'elenco dei
 prodotti più utilizzati di recente (MRU).Le applicazioni esterne non devono
@@ -282,7 +280,7 @@ o cartelle.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/u</opzione></term>
+      <term><option>/u</option></term>
       <listitem>
         <para>Impedisce a WinMerge di aggiungere il percorso (sinistro o destro)
 all'elenco Utilizzati più di recente (MRU).Le applicazioni esterne non
@@ -296,7 +294,7 @@ Seleziona file o cartelle.</para>
         <primary>proteggere i file</primary>
       </indexterm>
 
-      <term><opzione>/wl</opzione></term>
+      <term><option>/wl</option></term>
       <listitem>
         <para>Apre il lato sinistro in sola lettura.Utilizzalo quando non desideri
 modificare gli elementi sul lato sinistro nel confronto.</para>
@@ -304,7 +302,7 @@ modificare gli elementi sul lato sinistro nel confronto.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/wm</opzione></term>
+      <term><option>/wm</option></term>
       <listitem>
         <para>Apre il lato centrale in sola lettura.Utilizzalo quando non desideri
 modificare gli elementi sul lato destro nel confronto.</para>
@@ -312,7 +310,7 @@ modificare gli elementi sul lato destro nel confronto.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/wr</opzione></term>
+      <term><option>/wr</option></term>
       <listitem>
         <para>Apre il lato destro in sola lettura.Utilizzalo quando non desideri
 modificare gli elementi sul lato destro nel confronto.</para>
@@ -320,7 +318,7 @@ modificare gli elementi sul lato destro nel confronto.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/nuovo</opzione></term>
+      <term><option>/nuovo</option></term>
       <listitem>
         <para>Apre una nuova finestra vuota.</para>
       </listitem>
@@ -361,14 +359,14 @@ durante lunghi confronti.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/fl</opzione></term>
+      <term><option>/fl</option></term>
       <listitem>
         <para>Imposta lo stato attivo sul lato sinistro all'avvio.</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/fm</opzione></term>
+      <term><option>/fm</option></term>
       <listitem>
         <para>Imposta lo stato attivo sul lato centrale all'avvio.</para>
       </listitem>
@@ -405,7 +403,7 @@ specificare un carattere di tabulazione, specificare "tab", "\t" o "\x09".</para
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/dl</opzione></term>
+      <term><option>/dl</option></term>
       <listitem>
         <para>Specifica una descrizione nella barra del titolo sul lato sinistro,
 sovrascrivendo il testo della cartella o del nome file predefinito.Ad
@@ -416,7 +414,7 @@ che contengono spazi.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/dm</opzione></term>
+      <term><option>/dm</option></term>
       <listitem>
         <para>Specifica una descrizione nella barra del titolo centrale, proprio come
 <option>/dl</option>.</para>
@@ -424,7 +422,7 @@ che contengono spazi.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/dr</opzione></term>
+      <term><option>/dr</option></term>
       <listitem>
         <para>Specifica una descrizione nella barra del titolo sul lato destro, proprio
 come <option>/dl</option>.</para>
@@ -432,21 +430,21 @@ come <option>/dl</option>.</para>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/al</opzione></term>
+      <term><option>/al</option></term>
       <listitem>
         <para>Si unisce automaticamente sul lato sinistro all'avvio.</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/am</opzione></term>
+      <term><option>/am</option></term>
       <listitem>
         <para>Si unisce automaticamente al lato centrale all'avvio.</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
-      <term><opzione>/ar</opzione></term>
+      <term><option>/ar</option></term>
       <listitem>
         <para>Si unisce automaticamente sul lato destro all'avvio.</para>
       </listitem>
@@ -580,7 +578,7 @@ Specifica la pipeline del plug-in per il plug-in Prediffer.Esempio:
       <listitem>
         <para>
 Specifica la tabella codici da utilizzare per il confronto dei file.Esempio:
-<opzione>/cp 65001</opzione></para>
+<option>/cp 65001</option></para>
       </listitem>
     </varlistentry>
 
@@ -649,8 +647,8 @@ stesso nome di quello specificato nell'altro percorso file.</para>
 
           <para>Ad esempio, considera questo comando:</para>
 
-          <para><userinput>WinMergeU <nomefile>C:\Cartella\File.txt</nomefile> <nomefile
-class="directory">C:\Cartella2</nomefile> </userinput></para>
+          <para><userinput>WinMergeU <filename>C:\Cartella\File.txt</filename> <filename
+class="directory">C:\Cartella2</filename> </userinput></para>
 
           <para>Se <filename class="directory">C:\Folder2</filename> contiene un file
 denominato <filename>File.txt</filename>: WinMerge risolve implicitamente il
@@ -698,7 +696,7 @@ quest'ordine.</para>
       <listitem>
         <para>
 Genera un rapporto di confronto per file o cartelle.Esempio:
-<opzione>WinMergeU percorso1 percorso2 /o c:\tmp\report.html</opzione></para>
+<option>WinMergeU percorso1 percorso2 /o c:\tmp\report.html</option></para>
         <para>Spesso è utile combinare questa opzione con:</para>
         <itemizedlist>
           <listitem><para><option>/noninteractive</option> - esce da WinMerge dopo aver prodotto il
@@ -742,7 +740,7 @@ confronto file.</para></listitem>
         <para>Specifica un file di conflitto, generalmente generato da un sistema di
 controllo della versione.Il file di conflitto si apre nella finestra
 Confronto file, dove è possibile unire e risolvere i conflitti, come
-descritto in <xref linkend="ResolveConflectFiles" />.Tieni presente che non
+descritto in <xref linkend="ResolveConflictFiles" />.Tieni presente che non
 è possibile utilizzare altri percorsi con un file in conflitto.</para>
       </listitem>
     </varlistentry>

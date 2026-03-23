@@ -19,7 +19,7 @@ limiti.</para>
 
     <itemizedlist>
       <listitem>
-        <para>Guida Microsoft HTML (<nomefile>WinMerge.chm</nomefile>), situata nella
+        <para>Guida Microsoft HTML (<filename>WinMerge.chm</filename>), situata nella
 cartella di installazione di WinMerge\Docs.</para>
       </listitem>
 
@@ -83,7 +83,7 @@ di WinMerge,</para>
 
     <variablelist>
       <varlistentry>
-        <term><xref linkend="Avvio_rapido" /></term>
+        <term><xref linkend="Quick_start" /></term>
 
         <listitem>
           <para>Ti consente di iniziare rapidamente con WinMerge e ne mostra l'utilizzo di
@@ -92,7 +92,7 @@ base.</para>
       </varlistentry>
 
       <varlistentry>
-        <term><xref linkend="Confronta_dir" /></term>
+        <term><xref linkend="Compare_dirs" /></term>
 
         <listitem>
           <para>Spiega la finestra di confronto delle cartelle, le operazioni disponibili e
@@ -101,7 +101,7 @@ la personalizzazione della visualizzazione dei risultati.</para>
       </varlistentry>
 
       <varlistentry>
-        <term><xref linkend="Confronta_file" /></term>
+        <term><xref linkend="Compare_files" /></term>
 
         <listitem>
           <para>Spiega la finestra di confronto/unione dei file, le operazioni disponibili,
@@ -110,7 +110,7 @@ i metodi di navigazione e le modalità.</para>
       </varlistentry>
 
       <varlistentry>
-        <term><xref linkend="Confronta_immagini" /></term>
+        <term><xref linkend="Compare_images" /></term>
 
         <listitem>
           <para>Spiega la finestra di confronto/unione delle immagini.</para>
@@ -118,7 +118,7 @@ i metodi di navigazione e le modalità.</para>
       </varlistentry>
 
       <varlistentry>
-        <term><xref linkend="Confronta_bin" /></term>
+        <term><xref linkend="Compare_bin" /></term>
 
         <listitem>
           <para>Spiega la finestra di confronto/unione esadecimale.</para>
@@ -126,7 +126,7 @@ i metodi di navigazione e le modalità.</para>
       </varlistentry>
 
       <varlistentry>
-        <term><xref linkend="Confronta_tabella" /></term>
+        <term><xref linkend="Compare_table" /></term>
 
         <listitem>
           <para>Spiega la finestra di confronto/unione delle tabelle.</para>
@@ -134,7 +134,7 @@ i metodi di navigazione e le modalità.</para>
       </varlistentry>
 
       <varlistentry>
-        <term><xref linkend="Confronta_pagineweb" /></term>
+        <term><xref linkend="Compare_webpages" /></term>
 
         <listitem>
           <para>Spiega la finestra di confronto delle pagine Web.</para>
@@ -142,7 +142,7 @@ i metodi di navigazione e le modalità.</para>
       </varlistentry>
 
       <varlistentry>
-        <term><xref linkend="Configurazione" /></term>
+        <term><xref linkend="Configuration" /></term>
 
         <listitem>
           <para>Spiega come personalizzare WinMerge, inclusa la gestione degli spazi
@@ -155,7 +155,7 @@ bianchi, dei colori e della codifica del testo.</para>
 
     <variablelist>
       <varlistentry>
-        <term><xref linkend="Percorsi_aperti" /></term>
+        <term><xref linkend="Open_paths" /></term>
 
         <listitem>
           <para>Presenta diversi modi per aprire file e cartelle in WinMerge: ce ne sono
@@ -165,7 +165,7 @@ della shell in modalità avanzata?</para>
       </varlistentry>
 
       <varlistentry>
-        <term><xref linkend="Plugin" /></term>
+        <term><xref linkend="Plugins" /></term>
 
         <listitem>
           <para>Descrive le funzionalità extra opzionali che puoi aggiungere a WinMerge
@@ -174,7 +174,7 @@ utilizzando il suo meccanismo di plug-in.</para>
       </varlistentry>
 
       <varlistentry>
-        <term><xref linkend="Filtri" /></term>
+        <term><xref linkend="Filters" /></term>
 
         <listitem>
           <para>Spiega come controllare cosa viene confrontato nella finestra di confronto
@@ -183,7 +183,7 @@ di cartelle o file.</para>
       </varlistentry>
 
       <varlistentry>
-        <term><xref linkend="Riga_comando" /></term>
+        <term><xref linkend="Command_line" /></term>
 
         <listitem>
           <para>Elenca i parametri della riga di comando per l'utilizzo di WinMerge con
@@ -223,7 +223,7 @@ risposta lì.</para>
 
         <tbody>
           <row>
-            <entry>Inserisci <user input>UTF-8</user input> nel campo.<para>Fai clic sul pulsante <guibutton >Sfoglia</guibutton > per raggiungere il
+            <entry>Inserisci <userinput>UTF-8</userinput> nel campo.<para>Fai clic sul pulsante <guibutton >Sfoglia</guibutton > per raggiungere il
 percorso.</para><para>Premi <keycap>F5</keycap> una volta per aggiornare la finestra.</para></entry>
 
             <entry>Il carattere in grassetto nel testo descrittivo può indicare:<itemizedlist>

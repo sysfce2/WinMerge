@@ -2,123 +2,118 @@
 <article id="Compare_images">
   <?target dbhh topicname="IDH_Compare_images" topicid ="003"?>
 
-  <title>Comparing image files</title>
+  <title>Confronto di file di immagini</title>
 
   <indexterm>
-    <primary>comparing files</primary>
-    <secondary>images</secondary>
+    <primary>confronto dei file</primary>
+    <secondary>immagini</secondary>
   </indexterm>
 
-  <para>This topic describes how to compare images using the Image
-  Compare window.</para>
+  <para>Questo argomento descrive come confrontare le immagini utilizzando la
+finestra Confronto immagini.</para>
 
   <section id="Compare_images_starting">
-    <title>Starting a image compare operation</title>
+    <title>Avvio di un'operazione di confronto delle immagini</title>
 
-    <para>You can start an image compare operation from either the WinMerge window
-    or a Command Prompt window.</para>
+    <para>È possibile avviare un'operazione di confronto delle immagini dalla finestra
+WinMerge o da una finestra del prompt dei comandi.</para>
 
     <variablelist>
       <varlistentry>
-        <term>From the WinMerge window</term>
+        <term>Dalla finestra WinMerge</term>
 
         <listitem>
-          <para>Click <menuchoice>
-              <guimenu>File</guimenu>
-
-              <guimenuitem>Open</guimenuitem>
-            </menuchoice>. Use the Select Files or Folders dialog to specify the
-          left and right source images to compare. For more details about the
-          Select Files or Folder dialog, see <xref
-          linkend="Open_paths" />.</para>
+          <para>Fai clic su <menuchoice> <guimenu >File</guimenu > <guimenuitem
+>Apri</guimenuitem > </menuchoice >.Utilizzare la finestra di dialogo
+Seleziona file o cartelle per specificare le immagini di origine sinistra e
+destra da confrontare.Per ulteriori dettagli sulla finestra di dialogo
+Seleziona file o cartella, vedi <xref linkend="Open_paths" />.</para>
         </listitem>
       </varlistentry>
 
       <varlistentry>
-        <term>From a Command Prompt window</term>
+        <term>Da una finestra del prompt dei comandi</term>
 
         <listitem>
-          <para>Run <command>WinMergeU.exe</command>, which is in your WinMerge
-          install directory. In your command arguments, include the left and
-          right images to compare. For more information about using the command
-          line, see <xref linkend="Command_line" />.</para>
+          <para>Esegui <command>WinMergeU.exe</command>, che si trova nella cartella di
+installazione di WinMerge. Negli argomenti del comando, includi le immagini
+sinistra e destra da confrontare. Per ulteriori informazioni sull'utilizzo
+della riga di comando, vedi <xref linkend="Command_line" />.</para>
         </listitem>
       </varlistentry>
     </variablelist>
   </section>
 
   <section id="Compare_images_window">
-    <title>Image Compare window</title>
+    <title>Finestra Confronta immagini</title>
 
-    <para>WinMerge support many types of images and can highlight the differences
-    with blocks. Overlaying of the pictures is also possible.</para>
+    <para>WinMerge supporta molti tipi di immagini e può evidenziare le differenze con
+i blocchi.È anche possibile la sovrapposizione delle immagini.</para>
 
     <mediaobject>
-      <imageobject>
-        <imagedata fileref="screenshots/imgcmp1.png" format="PNG" />
-      </imageobject>
-
-      <textobject>
-        <phrase>Image Compare Window</phrase>
+<imageobject> <imagedata fileref="screenshots/imgcmp1.png" format="PNG" />
+</imageobject><textobject>
+        <phrase>Finestra di confronto delle immagini</phrase>
       </textobject>
     </mediaobject>
 
-    <para>You can set the most options in the <guilabel>Location Pane</guilabel>:</para>
+    <para>Puoi impostare la maggior parte delle opzioni nel <guilabel >pannello
+Posizione</guilabel >:</para>
 
     <section>
-      <title>Difference<indexterm>
+      <title>Differenza<indexterm>
         <primary>Diff</primary>
       </indexterm></title>
 
       <variablelist>
         <varlistentry>
-          <term>Highlight</term>
+          <term>Evidenziare</term>
           <listitem>
-            <para>With the check box <guilabel>Highlight</guilabel> you can enable or
-            disable the highlighting of the image differences.</para>
+            <para>Con la casella <guilabel >Evidenzia</guilabel > puoi abilitare o
+disabilitare l'evidenziazione delle differenze tra le immagini.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>Blink</term>
+          <term>Battito di ciglia</term>
           <listitem>
-            <para>If the highlighting is enabled you can even make it blinking by checking
-            the check box <guilabel>Blink</guilabel>.</para>
+            <para>Se l'evidenziazione è abilitata puoi anche farla lampeggiare selezionando la
+casella <guilabel >Lampeggia</guilabel >.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>Block Size</term>
+          <term>Dimensione del blocco</term>
           <listitem>
-            <para>The slider <guilabel>Block Size</guilabel> defines the size of the blocks
-            which highlighting the image differences.</para>
+            <para>Il cursore <guilabel >Dimensione blocco</guilabel > definisce la dimensione
+dei blocchi che evidenziano le differenze tra le immagini.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>Block Alpha</term>
+          <term>Blocco Alfa</term>
           <listitem>
-            <para>The <guilabel>Block Alpha</guilabel> slider defines how strong the alpha
-            blending of the blocks is.</para>
+            <para>Il cursore <guilabel >Blocco alfa</guilabel > definisce quanto è forte la
+fusione alfa dei blocchi.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>Color Distance Threshold</term>
+          <term>Soglia distanza colore</term>
           <listitem>
-            <para>The slider <guilabel>CD</guilabel> sets the <emphasis>Color Distance
-            Threshold</emphasis> which helps to ignore color differences.</para>
+            <para>Il cursore <guilabel >CD</guilabel > imposta la <emphasis >Soglia distanza
+colore</emphasis > che aiuta a ignorare le differenze di colore.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>Ins/Del Detection</term>
+          <term>Rilevamento Ins/Del</term>
           <listitem>
-            <para>TBD</para>
+            <para>Da definire</para>
             <itemizedlist>
-              <listitem><guilabel>None</guilabel></listitem>
-              <listitem><guilabel>Vertical</guilabel></listitem>
-              <listitem><guilabel>Horizontal</guilabel></listitem>
+              <listitem><guilabel>Nessuno</guilabel></listitem>
+              <listitem><guilabel>Verticale</guilabel></listitem>
+              <listitem><guilabel>Orizzontale</guilabel></listitem>
             </itemizedlist>
             <para></para>
           </listitem>
@@ -128,38 +123,39 @@
     </section>
 
     <section>
-      <title>Overlaying<indexterm>
-        <primary>Overlay</primary>
+      <title>Sovrapposizione<indexterm>
+        <primary>Sovrapposizione</primary>
       </indexterm></title>
 
       <variablelist>
         <varlistentry>
-          <term>Mode</term>
+          <term>Modalità</term>
           <listitem>
-            <para>Currently the following <emphasis>Overlay Modes</emphasis> are possible:</para>
+            <para>Attualmente sono possibili le seguenti <emphasis>Modalità di
+sovrapposizione</emphasis>:</para>
             <itemizedlist>
-              <listitem><guilabel>None</guilabel></listitem>
+              <listitem><guilabel>Nessuno</guilabel></listitem>
               <listitem><guilabel>XOR</guilabel></listitem>
-              <listitem><guilabel>Alpha Blend</guilabel></listitem>
-              <listitem><guilabel>Alpha Blend Animation</guilabel></listitem>
+              <listitem><guilabel>Miscela Alfa</guilabel></listitem>
+              <listitem><guilabel>Animazione della fusione alfa</guilabel></listitem>
             </itemizedlist>
             <para></para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>Alpha</term>
+          <term>Alfa</term>
           <listitem>
-            <para>The <guilabel>Alpha</guilabel> slider defines how strong the alpha blending
-            of the overlay nodes <guilabel>Alpha Blend</guilabel> or
-            <guilabel>Alpha Blend Animation</guilabel> is.</para>
+            <para>Il cursore <guilabel >Alfa</guilabel > definisce quanto è forte la fusione
+alfa dei nodi di sovrapposizione <guilabel >Miscela alfa</guilabel > o
+<guilabel >Animazione fusione alfa</guilabel >.</para>
           </listitem>
         </varlistentry>
       </variablelist>
     </section>
 
     <section>
-      <title>Zooming<indexterm>
+      <title>Zoom<indexterm>
         <primary>Zoom</primary>
       </indexterm></title>
 
@@ -167,15 +163,16 @@
         <varlistentry>
           <term>Zoom</term>
           <listitem>
-            <para>With the <guilabel>Zoom</guilabel> slider you can zoom in or out of the images.</para>
+            <para>Con il cursore <guilabel >Zoom</guilabel > puoi ingrandire o rimpicciolire
+le immagini.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>Page</term>
+          <term>Pagina</term>
           <listitem>
-            <para>If the image format support multiple pages you can select the current page with
-            the <guilabel>Page</guilabel> number box.</para>
+            <para>Se il formato dell'immagine supporta più pagine puoi selezionare la pagina
+corrente con la casella numerica <guilabel >Pagina</guilabel >.</para>
           </listitem>
         </varlistentry>
       </variablelist>

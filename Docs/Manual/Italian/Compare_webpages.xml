@@ -2,76 +2,61 @@
 <article id="Compare_webpages">
   <?target dbhh topicname="IDH_Compare_webpages" topicid ="005"?>
 
-  <title>Comparing Web pages</title>
+  <title>Confronto tra pagine Web</title>
 
   <indexterm>
-    <primary>comparing files</primary>
-    <secondary>Web pages</secondary>
+    <primary>confronto dei file</primary>
+    <secondary>Pagine Web</secondary>
   </indexterm>
 
   <para>
-    This topic describes how to compare webpages using the Webpage
-    Compare window.
-    <note>
-      <para>
-        This feature is still experimental and may be unstable and very slow.
-      </para>
-    </note>
-  </para>
+Questo argomento descrive come confrontare le pagine Web utilizzando la
+finestra Confronto pagine Web.<note><para>
+Questa funzionalità è ancora sperimentale e potrebbe essere instabile e
+molto lenta.</para>
+</note></para>
 
   <section id="Compare_webpage_starting">
-    <title>Starting a webpage compare operation</title>
+    <title>Avvio di un'operazione di confronto di pagine Web</title>
 
-    <para>You can start an webpage compare operation from either the WinMerge window
-    or a Command Prompt window.</para>
+    <para>È possibile avviare un'operazione di confronto di pagine Web dalla finestra
+WinMerge o da una finestra del prompt dei comandi.</para>
 
     <variablelist>
       <varlistentry>
-        <term>From the WinMerge window</term>
+        <term>Dalla finestra WinMerge</term>
 
         <listitem>
           <para>
-            Click <menuchoice>
-              <guimenu>File</guimenu>
-              <guimenuitem>Open</guimenuitem>
-            </menuchoice>. Specify the two or three URLs you want to
-            compare in the "Select File or Folder" dialog and select
-            the <guimenuitem>Webpage</guimenuitem> menu item from the
-            <guibutton>Compare</guibutton> button's drop-down menu.
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="screenshots/OpenDlg2.png" format="PNG" />
-              </imageobject>
-
-              <textobject>
-                <phrase>Select Files or Folders window</phrase>
+Fai clic su <menuchoice> <guimenu >File</guimenu > <guimenuitem
+>Apri</guimenuitem > </menuchoice >.Specifica i due o tre URL che vuoi
+confrontare nella finestra di dialogo "Seleziona file o cartella" e
+seleziona la voce di menu <guimenuitem >Pagina web</guimenuitem > dal menu a
+discesa del pulsante <guibutton >Confronta</guibutton >.<mediaobject>
+<imageobject> <imagedata fileref="screenshots/OpenDlg2.png" format="PNG" />
+</imageobject><textobject>
+                <phrase>Seleziona la finestra File o Cartelle</phrase>
               </textobject>
-            </mediaobject>
-
-          </para>
+            </mediaobject></para>
         </listitem>
       </varlistentry>
 
       <varlistentry>
-        <term>From a Command Prompt window</term>
+        <term>Da una finestra del prompt dei comandi</term>
 
         <listitem>
-          <para>Run <command>WinMergeU.exe</command>, which is in your WinMerge
-            install directory. In your command arguments, include two or three
-            URLs of the web pages you want to compare and specify the
-            <option>/t webpage</option> command line option.
-            For more information about using the command
-            line, see <xref linkend="Command_line" />.</para>
+          <para>Esegui <command>WinMergeU.exe</command>, che si trova nella cartella di
+installazione di WinMerge. Negli argomenti del comando, includi due o tre
+URL delle pagine web che desideri confrontare e specifica l'opzione della
+riga di comando <option>/t webpage</option>. Per ulteriori informazioni
+sull'utilizzo della riga di comando, vedi <xref linkend="Command_line" />.</para>
 
           <example>
-            <title>Command line</title>
+            <title>Riga di comando</title>
 
             <para>
-              <userinput>
-                "C:\Program Files\WinMerge\WinMergeU.exe" /t webpage https://example.net https://example.com
-              </userinput>
-            </para>
+<userinput> "C:\Programmi\WinMerge\WinMergeU.exe" /t pagina web
+https://example.net https://example.com </userinput></para>
           </example>
 
         </listitem>
@@ -80,110 +65,98 @@
   </section>
 
   <section id="Compare_webpage_window">
-    <title>Webpage Compare window</title>
+    <title>Finestra di confronto delle pagine Web</title>
 
     <para>
     </para>
 
     <mediaobject>
-      <imageobject>
-        <imagedata fileref="screenshots/webcmp1.png" format="PNG" />
-      </imageobject>
-
-      <textobject>
-        <phrase>Webpage Compare window</phrase>
+<imageobject> <imagedata fileref="screenshots/webcmp1.png" format="PNG" />
+</imageobject><textobject>
+        <phrase>Finestra di confronto delle pagine Web</phrase>
       </textobject>
     </mediaobject>
 
     <para>
-      When the Webpage comparison window is displayed,
-      the Webpage menu will be added to the menu bar.
-      The menu items in the Webpage menu are as follows.
-      Some of the same functionality as these menu items
-      is available in the Location Pane.
-    </para>
+Quando viene visualizzata la finestra di confronto delle pagine Web, il menu
+della pagina Web verrà aggiunto alla barra dei menu.Le voci di menu nel menu
+Pagina Web sono le seguenti.Alcune delle stesse funzionalità di queste voci
+di menu sono disponibili nel riquadro Posizione.</para>
 
     <section>
       <title>
-        Webpage menu<indexterm>
-          <primary>webpage menu</primary>
-        </indexterm>
-      </title>
+Menu della pagina web<indexterm>
+          <primary>menu della pagina web</primary>
+        </indexterm></title>
 
       <variablelist>
         <varlistentry>
-          <term>View Differences</term>
+          <term>Visualizza differenze</term>
           <listitem>
             <para>
-              Enables or disables text difference coloring for webpages.
-            </para>
+Abilita o disabilita la colorazione della differenza del testo per le pagine
+Web.</para>
           </listitem>
         </varlistentry>
       </variablelist>
 
       <section>
         <title>
-          Compare menu<indexterm>
-            <primary>Compare menu</primary>
-          </indexterm>
-        </title>
+Menu Confronta<indexterm>
+            <primary>Menù a confronto</primary>
+          </indexterm></title>
    
         <variablelist>
           <varlistentry>
-            <term>Screenshots</term>
+            <term>Schermate</term>
             <listitem>
               <para>
-                Converts the currently displayed range of web pages into
-                images and compares them in the image comparison window.
-              </para>
+Converte l'intervallo di pagine Web attualmente visualizzato in immagini e
+le confronta nella finestra di confronto delle immagini.</para>
             </listitem>
           </varlistentry>
         </variablelist>
    
         <variablelist>
           <varlistentry>
-            <term>Full Size Screenshots</term>
+            <term>Schermate a grandezza naturale</term>
             <listitem>
               <para>
-                Creates images of the entire area of web pages and compares
-                them in the image comparison window.
-              </para>
+Crea immagini dell'intera area delle pagine web e le confronta nella
+finestra di confronto delle immagini.</para>
             </listitem>
           </varlistentry>
         </variablelist>
    
         <variablelist>
           <varlistentry>
-            <term>HTMLs</term>
+            <term>HTML</term>
             <listitem>
               <para>
-                Compare the HTML contents of web pages in the file
-                comparison window.
-              </para>
+Confronta i contenuti HTML delle pagine web nella finestra di confronto
+file.</para>
             </listitem>
           </varlistentry>
         </variablelist>
    
         <variablelist>
           <varlistentry>
-            <term>Texts</term>
+            <term>Testi</term>
             <listitem>
               <para>
-                Extracts text parts of web pages and compares them
-                in the file comparison window.
-              </para>
+Estrae parti di testo delle pagine Web e le confronta nella finestra di
+confronto dei file.</para>
             </listitem>
           </varlistentry>
         </variablelist>
    
         <variablelist>
           <varlistentry>
-            <term>Resource Trees</term>
+            <term>Alberi delle risorse</term>
             <listitem>
               <para>
-                Compare resource trees of web pages in the folder
-                comparison window.
-              </para>
+Confronta gli alberi delle risorse delle pagine web nella finestra di
+confronto delle cartelle.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -192,95 +165,28 @@
    
       <section>
         <title>
-          Size menu<indexterm>
-            <primary>Size menu</primary>
-          </indexterm>
-        </title>
+Menu Dimensioni<indexterm>
+            <primary>Menù dimensioni</primary>
+          </indexterm></title>
    
         <variablelist>
           <varlistentry>
-            <term>Fit to Window</term>
+            <term>Adatta alla finestra</term>
             <listitem>
               <para>
-                Fits the display size of the web page to the size of each pane.
-              </para>
+Adatta la dimensione di visualizzazione della pagina Web alla dimensione di
+ciascun riquadro.</para>
             </listitem>
           </varlistentry>
         </variablelist>
    
         <variablelist>
           <varlistentry>
-            <term>Width x Height</term>
+            <term>Larghezza x Altezza</term>
             <listitem>
               <para>
-                Changes the display size of the web page to the specified size.
-              </para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-   
-      </section>
-   
-      <section>
-        <title>
-          Event Sync menu<indexterm>
-            <primary>Event Sync menu</primary>
-          </indexterm>
-        </title>
-   
-        <variablelist>
-          <varlistentry>
-            <term>Enabled</term>
-            <listitem>
-              <para>
-                Enable or disable the synchronization function of events such as Scroll and Click.
-              </para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-   
-        <variablelist>
-          <varlistentry>
-            <term>Scroll</term>
-            <listitem>
-              <para>
-                Enable or disable scroll synchronization.
-              </para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-   
-        <variablelist>
-          <varlistentry>
-            <term>Click</term>
-            <listitem>
-              <para>
-                Enable or disable click synchronization.
-              </para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-   
-        <variablelist>
-          <varlistentry>
-            <term>Input</term>
-            <listitem>
-              <para>
-                Enable or disable input synchronization.
-              </para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-   
-        <variablelist>
-          <varlistentry>
-            <term>GoBack/GoForward</term>
-            <listitem>
-              <para>
-                Enable or disable synchronization of
-                going back to the previous page or
-                forward to the next page.
-              </para>
+Modifica la dimensione di visualizzazione della pagina Web nella dimensione
+specificata.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -289,51 +195,106 @@
    
       <section>
         <title>
-          Clear Browsing Data menu<indexterm>
-            <primary>Clear Browsing Data menu</primary>
-          </indexterm>
-        </title>
+Menu Sincronizzazione eventi<indexterm>
+            <primary>Menu Sincronizzazione eventi</primary>
+          </indexterm></title>
    
         <variablelist>
           <varlistentry>
-            <term>Disk Cache</term>
+            <term>Abilitato</term>
             <listitem>
               <para>
-                Clears only disk cache in browsing data.
-              </para>
+Abilita o disabilita la funzione di sincronizzazione di eventi come
+Scorrimento e Clic.</para>
             </listitem>
           </varlistentry>
         </variablelist>
    
         <variablelist>
           <varlistentry>
-            <term>Cookies</term>
+            <term>Scorri</term>
             <listitem>
               <para>
-                Clear only cookies in browsing data.
-              </para>
+Abilita o disabilita la sincronizzazione dello scorrimento.</para>
             </listitem>
           </varlistentry>
         </variablelist>
    
         <variablelist>
           <varlistentry>
-            <term>Browsing History</term>
+            <term>Clic</term>
             <listitem>
               <para>
-                Clears only browsing history in browsing data.
-              </para>
+Abilita o disabilita la sincronizzazione dei clic.</para>
             </listitem>
           </varlistentry>
         </variablelist>
    
         <variablelist>
           <varlistentry>
-            <term>All Profile</term>
+            <term>Ingresso</term>
             <listitem>
               <para>
-                Clears all browsing data.
-              </para>
+Abilita o disabilita la sincronizzazione degli input.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+   
+        <variablelist>
+          <varlistentry>
+            <term>Vai indietro/Vai avanti</term>
+            <listitem>
+              <para>
+Abilita o disabilita la sincronizzazione per tornare alla pagina precedente
+o passare alla pagina successiva.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+   
+      </section>
+   
+      <section>
+        <title>
+Cancella il menu Dati di navigazione<indexterm>
+            <primary>Cancella il menu Dati di navigazione</primary>
+          </indexterm></title>
+   
+        <variablelist>
+          <varlistentry>
+            <term>Cache del disco</term>
+            <listitem>
+              <para>
+Cancella solo la cache del disco nei dati di navigazione.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+   
+        <variablelist>
+          <varlistentry>
+            <term>Biscotti</term>
+            <listitem>
+              <para>
+Cancella solo i cookie nei dati di navigazione.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+   
+        <variablelist>
+          <varlistentry>
+            <term>Cronologia di navigazione</term>
+            <listitem>
+              <para>
+Cancella solo la cronologia di navigazione nei dati di navigazione.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+   
+        <variablelist>
+          <varlistentry>
+            <term>Tutto il profilo</term>
+            <listitem>
+              <para>
+Cancella tutti i dati di navigazione.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -347,30 +308,29 @@
 
     <section>
       <title>
-        Current limitations<indexterm>
-          <primary>webpage compare limitations</primary>
-        </indexterm>
-      </title>
+Limitazioni attuali<indexterm>
+          <primary>limitazioni del confronto delle pagine Web</primary>
+        </indexterm></title>
 
       <itemizedlist>
         <listitem>
           <para>
-            Webpages that use the currently deprecated FRAMESET element cannot be compared.
-          </para>
+Non è possibile confrontare le pagine Web che utilizzano l'elemento FRAMESET
+attualmente deprecato.</para>
         </listitem>
       </itemizedlist>
       <itemizedlist>
         <listitem>
           <para>
-            The contents within the IFRAME element may not be compared or events may not be synchronized.
-          </para>
+I contenuti all'interno dell'elemento IFRAME potrebbero non essere
+confrontati o gli eventi potrebbero non essere sincronizzati.</para>
         </listitem>
       </itemizedlist>
       <itemizedlist>
         <listitem>
           <para>
-            Comparing web pages with very different content may take a lot of time.
-          </para>
+Il confronto di pagine Web con contenuti molto diversi può richiedere molto
+tempo.</para>
         </listitem>
       </itemizedlist>
     </section>

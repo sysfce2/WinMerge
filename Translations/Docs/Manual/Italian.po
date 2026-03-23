@@ -57,7 +57,7 @@ msgid ""
 "Microsoft HTML Help (<filename>WinMerge.chm</filename>), located in your "
 "WinMerge\\Docs installation directory."
 msgstr ""
-"Guida Microsoft HTML (<nomefile>WinMerge.chm</nomefile>), situata nella "
+"Guida Microsoft HTML (<filename>WinMerge.chm</filename>), situata nella "
 "cartella di installazione di WinMerge\\Docs."
 
 #. type: Content of: <article><section><itemizedlist><listitem><para>
@@ -150,7 +150,7 @@ msgstr ""
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:87
 msgid "<xref linkend=\"Quick_start\" />"
-msgstr "<xref linkend=\"Avvio_rapido\" />"
+msgstr "<xref linkend=\"Quick_start\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:90
@@ -162,7 +162,7 @@ msgstr ""
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:96
 msgid "<xref linkend=\"Compare_dirs\" />"
-msgstr "<xref linkend=\"Confronta_dir\" />"
+msgstr "<xref linkend=\"Compare_dirs\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:99
@@ -176,7 +176,7 @@ msgstr ""
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:105
 msgid "<xref linkend=\"Compare_files\" />"
-msgstr "<xref linkend=\"Confronta_file\" />"
+msgstr "<xref linkend=\"Compare_files\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:108
@@ -190,7 +190,7 @@ msgstr ""
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:114
 msgid "<xref linkend=\"Compare_images\" />"
-msgstr "<xref linkend=\"Confronta_immagini\" />"
+msgstr "<xref linkend=\"Compare_images\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:117
@@ -200,7 +200,7 @@ msgstr "Spiega la finestra di confronto/unione delle immagini."
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:122
 msgid "<xref linkend=\"Compare_bin\" />"
-msgstr "<xref linkend=\"Confronta_bin\" />"
+msgstr "<xref linkend=\"Compare_bin\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:125
@@ -210,7 +210,7 @@ msgstr "Spiega la finestra di confronto/unione esadecimale."
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:130
 msgid "<xref linkend=\"Compare_table\" />"
-msgstr "<xref linkend=\"Confronta_tabella\" />"
+msgstr "<xref linkend=\"Compare_table\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:133
@@ -220,7 +220,7 @@ msgstr "Spiega la finestra di confronto/unione delle tabelle."
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:138
 msgid "<xref linkend=\"Compare_webpages\" />"
-msgstr "<xref linkend=\"Confronta_pagineweb\" />"
+msgstr "<xref linkend=\"Compare_webpages\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:141
@@ -230,7 +230,7 @@ msgstr "Spiega la finestra di confronto delle pagine Web."
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:146
 msgid "<xref linkend=\"Configuration\" />"
-msgstr "<xref linkend=\"Configurazione\" />"
+msgstr "<xref linkend=\"Configuration\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:149
@@ -250,7 +250,7 @@ msgstr ""
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:159
 msgid "<xref linkend=\"Open_paths\" />"
-msgstr "<xref linkend=\"Percorsi_aperti\" />"
+msgstr "<xref linkend=\"Open_paths\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:162
@@ -266,7 +266,7 @@ msgstr ""
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:169
 msgid "<xref linkend=\"Plugins\" />"
-msgstr "<xref linkend=\"Plugin\" />"
+msgstr "<xref linkend=\"Plugins\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:172
@@ -280,7 +280,7 @@ msgstr ""
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:178
 msgid "<xref linkend=\"Filters\" />"
-msgstr "<xref linkend=\"Filtri\" />"
+msgstr "<xref linkend=\"Filters\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:181
@@ -294,7 +294,7 @@ msgstr ""
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/About_Doc.xml:187
 msgid "<xref linkend=\"Command_line\" />"
-msgstr "<xref linkend=\"Riga_comando\" />"
+msgstr "<xref linkend=\"Command_line\" />"
 
 #. type: Content of: <article><section><variablelist><varlistentry><listitem><para>
 #: English/About_Doc.xml:190
@@ -350,7 +350,7 @@ msgstr "Indica"
 #. type: Content of: <article><section><informaltable><tgroup><tbody><row><entry>
 #: English/About_Doc.xml:228
 msgid "Enter <userinput>UTF-8</userinput> in the field."
-msgstr "Inserisci <user input>UTF-8</user input> nel campo."
+msgstr "Inserisci <userinput>UTF-8</userinput> nel campo."
 
 #. type: Content of: <article><section><informaltable><tgroup><tbody><row><entry><para>
 #: English/About_Doc.xml:228
@@ -687,52 +687,53 @@ msgstr ""
 "<command>WinMergeU</command> <arg choice=\"opt\" rep=\"norepeat\"><option>/"
 "r</option></arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/r-</option></"
 "arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/e</option></arg> <arg "
-"choice=\"opt\"rep=\"norepeat\"><option>/f</option> <replaceable>filtro</"
+"choice=\"opt\" rep=\"norepeat\"><option>/f</option> <replaceable>filtro</"
 "replaceable></arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/m</option> "
 "<replaceable>metodo di confronto</replaceable></arg> <arg choice=\"opt\" "
 "rep=\"norepeat\"><option>/t</option><replaceable>tipo finestra</"
 "replaceable></arg> <arg><option>/x</option></arg> <arg><option>/xq</option></"
 "arg> <arg><option>/s</option></arg> <arg><option>/sw</option></arg> "
-"<arg><option>/s-</option></arg> <arg choice=\"opt\"rep=\"norepeat\"><option>/"
-"ul</option></arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/um</option></"
-"arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/ur</option></arg> <arg "
-"choice=\"opt\" rep=\"norepeat\"><option>/u</option></arg> <arg "
-"choice=\"opt\"rep=\"norepeat\"><option>/wl</option></arg> <arg "
-"choice=\"opt\" rep=\"norepeat\"><option>/wm</option></arg> <arg "
-"choice=\"opt\" rep=\"norepeat\"><option>/wr</option></arg> <arg "
-"choice=\"opt\" rep=\"norepeat\"><option>/new</option></arg> <arg "
-"choice=\"opt\"rep=\"norepeat\"><option>/self-compare</option></arg> <arg "
-"choice=\"opt\" rep=\"norepeat\"><option>/clipboard-compare</option></arg> "
-"<arg><option>/minimize</option></arg> <arg><option>/maximize</option></arg> "
-"<arg choice=\"opt\"rep=\"norepeat\"><option>/fl</option></arg> <arg "
+"<arg><option>/s-</option></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/ul</option></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/um</option></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/ur</option></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/u</option></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/wl</option></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/wm</option></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/wr</option></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/new</option></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/self-compare</option></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/clipboard-compare</option></arg> <arg><option>/"
+"minimize</option></arg> <arg><option>/maximize</option></arg> <arg "
+"choice=\"opt\" rep=\"norepeat\"><option>/fl</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/fm</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/fr</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/l</option><replaceable>numero di "
 "linea</replaceable></arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/c</"
 "option> <replaceable>charpos</replaceable></arg> <arg choice=\"opt\" "
 "rep=\"norepeat\"><option>/table-delimiter</option> "
-"<replaceable>delimitatore</replaceable></arg> <arg "
-"choice=\"opt\"rep=\"norepeat\"><option>/dl</option> <replaceable>leftdesc</"
-"replaceable></arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/dm</option> "
+"<replaceable>delimitatore</replaceable></arg> <arg choice=\"opt\" "
+"rep=\"norepeat\"><option>/dl</option> <replaceable>leftdesc</replaceable></"
+"arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/dm</option> "
 "<replaceable>middledesc</replaceable></arg> <arg choice=\"opt\" "
 "rep=\"norepeat\"><option>/dr</option><replaceable>rightdesc</replaceable></"
 "arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/al</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/am</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/ar</option></arg> <arg "
-"choice=\"opt\"rep=\"norepeat\"><option>/noninteractive</option></arg> <arg "
+"choice=\"opt\" rep=\"norepeat\"><option>/noninteractive</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/noprefs</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/enableexitcode</option></arg> <arg "
-"choice=\"opt\"rep=\"norepeat\"><option>/ignorews</option></arg> <arg "
+"choice=\"opt\" rep=\"norepeat\"><option>/ignorews</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/ignoreblanklines</option></arg> "
 "<arg choice=\"opt\" rep=\"norepeat\"><option>/ignorecase</option></arg> <arg "
-"choice=\"opt\"rep=\"norepeat\"><option>/ignoreeol</option></arg> <arg "
+"choice=\"opt\" rep=\"norepeat\"><option>/ignoreeol</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/ignorecodepage</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/ignorecomments</option></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/unpacker</option><replaceable>nome-"
 "unpacker</replaceable></arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/"
 "prediffer</option> <replaceable>nome-prediffer</replaceable></arg> <arg "
 "choice=\"opt\" rep=\"norepeat\"><option>/cp</option> <replaceable>codepage</"
-"replaceable></arg> <arg choice=\"opt\"rep=\"norepeat\"><option>/fileext</"
+"replaceable></arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/fileext</"
 "option> <replaceable>estensione file</replaceable></arg> <arg choice=\"opt\" "
 "rep=\"norepeat\"><option>/cfg</option> <replaceable>nome=valore</"
 "replaceable></arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/inifile</"
@@ -740,7 +741,7 @@ msgstr ""
 "rep=\"norepeat\"><replaceable>leftpath</replaceable></arg> <arg "
 "cchoice=\"opt\" rep=\"norepeat\"><replaceable>middlepath</replaceable></arg> "
 "<arg choice=\"plain\" rep=\"norepeat\"><replaceable>rightpath</replaceable></"
-"arg> <arg choice=\"opt\"rep=\"norepeat\"><option>/o</option> "
+"arg> <arg choice=\"opt\" rep=\"norepeat\"><option>/o</option> "
 "<replaceable>outputpath</replaceable></arg> <arg choice=\"opt\" "
 "rep=\"norepeat\"><option>/o</option> <replaceable>reportpath</replaceable></"
 "arg>"
@@ -770,7 +771,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:175
 msgid "<option>/?</option>"
-msgstr "<opzione>/?</opzione>"
+msgstr "<option>/?</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:177
@@ -787,7 +788,7 @@ msgstr "confronto ricorsivo di cartelle"
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:185
 msgid "<option>/r</option>"
-msgstr "<opzione>/r</opzione>"
+msgstr "<option>/r</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:187
@@ -814,7 +815,7 @@ msgstr "confronto di cartelle non ricorsivo"
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:200
 msgid "<option>/r-</option>"
-msgstr "<opzione>/r-</opzione>"
+msgstr "<option>/r-</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:202
@@ -841,7 +842,7 @@ msgstr "chiusura"
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:214
 msgid "<option>/e</option>"
-msgstr "<opzione>/e</opzione>"
+msgstr "<option>/e</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:216
@@ -877,7 +878,7 @@ msgstr "applicandolo nella riga di comando"
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:230
 msgid "<option>/f</option>"
-msgstr "<opzione>/f</opzione>"
+msgstr "<option>/f</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:232
@@ -944,7 +945,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:272
 msgid "<option>/x</option>"
-msgstr "<opzione>/x</opzione>"
+msgstr "<option>/x</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:274
@@ -967,7 +968,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:285
 msgid "<option>/xq</option>"
-msgstr "<opzione>/xq</opzione>"
+msgstr "<option>/xq</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:287
@@ -985,7 +986,7 @@ msgstr "istanze limitanti"
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:298
 msgid "<option>/s</option>"
-msgstr "<opzione>/s</opzione>"
+msgstr "<option>/s</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:300
@@ -1004,7 +1005,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:309
 msgid "<option>/sw</option>"
-msgstr "<opzione>/sw</opzione>"
+msgstr "<option>/sw</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:311
@@ -1018,7 +1019,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:318
 msgid "<option>/s-</option>"
-msgstr "<opzione>/s-</opzione>"
+msgstr "<option>/s-</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:320
@@ -1038,7 +1039,7 @@ msgstr "Elenco MRU"
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:330
 msgid "<option>/ul</option>"
-msgstr "<opzione>/ul</opzione>"
+msgstr "<option>/ul</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:332
@@ -1055,7 +1056,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:339
 msgid "<option>/um</option>"
-msgstr "<opzione>/um</opzione>"
+msgstr "<option>/um</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:341
@@ -1072,7 +1073,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:348
 msgid "<option>/ur</option>"
-msgstr "<opzione>/ur</opzione>"
+msgstr "<option>/ur</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:350
@@ -1089,7 +1090,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:357
 msgid "<option>/u</option>"
-msgstr "<opzione>/u</opzione>"
+msgstr "<option>/u</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:359
@@ -1112,7 +1113,7 @@ msgstr "proteggere i file"
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:371
 msgid "<option>/wl</option>"
-msgstr "<opzione>/wl</opzione>"
+msgstr "<option>/wl</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:373
@@ -1126,7 +1127,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:379
 msgid "<option>/wm</option>"
-msgstr "<opzione>/wm</opzione>"
+msgstr "<option>/wm</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:381
@@ -1140,7 +1141,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:387
 msgid "<option>/wr</option>"
-msgstr "<opzione>/wr</opzione>"
+msgstr "<option>/wr</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:389
@@ -1154,7 +1155,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:395
 msgid "<option>/new</option>"
-msgstr "<opzione>/nuovo</opzione>"
+msgstr "<option>/nuovo</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:397
@@ -1213,7 +1214,7 @@ msgstr "Avvia WinMerge come finestra ingrandita."
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:437
 msgid "<option>/fl</option>"
-msgstr "<opzione>/fl</opzione>"
+msgstr "<option>/fl</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:439
@@ -1223,7 +1224,7 @@ msgstr "Imposta lo stato attivo sul lato sinistro all'avvio."
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:444
 msgid "<option>/fm</option>"
-msgstr "<opzione>/fm</opzione>"
+msgstr "<option>/fm</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:446
@@ -1280,7 +1281,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:479
 msgid "<option>/dl</option>"
-msgstr "<opzione>/dl</opzione>"
+msgstr "<option>/dl</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:481
@@ -1299,7 +1300,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:490
 msgid "<option>/dm</option>"
-msgstr "<opzione>/dm</opzione>"
+msgstr "<option>/dm</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:492
@@ -1313,7 +1314,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:498
 msgid "<option>/dr</option>"
-msgstr "<opzione>/dr</opzione>"
+msgstr "<option>/dr</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:500
@@ -1327,7 +1328,7 @@ msgstr ""
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:506
 msgid "<option>/al</option>"
-msgstr "<opzione>/al</opzione>"
+msgstr "<option>/al</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:508
@@ -1337,7 +1338,7 @@ msgstr "Si unisce automaticamente sul lato sinistro all'avvio."
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:513
 msgid "<option>/am</option>"
-msgstr "<opzione>/am</opzione>"
+msgstr "<option>/am</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:515
@@ -1347,7 +1348,7 @@ msgstr "Si unisce automaticamente al lato centrale all'avvio."
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:520
 msgid "<option>/ar</option>"
-msgstr "<opzione>/ar</opzione>"
+msgstr "<option>/ar</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:522
@@ -1608,7 +1609,7 @@ msgid ""
 "65001</option>"
 msgstr ""
 "Specifica la tabella codici da utilizzare per il confronto dei file.Esempio: "
-"<opzione>/cp 65001</opzione>"
+"<option>/cp 65001</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><term>
 #: English/Command_line.xml:652
@@ -1742,8 +1743,8 @@ msgid ""
 "<userinput>WinMergeU <filename>C:\\Folder\\File.txt</filename> <filename "
 "class=\"directory\">C:\\Folder2</filename> </userinput>"
 msgstr ""
-"<userinput>WinMergeU <nomefile>C:\\Cartella\\File.txt</nomefile> <nomefile "
-"class=\"directory\">C:\\Cartella2</nomefile> </userinput>"
+"<userinput>WinMergeU <filename>C:\\Cartella\\File.txt</filename> <filename "
+"class=\"directory\">C:\\Cartella2</filename> </userinput>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><tip><para>
 #: English/Command_line.xml:717
@@ -1834,7 +1835,7 @@ msgid ""
 "<option>WinMergeU path1 path2 /or c:\\tmp\\report.html</option>"
 msgstr ""
 "Genera un rapporto di confronto per file o cartelle.Esempio: "
-"<opzione>WinMergeU percorso1 percorso2 /o c:\\tmp\\report.html</opzione>"
+"<option>WinMergeU percorso1 percorso2 /o c:\\tmp\\report.html</option>"
 
 #. type: Content of: <article><variablelist><varlistentry><listitem><para>
 #: English/Command_line.xml:763
@@ -1955,7 +1956,7 @@ msgstr ""
 "Specifica un file di conflitto, generalmente generato da un sistema di "
 "controllo della versione.Il file di conflitto si apre nella finestra "
 "Confronto file, dove è possibile unire e risolvere i conflitti, come "
-"descritto in <xref linkend=\"ResolveConflectFiles\" />.Tieni presente che "
+"descritto in <xref linkend=\"ResolveConflictFiles\" />.Tieni presente che "
 "non è possibile utilizzare altri percorsi con un file in conflitto."
 
 #. type: Content of: <article><variablelist><varlistentry><indexterm><primary>
@@ -2165,7 +2166,7 @@ msgid ""
 "binary."
 msgstr ""
 "Il metodo <guilabel >Contenuti rapidi</guilabel > per il confronto dei file, "
-"descritto in <xref linkend=\"Configurazione\" />, può essere utile quando "
+"descritto in <xref linkend=\"Configuration\" />, può essere utile quando "
 "confronti file binari di grandi dimensioni;e viene utilizzato "
 "automaticamente per confrontare file più grandi di 4 MB.I possibili "
 "svantaggi sono che i filtri di riga non funzionano e non vi sono "
@@ -2880,7 +2881,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "nextdiff_btn.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "nextdiff_btn.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><orderedlist><listitem><para><inlinemediaobject><textobject><phrase>
@@ -2920,7 +2921,7 @@ msgid ""
 "<command>Rename</command>) are not available with multiple selections."
 msgstr ""
 "È possibile selezionare più file e cartelle.Tuttavia, alcune operazioni "
-"(come <comando>Rinomina</comando>) non sono disponibili con selezioni "
+"(come <command>Rinomina</command>) non sono disponibili con selezioni "
 "multiple."
 
 #. type: Content of: <article><section><section><para>
@@ -3198,8 +3199,8 @@ msgid ""
 msgstr ""
 "Ti consigliamo vivamente di mantenere abilitata l'opzione <guilabel >Invia i "
 "file eliminati nel cestino</guilabel > (Vedi <xref "
-"linkend=\"Configurazione\" />), in modo da poter annullare le eliminazioni "
-"in caso di incidenti.Inoltre, dovresti mantenere abilitato il Cestino: "
+"linkend=\"Configuration\" />), in modo da poter annullare le eliminazioni in "
+"caso di incidenti.Inoltre, dovresti mantenere abilitato il Cestino: "
 "l'opzione WinMerge non funziona se disabiliti il ​​Cestino in Windows.Ancora "
 "una volta, non puoi annullare l'eliminazione di file o cartelle a meno che "
 "non utilizzi sia l'opzione <guilabel >Invia i file eliminati nel Cestino</"
@@ -5651,7 +5652,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"77\" contentwidth=\"384\" "
 "fileref=\"screenshots/filecomp_margin2.png\" format=\"PNG\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"77\" contentwidth=\"384\" "
+"<imageobject> <imagedata contentdepth=\"77\" contentwidth=\"384\" "
 "fileref=\"screenshots/filecomp_margin2.png\" format=\"PNG\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><section><mediaobject><textobject><phrase>
@@ -5867,7 +5868,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "locpane_diffs.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "locpane_diffs.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><term><inlinemediaobject><textobject><phrase>
@@ -5907,7 +5908,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "locpane_currentdiff.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "locpane_currentdiff.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><term><inlinemediaobject><textobject><phrase>
@@ -5943,7 +5944,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "locpane_viewbar.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "locpane_viewbar.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><term><inlinemediaobject><textobject><phrase>
@@ -6462,7 +6463,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "diff_inline_btn.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "diff_inline_btn.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para><inlinemediaobject><textobject><phrase>
@@ -6555,7 +6556,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "prevdiff_btn.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "prevdiff_btn.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para><inlinemediaobject><textobject><phrase>
@@ -6606,7 +6607,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "firstdiff_btn.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "firstdiff_btn.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><orderedlist><listitem><para><inlinemediaobject><textobject><phrase>
@@ -6672,7 +6673,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "currentdiff_btn.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "currentdiff_btn.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><orderedlist><listitem><para><inlinemediaobject><textobject><phrase>
@@ -6715,7 +6716,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "lastdiff_btn.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "lastdiff_btn.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para><inlinemediaobject><textobject><phrase>
@@ -6976,8 +6977,8 @@ msgstr ""
 "eseguire <guimenuitem >Aggiorna</guimenuitem > <emphasis >prima</emphasis > "
 "di eseguire qualsiasi operazione di unione: fai clic su <menuchoice> "
 "<guimenu >Modifica</guimenu > <guimenuitem >Aggiorna</guimenuitem > </"
-"menuchoice > o su <placeholder type=\"inlinemediaobject\"id=\"0\"/> pulsante "
-"della barra degli strumenti oppure premi <keycap>F5</keycap>."
+"menuchoice > o su <placeholder type=\"inlinemediaobject\" id=\"0\"/> "
+"pulsante della barra degli strumenti oppure premi <keycap>F5</keycap>."
 
 #. type: Content of: <article><section><section><important><para>
 #: English/Compare_files.xml:1528
@@ -7146,7 +7147,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "copyr_adv_btn.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "copyr_adv_btn.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para><inlinemediaobject><textobject><phrase>
@@ -7197,7 +7198,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "copyl_adv_btn.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "copyl_adv_btn.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para><inlinemediaobject><textobject><phrase>
@@ -7236,7 +7237,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"11\" fileref=\"screenshots/undo_btn."
 "png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"11\" fileref=\"screenshots/undo_btn."
+"<imageobject> <imagedata contentdepth=\"11\" fileref=\"screenshots/undo_btn."
 "png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para>
@@ -7260,7 +7261,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "allright_btn.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "allright_btn.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para><inlinemediaobject><textobject><phrase>
@@ -7309,7 +7310,7 @@ msgid ""
 "<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "allleft_btn.png\" /> </imageobject>"
 msgstr ""
-"<imageobject> <imagedata content Depth=\"15\" fileref=\"screenshots/"
+"<imageobject> <imagedata contentdepth=\"15\" fileref=\"screenshots/"
 "allleft_btn.png\" /> </imageobject>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para><inlinemediaobject><textobject><phrase>
@@ -7985,7 +7986,7 @@ msgid ""
 "window.  <note>"
 msgstr ""
 "Questo argomento descrive come confrontare le pagine Web utilizzando la "
-"finestra Confronto pagine Web.<nota>"
+"finestra Confronto pagine Web.<note>"
 
 #. type: Content of: <article><para><note><para>
 #: English/Compare_webpages.xml:17
@@ -7997,7 +7998,7 @@ msgstr ""
 #. type: Content of: <article><section><section><section><para>
 #: English/Compare_webpages.xml:19 English/Quick_start.xml:159
 msgid "</note>"
-msgstr "</nota>"
+msgstr "</note>"
 
 #. type: Content of: <article><section><title>
 #: English/Compare_webpages.xml:23
@@ -9617,7 +9618,7 @@ msgstr ""
 "differenza viene ignorata: <placeholder type=\"screen\" id=\"0\"/> <note> "
 "Utile se combinato con opzioni di spazi bianchi come <option>Spazi bianchi → "
 "Ignora modifica</option> o <option>Spazi bianchi → Ignora tutto</option>.</"
-"nota>"
+"note>"
 
 #. type: Content of: <article><section><section><title>
 #: English/Configuration.xml:905
@@ -9955,7 +9956,7 @@ msgstr "dimensioni dei file"
 #. type: Content of: <article><section><section><variablelist><varlistentry><term>
 #: English/Configuration.xml:1166
 msgid "Size<placeholder type=\"indexterm\" id=\"0\"/>"
-msgstr "Dimensioni<segnaposto type=\"indexterm\" id=\"0\"/>"
+msgstr "Dimensioni<placeholder type=\"indexterm\" id=\"0\"/>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para>
 #: English/Configuration.xml:1175
@@ -10727,9 +10728,9 @@ msgid ""
 "inserted."
 msgstr ""
 "Crea un nuovo file di valori separati da tabulazioni (TSV) con un modello "
-"per le sostituzioni di stringhe.Il file è archiviato in <nomefile>%APPDATA%"
-"\\WinMerge\\ReplaceLists</nomefile> (o "
-"<nomefile>Documents\\WinMerge\\ReplaceLists</nomefile> a seconda delle "
+"per le sostituzioni di stringhe.Il file è archiviato in <filename>%APPDATA%"
+"\\WinMerge\\ReplaceLists</filename> (o "
+"<filename>Documents\\WinMerge\\ReplaceLists</filename> a seconda delle "
 "impostazioni).Dopo la creazione, il file si apre nell'editor di testo "
 "predefinito e viene inserita la funzione "
 "<literal>replaceWithList(expression, \"filepath\")</literal>."
@@ -10777,9 +10778,9 @@ msgid ""
 "<literal>regexReplaceWithList(expression, \"filepath\")</literal>."
 msgstr ""
 "Simile a Crea elenco di sostituzione stringhe, ma per la sostituzione di "
-"espressioni regolari.Crea un file modello in <nomefile>%APPDATA%"
-"\\WinMerge\\RegexReplaceLists</nomefile> (o "
-"<nomefile>Documents\\WinMerge\\RegexReplaceLists</nomefile>).Inserisce "
+"espressioni regolari.Crea un file modello in <filename>%APPDATA%"
+"\\WinMerge\\RegexReplaceLists</filename> (o "
+"<filename>Documents\\WinMerge\\RegexReplaceLists</filename>).Inserisce "
 "<literal>regexReplaceWithList(expression, \"filepath\")</literal>."
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -10959,7 +10960,7 @@ msgid ""
 "a composite key combining both filename and size."
 msgstr ""
 "Puoi combinare più chiavi utilizzando l'operatore <literal>+</literal> con "
-"un separatore.Ad esempio, <letterale>Nome + \"|\"+ Size</literal> creerà una "
+"un separatore.Ad esempio, <literal>Nome + \"|\"+ Size</literal> creerà una "
 "chiave composita che combina nome file e dimensione."
 
 #. type: Content of: <article><section><section><note><para>
@@ -12194,7 +12195,7 @@ msgstr ""
 "salvato come file INI.<emphasis>Solo gli schemi salvati nella cartella "
 "<filename>Documents/WinMerge/ColorSchemes</filename> appariranno negli "
 "elenchi <guilabel >Schema modalità luce</guilabel > e <guilabel >Schema "
-"modalità scura</guilabel >.</enfasi>"
+"modalità scura</guilabel >.</emphasis>"
 
 #. type: Content of: <article><section><variablelist><varlistentry><term>
 #: English/Configuration.xml:2632
@@ -12669,7 +12670,7 @@ msgid ""
 "be <filename>C:\\Windows\\Temp</filename> on your system."
 msgstr ""
 "<guilabel >Cartella temporanea del sistema</guilabel> (predefinita): ad "
-"esempio, potrebbe essere <nomefile>C:\\Windows\\Temp</nomefile> sul tuo "
+"esempio, potrebbe essere <filename>C:\\Windows\\Temp</filename> sul tuo "
 "sistema."
 
 #. type: Content of: <article><section><section><itemizedlist><listitem><para>
@@ -12939,7 +12940,7 @@ msgid ""
 "<filename>WinMerge.exe</filename> can display files only with your current "
 "codepage."
 msgstr ""
-"Deseleziona questa opzione in <nomefile>WinMerge.exe</nomefile>.Le "
+"Deseleziona questa opzione in <filename>WinMerge.exe</filename>.Le "
 "conversioni dei caratteri possono comportare conversioni con perdita e il "
 "rischio è molto alto.<filename>WinMerge.exe</filename> può visualizzare solo "
 "file con la codepage corrente."
@@ -13324,7 +13325,7 @@ msgstr ""
 "tanti buoni client CVS.Tuttavia, WinMerge fornisce un'integrazione con la "
 "funzione diff di uno di questi client, TortoiseCVS (come descritto in <xref "
 "linkend=\"Version_control\" />).Inoltre, WinMerge può risolvere i file in "
-"conflitto (vedi <xref linkend=\"ResolveConflectFiles\" />)."
+"conflitto (vedi <xref linkend=\"ResolveConflictFiles\" />)."
 
 #. type: Content of: <article><section><qandaset><qandaentry><question><para>
 #: English/Faq.xml:113
@@ -14210,7 +14211,7 @@ msgstr "Maschera file per estensione (ad es. *.txt)"
 #. type: Content of: <article><section><section><itemizedlist><listitem><variablelist><varlistentry><term>
 #: English/Filters.xml:160
 msgid "<replaceable>*.</replaceable>"
-msgstr "<sostituibile>*.</sostituibile>"
+msgstr "<replaceable>*.</replaceable>"
 
 #. type: Content of: <article><section><section><itemizedlist><listitem><variablelist><varlistentry><listitem><para>
 #: English/Filters.xml:160
@@ -14220,7 +14221,7 @@ msgstr "File senza estensione (ad esempio README)"
 #. type: Content of: <article><section><section><itemizedlist><listitem><variablelist><varlistentry><term>
 #: English/Filters.xml:161
 msgid "!<replaceable>*.ext</replaceable>"
-msgstr "!<sostituibile>*.ext</sostituibile>"
+msgstr "!<replaceable>*.ext</replaceable>"
 
 #. type: Content of: <article><section><section><itemizedlist><listitem><variablelist><varlistentry><listitem><para>
 #: English/Filters.xml:161
@@ -15469,7 +15470,7 @@ msgstr "Funzioni"
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: English/Filters.xml:706
 msgid "lineCount(<replaceable>content</replaceable>)"
-msgstr "lineCount(<sostituibile>contenuto</sostituibile>)"
+msgstr "lineCount(<replaceable>contenuto</replaceable>)"
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
 #: English/Filters.xml:707
@@ -15509,7 +15510,7 @@ msgstr ""
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: English/Filters.xml:719
 msgid "strlen(<replaceable>source</replaceable>)"
-msgstr "strlen(<sostituibile>fonte</sostituibile>)"
+msgstr "strlen(<replaceable>fonte</replaceable>)"
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
 #: English/Filters.xml:720
@@ -15935,7 +15936,7 @@ msgstr ""
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: English/Filters.xml:922
 msgid "abs(<replaceable>value</replaceable>)"
-msgstr "abs(<sostituibile>valore</sostituibile>)"
+msgstr "abs(<replaceable>valore</replaceable>)"
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
 #: English/Filters.xml:923
@@ -16614,7 +16615,7 @@ msgid ""
 "<literal>abs(LeftSize - RightSize) &lt; 1KB</literal> - Size difference is "
 "small"
 msgstr ""
-"<letterale>abs(LeftSize - RightSize) &lt;1KB</literal> - La differenza di "
+"<literal>abs(LeftSize - RightSize) &lt;1KB</literal> - La differenza di "
 "dimensioni è piccola"
 
 #. type: Content of: <article><section><section><section><itemizedlist><listitem><para>
@@ -16814,7 +16815,7 @@ msgid ""
 "your system."
 msgstr ""
 "Qui è dove vengono installati i filtri di file predefiniti.Ad esempio, "
-"<nomefile>C:\\Programmi\\WinMerge\\Filters</nomefile>.Puoi creare o copiare "
+"<filename>C:\\Programmi\\WinMerge\\Filters</filename>.Puoi creare o copiare "
 "file di filtro in questa posizione per renderli disponibili a tutti gli "
 "utenti del tuo sistema."
 
@@ -17276,7 +17277,7 @@ msgid ""
 "d: Src ## Match <filename>*Src*</filename> folders"
 msgstr ""
 "f: \\.cpp$ ## Trova i file <filename>*.cpp</filename>\n"
-"f: \\.h$ ## Trova i file <nomefile>*.h</nomefile>\n"
+"f: \\.h$ ## Trova i file <filename>*.h</filename>\n"
 "f: ^My ## Corrisponde a <filename>My*.*</filename> file\n"
 "f: Dlg\\.## Corrisponde ai file <filename>*Dlg.*</filename>\n"
 "d: \\\\test$ ## Trova le cartelle <filename>test</filename>\n"
@@ -17299,11 +17300,11 @@ msgid ""
 "f: Srv[1-9]\\.def$ ## <filename>*Srv1.def</filename> to <filename>*Srv9.def</filename> files\n"
 "f: ^[h,k,m] ## <filename>h*.*</filename>, <filename>k*.*</filename>, and <filename>m*.*</filename> files"
 msgstr ""
-"f: ^\\.#.*$ ## <nomefile>.#nomefile.versione</nomefile> file\n"
-"f: Dlg\\.c(pp)?$ ## File <nomefile>*Dlg.c</nomefile> e <nomefile>*Dlg.cpp</nomefile>\n"
-"f: ^I.*\\.h$ ## File <nomefile>I*.h</nomefile>\n"
-"f: Srv[1-9]\\.def$ ## da <nomefile>*Srv1.def</nomefile> a <nomefile>*Srv9.def</nomefile>\n"
-"f: ^[h,k,m] ## File <nomefile>h*.*</nomefile>, <nomefile>k*.*</nomefile> e <nomefile>m*.*</nomefile>"
+"f: ^\\.#.*$ ## <filename>.#nomefile.versione</filename> file\n"
+"f: Dlg\\.c(pp)?$ ## File <filename>*Dlg.c</filename> e <filename>*Dlg.cpp</filename>\n"
+"f: ^I.*\\.h$ ## File <filename>I*.h</filename>\n"
+"f: Srv[1-9]\\.def$ ## da <filename>*Srv1.def</filename> a <filename>*Srv9.def</filename>\n"
+"f: ^[h,k,m] ## File <filename>h*.*</filename>, <filename>k*.*</filename> e <filename>m*.*</filename>"
 
 #. type: Content of: <article><section><section><title><indexterm><secondary>
 #: English/Filters.xml:1458 English/Filters.xml:1565
@@ -18052,8 +18053,8 @@ msgid ""
 msgstr ""
 "Nella finestra di dialogo Filtro condiviso o privato, scegli <guilabel "
 ">Filtro condiviso</guilabel > o <guilabel >Filtro privato</guilabel > (vedi "
-"<xref linkend=\"Filters_FilterLoc\" /> per i loro usi) e fai clic su <keycap "
-">OK</keycap >."
+"<xref linkend=\"Filters_FileFilterLoc\" /> per i loro usi) e fai clic su "
+"<keycap >OK</keycap >."
 
 #. type: Content of: <article><section><section><section><orderedlist><listitem><para>
 #: English/Filters.xml:1897
@@ -18536,7 +18537,7 @@ msgstr ""
 #. type: Content of: <book><bookinfo><title>
 #: English/Index.xml:31
 msgid "WinMerge &WinMergeVersion; Help"
-msgstr "WinMerge &WinMergeVersione;Aiuto"
+msgstr "WinMerge &WinMergeVersion; Aiuto"
 
 #. type: Content of: <book><bookinfo>
 #: English/Index.xml:33
@@ -18546,7 +18547,7 @@ msgstr "<nomeprodotto>WinMerge</nomeprodotto>"
 #. type: Content of: <book><bookinfo><releaseinfo>
 #: English/Index.xml:35
 msgid "<emphasis>Revision &ManualRevision;</emphasis>"
-msgstr "<emphasis>Revisione &Revisione manuale;</emphasis>"
+msgstr "<emphasis>Revisione &ManualRevision;</emphasis>"
 
 #. type: Content of: <book><bookinfo>
 #: English/Index.xml:37
@@ -18787,7 +18788,7 @@ msgid ""
 "<replaceable>version</replaceable>-setup.exe</filename>)."
 msgstr ""
 "Avviare l'eseguibile del programma di installazione (solitamente denominato "
-"<nomefile>WinMerge-<replaceable>versione</replaceable>-setup.exe</filename>)."
+"<filename>WinMerge-<replaceable>versione</replaceable>-setup.exe</filename>)."
 
 #. type: Content of: <article><section><orderedlist><listitem><simpara>
 #: English/Install.xml:72
@@ -19224,8 +19225,8 @@ msgid ""
 msgstr ""
 "Se non si utilizza il programma di installazione e si desidera abilitare "
 "l'integrazione della shell di Windows Explorer, è necessario registrare "
-"separatamente la DLL di integrazione della shell (<nomefile>ShellExtension*."
-"dll</nomefile>)."
+"separatamente la DLL di integrazione della shell (<filename>ShellExtension*."
+"dll</filename>)."
 
 #. type: Content of: <article><section><note><para>
 #: English/Install.xml:364
@@ -22269,12 +22270,12 @@ msgstr "<function>Taglia spazi</function>"
 #. type: Content of: <article><section><section><itemizedlist><listitem><para>
 #: English/Plugins.xml:208
 msgid "<function>Insert Date</function>"
-msgstr "<funzione>Inserisci data</funzione>"
+msgstr "<function>Inserisci data</function>"
 
 #. type: Content of: <article><section><section><itemizedlist><listitem><para>
 #: English/Plugins.xml:212
 msgid "<function>Insert Time</function>"
-msgstr "<funzione>Inserisci ora</funzione>"
+msgstr "<function>Inserisci ora</function>"
 
 #. type: Content of: <article><section><section><para>
 #: English/Plugins.xml:216
@@ -22769,7 +22770,7 @@ msgid ""
 "<filename>CompareMSExcelFiles<placeholder type=\"indexterm\" id=\"0\"/></"
 "filename>"
 msgstr ""
-"<filename>Confronta file MSExcel<segnaposto type=\"indexterm\" id=\"0\"/></"
+"<filename>Confronta file MSExcel<placeholder type=\"indexterm\" id=\"0\"/></"
 "filename>"
 
 #. type: Content of: <article><section><section><para>
@@ -22814,7 +22815,7 @@ msgstr ""
 "class=\"extension\">*.xlsx</filename>, <filename class=\"extension\">*.xlsm</"
 "filename>, <filename class=\"extension\">*.xlsb</filename>, <filename "
 "class=\"extension\">*.xla</filename>, <filename class=\"extension\">*.xlax</"
-"filename>, <filenameclass=\"estensione\">*.xltx</filename>, <filename "
+"filename>, <filename class=\"estensione\">*.xltx</filename>, <filename "
 "class=\"estensione\">*.xltm</filename>"
 
 #. type: Content of: <article><section><section><para><segmentedlist><seglistitem><seg>
@@ -22837,8 +22838,8 @@ msgid ""
 "<filename>CompareMSPowerPointFiles<placeholder type=\"indexterm\" id=\"0\"/"
 "></filename>"
 msgstr ""
-"<filename>Confronta file MSPowerPoint<segnaposto type=\"indexterm\" id=\"0\"/"
-"></filename>"
+"<filename>Confronta file MSPowerPoint<placeholder type=\"indexterm\" "
+"id=\"0\"/></filename>"
 
 #. type: Content of: <article><section><section><para>
 #: English/Plugins.xml:467
@@ -22865,7 +22866,7 @@ msgstr ""
 "class=\"extension\">*.pptx</filename>, <filename class=\"extension\">*.pptm</"
 "filename>, <filename class=\"extension\">*.ppa</filename>, <filename "
 "class=\"extension\">*.ppam</filename>, <filename class=\"extension\">*.pot</"
-"filename>, <filenameclass=\"estensione\">*.potx</filename>, <filename "
+"filename>, <filename class=\"estensione\">*.potx</filename>, <filename "
 "class=\"estensione\">*.potm</filename>"
 
 #. type: Content of: <article><section><section><para><segmentedlist><seglistitem><seg>
@@ -22888,7 +22889,7 @@ msgid ""
 "<filename>CompareMSVisioFiles<placeholder type=\"indexterm\" id=\"0\"/></"
 "filename>"
 msgstr ""
-"<filename>Confronta file MSVisio<segnaposto type=\"indexterm\" id=\"0\"/></"
+"<filename>Confronta file MSVisio<placeholder type=\"indexterm\" id=\"0\"/></"
 "filename>"
 
 #. type: Content of: <article><section><section><para>
@@ -22916,7 +22917,7 @@ msgstr ""
 "<filename class=\"extension\">*.vsd</filename>, <filename "
 "class=\"extension\">*.vsdx</filename>, <filename class=\"extension\">*.vsdm</"
 "filename>, <filename class=\"extension\">*.vss</filename>, <filename "
-"class=\"extension\">*.vssx</filename>, <filenameclass=\"extension\">*.vssm</"
+"class=\"extension\">*.vssx</filename>, <filename class=\"extension\">*.vssm</"
 "filename>, <filename class=\"extension\">*.vst</filename>, <filename "
 "class=\"extension\">*.vstx</filename>, <filename class=\"extension\">*.vstm</"
 "filename>"
@@ -22941,7 +22942,7 @@ msgid ""
 "<filename>CompareMSWordFiles<placeholder type=\"indexterm\" id=\"0\"/></"
 "filename>"
 msgstr ""
-"<filename>Confronta file MSWord<segnaposto type=\"indexterm\" id=\"0\"/></"
+"<filename>Confronta file MSWord<placeholder type=\"indexterm\" id=\"0\"/></"
 "filename>"
 
 #. type: Content of: <article><section><section><para>
@@ -24006,7 +24007,7 @@ msgstr "espressione regolare"
 #. type: Content of: <article><section><section><variablelist><varlistentry><term>
 #: English/Plugins.xml:2037 English/Plugins.xml:2137
 msgid "<option>-v</option>"
-msgstr "<opzione>-v</opzione>"
+msgstr "<option>-v</option>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para>
 #: English/Plugins.xml:2039
@@ -24016,7 +24017,7 @@ msgstr "seleziona le colonne non corrispondenti"
 #. type: Content of: <article><section><section><variablelist><varlistentry><term>
 #: English/Plugins.xml:2044 English/Plugins.xml:2144 English/Plugins.xml:2226
 msgid "<option>-i</option>"
-msgstr "<opzione>-i</opzione>"
+msgstr "<option>-i</option>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para>
 #: English/Plugins.xml:2046 English/Plugins.xml:2146
@@ -24026,7 +24027,7 @@ msgstr "ignorare il caso"
 #. type: Content of: <article><section><section><variablelist><varlistentry><term>
 #: English/Plugins.xml:2051
 msgid "<option>-g</option>"
-msgstr "<opzione>-g</opzione>"
+msgstr "<option>-g</option>"
 
 #. type: Content of: <article><section><section><variablelist><varlistentry><listitem><para>
 #: English/Plugins.xml:2053
@@ -24276,7 +24277,7 @@ msgstr ""
 #. type: Content of: <article><section><section><example><variablelist><varlistentry><term>
 #: English/Plugins.xml:2410
 msgid "<filename>IgnoreColumns_1,30 to 40.dll</filename>"
-msgstr "<nomefile>IgnoreColumns_1,30 a 40.dll</nomefile>"
+msgstr "<filename>IgnoreColumns_1,30 a 40.dll</filename>"
 
 #. type: Content of: <article><section><section><example><variablelist><varlistentry><listitem><simpara>
 #: English/Plugins.xml:2413
@@ -24339,7 +24340,7 @@ msgstr ""
 "class=\"extension\">*.cxx</filename>, <filename class=\"extension\">*.h</"
 "filename>, <filename class=\"extension\">*.hxx</filename>, <filename "
 "class=\"extension\">*.c</filename>, <filename class=\"extension\">*.php</"
-"filename>, <filenameclass=\"extension\">*.js</filename>, <filename "
+"filename>, <filename class=\"extension\">*.js</filename>, <filename "
 "class=\"extension\">*.cs</filename>, <filename class=\"extension\">*.ts</"
 "filename>"
 
@@ -24914,7 +24915,7 @@ msgstr ""
 "valuta la possibilità di abilitare l'opzione <guilabel >Completamento "
 "automatico finestra di apertura</guilabel >.Con questa opzione, WinMerge "
 "mostra un elenco di percorsi disponibili durante la digitazione nei campi."
-"Vedi <xref linkend=\"Configurazione\" /> per i dettagli."
+"Vedi <xref linkend=\"Configuration\" /> per i dettagli."
 
 #. type: Content of: <article><section><section><section><para><itemizedlist><listitem><para>
 #: English/Quick_start.xml:145
@@ -24928,7 +24929,7 @@ msgstr ""
 #. type: Content of: <article><section><section><section><para><note>
 #: English/Quick_start.xml:151
 msgid "<note>"
-msgstr "<nota>"
+msgstr "<note>"
 
 #. type: Content of: <article><section><section><section><para><note><para>
 #: English/Quick_start.xml:152
@@ -24984,7 +24985,7 @@ msgstr ""
 #. type: Content of: <article><section><section><section><para>
 #: English/Quick_start.xml:174
 msgid "<filename><userinput>*.cpp;*.hpp;*.c;*.h</userinput></filename>"
-msgstr "<nomefile><userinput>*.cpp;*.hpp;*.c;*.h</userinput></filename>"
+msgstr "<filename><userinput>*.cpp;*.hpp;*.c;*.h</userinput></filename>"
 
 #. type: Content of: <article><section><section><section><para>
 #: English/Quick_start.xml:176
@@ -26023,8 +26024,8 @@ msgid ""
 "<keycombo> <keycap>Ctrl</keycap> <mousebutton>MouseWheel Up</mousebutton> </"
 "keycombo>"
 msgstr ""
-"<keycombo> <keycap>Ctrl</keycap> <pulsante del mouse>Rotellina del mouse su</"
-"pulsante del mouse> </key combo>"
+"<keycombo> <keycap>Ctrl</keycap> <mousebutton>Rotellina del mouse su</"
+"mousebutton> </keycombo>"
 
 #. type: Content of: <appendix><table><tgroup><tbody><row><entry>
 #: English/Shortcut_keys.xml:788
@@ -26032,8 +26033,8 @@ msgid ""
 "<keycombo> <keycap>Ctrl</keycap> <mousebutton>MouseWheel Down</mousebutton> "
 "</keycombo>"
 msgstr ""
-"<keycombo> <keycap>Ctrl</keycap> <pulsante del mouse>Rotella del mouse giù</"
-"pulsante del mouse> </key combo>"
+"<keycombo> <keycap>Ctrl</keycap> <mousebutton>Rotella del mouse giù</"
+"mousebutton> </keycombo>"
 
 #. type: Content of: <article><title>
 #: English/Version_control.xml:3
