@@ -135,7 +135,7 @@ msgstr ""
 "<ulink url=\"https://winmerge.org/\">winmerge.org</ulink>をブラウザーで開いて"
 "ください。<ulink url=\"https://winmerge.org/docs/\">Documentation</ulink>の"
 "<ulink url=\"https://manual.winmerge.org/\">Manual</ulink>リンクをクリックし"
-"てださい。最新版のヘルプが開きます。"
+"てください。最新版のヘルプが開きます。"
 
 #. type: Content of: <article><section><title>
 #: English/About_Doc.xml:80
@@ -8903,7 +8903,7 @@ msgstr "単語間に二つのスペース:<placeholder type=\"screen\" id=\"0\"/
 #: English/Configuration.xml:615
 #, no-wrap
 msgid "Two\tWords"
-msgstr "2 つの単語"
+msgstr "Two\tWords"
 
 #. type: Content of: <article><section><section><example><para>
 #: English/Configuration.xml:615
@@ -16091,8 +16091,8 @@ msgid ""
 "<literal>AttrStr not contains \"H\" and Name like \"*.tmp\"</literal> - Non-"
 "hidden temporary files"
 msgstr ""
-"<literal>AttrStr に \"H\" や \"*.tmp\" のような名前が含まれていない</"
-"literal> - 非表示でない一時ファイル"
+"<literal>AttrStr not contains \"H\" and Name like \"*.tmp\"</literal> - 非表"
+"示でない一時ファイル"
 
 #. type: Content of: <article><section><section><section><itemizedlist><listitem><para>
 #: English/Filters.xml:1115
