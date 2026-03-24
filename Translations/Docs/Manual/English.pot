@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge 2.16\n"
 "Report-Msgid-Bugs-To: https://github.com/WinMerge/winmerge/issues\n"
-"POT-Creation-Date: 2026-03-18 06:14+0900\n"
+"POT-Creation-Date: 2026-03-25 06:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1523,8 +1523,8 @@ msgstr ""
 msgid "Compare window"
 msgstr ""
 
-#. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
-#: ./English/Compare_dirs.xml:153 ./English/Filters.xml:396
+#. type: Content of: <article><section><title><indexterm><secondary>
+#: ./English/Compare_dirs.xml:153
 msgid "Folder"
 msgstr ""
 
@@ -6387,8 +6387,8 @@ msgstr ""
 msgid "Basic Detection Keys"
 msgstr ""
 
-#. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
-#: ./English/Configuration.xml:1549 ./English/Filters.xml:380
+#. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
+#: ./English/Configuration.xml:1549
 msgid "Name"
 msgstr ""
 
@@ -6427,8 +6427,8 @@ msgstr ""
 msgid "Matches files by their relative path from the comparison root. Useful for detecting files that have been renamed but maintain their relative directory structure."
 msgstr ""
 
-#. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
-#: ./English/Configuration.xml:1586 ./English/Filters.xml:408
+#. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
+#: ./English/Configuration.xml:1586
 msgid "Size"
 msgstr ""
 
@@ -6437,8 +6437,8 @@ msgstr ""
 msgid "Matches files by size. Useful for detecting files that have been renamed but have the same size."
 msgstr ""
 
-#. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
-#: ./English/Configuration.xml:1595 ./English/Filters.xml:412
+#. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
+#: ./English/Configuration.xml:1595
 msgid "Date"
 msgstr ""
 
@@ -8916,8 +8916,8 @@ msgstr ""
 msgid "The <literal>@name</literal> directive can be combined with other directives.  When multiple directives are used, they should all appear at the beginning of the expression, separated by whitespace."
 msgstr ""
 
-#. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
-#: ./English/Filters.xml:364 ./English/Filters.xml:424
+#. type: Content of: <article><section><section><section><title>
+#: ./English/Filters.xml:364
 msgid "Attributes"
 msgstr ""
 
@@ -8933,12 +8933,17 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:376
-msgid "Exists"
+msgid "<varname>Exists</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
 #: ./English/Filters.xml:377
 msgid "Returns <literal>true</literal> if the file exists, <literal>false</literal> otherwise"
+msgstr ""
+
+#. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
+#: ./English/Filters.xml:380
+msgid "<varname>Name</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -8948,7 +8953,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:384
-msgid "BaseName"
+msgid "<varname>BaseName</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -8958,7 +8963,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:388
-msgid "Extension"
+msgid "<varname>Extension</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -8968,12 +8973,17 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:392
-msgid "IsFolder"
+msgid "<varname>IsFolder</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
 #: ./English/Filters.xml:393
 msgid "Returns true if the item is a folder/directory, false if it's a file."
+msgstr ""
+
+#. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
+#: ./English/Filters.xml:396
+msgid "<varname>Folder</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -8983,7 +8993,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:400
-msgid "RelPath"
+msgid "<varname>RelPath</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -8993,7 +9003,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:404
-msgid "FullPath"
+msgid "<varname>FullPath</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9001,9 +9011,19 @@ msgstr ""
 msgid "Returns the full path of the file"
 msgstr ""
 
+#. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
+#: ./English/Filters.xml:408
+msgid "<varname>Size</varname>"
+msgstr ""
+
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
 #: ./English/Filters.xml:409
 msgid "File size"
+msgstr ""
+
+#. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
+#: ./English/Filters.xml:412
+msgid "<varname>Date</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9013,7 +9033,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:416
-msgid "DateStr"
+msgid "<varname>DateStr</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9023,12 +9043,17 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:420
-msgid "CreationTime"
+msgid "<varname>CreationTime</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
 #: ./English/Filters.xml:421
 msgid "Creation date timestamp"
+msgstr ""
+
+#. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
+#: ./English/Filters.xml:424
+msgid "<varname>Attributes</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9038,7 +9063,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:428
-msgid "AttrStr"
+msgid "<varname>AttrStr</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9058,7 +9083,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:450
-msgid "Content"
+msgid "<varname>Content</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9078,7 +9103,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:465
-msgid "Files"
+msgid "<varname>Files</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9088,7 +9113,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:469
-msgid "RecursiveFiles"
+msgid "<varname>RecursiveFiles</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9098,7 +9123,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:473
-msgid "Items"
+msgid "<varname>Items</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9108,7 +9133,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:477
-msgid "RecursiveItems"
+msgid "<varname>RecursiveItems</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9118,7 +9143,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:481
-msgid "TotalSize"
+msgid "<varname>TotalSize</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9128,7 +9153,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:485
-msgid "RecursiveTotalSize"
+msgid "<varname>RecursiveTotalSize</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9178,7 +9203,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:518
-msgid "Prop"
+msgid "<varname>Prop</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9188,7 +9213,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:528
-msgid "LeftProp"
+msgid "<varname>LeftProp</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9198,7 +9223,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:537
-msgid "MiddleProp"
+msgid "<varname>MiddleProp</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9208,7 +9233,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:544
-msgid "RightProp"
+msgid "<varname>RightProp</varname>"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9441,7 +9466,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:706
-msgid "lineCount(<replaceable>content</replaceable>)"
+msgid "<function>lineCount</function>(<replaceable>content</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9451,7 +9476,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:710
-msgid "sublines(<replaceable>content</replaceable>, <replaceable>start</replaceable>, <replaceable>count</replaceable>)"
+msgid "<function>sublines</function>(<replaceable>content</replaceable>, <replaceable>start</replaceable>, <replaceable>count</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9461,7 +9486,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:719
-msgid "strlen(<replaceable>source</replaceable>)"
+msgid "<function>strlen</function>(<replaceable>source</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9471,7 +9496,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:723
-msgid "substr(<replaceable>source</replaceable>, <replaceable>start</replaceable>, <replaceable>count</replaceable>)"
+msgid "<function>substr</function>(<replaceable>source</replaceable>, <replaceable>start</replaceable>, <replaceable>count</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9481,7 +9506,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:727
-msgid "replace(str, from, to)"
+msgid "<function>replace</function>(str, from, to)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9491,7 +9516,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:737
-msgid "regexReplace(str, pattern, replacement)"
+msgid "<function>regexReplace</function>(str, pattern, replacement)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9501,7 +9526,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:748
-msgid "replaceWithList(str, filepath)"
+msgid "<function>replaceWithList</function>(str, filepath)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9540,7 +9565,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:769
-msgid "regexReplaceWithList(str, filepath)"
+msgid "<function>regexReplaceWithList</function>(str, filepath)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9564,7 +9589,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:790
-msgid "normalizeUnicode(str[, form])"
+msgid "<function>normalizeUnicode</function>(str[, form])"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9574,7 +9599,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:803
-msgid "toLower(<replaceable>str</replaceable>)"
+msgid "<function>toLower</function>(<replaceable>str</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9584,7 +9609,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:815
-msgid "toUpper(<replaceable>str</replaceable>)"
+msgid "<function>toUpper</function>(<replaceable>str</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9594,7 +9619,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:827
-msgid "toHalfWidth(<replaceable>str</replaceable>)"
+msgid "<function>toHalfWidth</function>(<replaceable>str</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9604,7 +9629,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:839
-msgid "toFullWidth(<replaceable>str</replaceable>)"
+msgid "<function>toFullWidth</function>(<replaceable>str</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9614,7 +9639,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:851
-msgid "toKatakana(<replaceable>str</replaceable>)"
+msgid "<function>toKatakana</function>(<replaceable>str</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9624,7 +9649,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:863
-msgid "toHiragana(<replaceable>str</replaceable>)"
+msgid "<function>toHiragana</function>(<replaceable>str</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9634,7 +9659,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:875
-msgid "toSimplifiedChinese(<replaceable>str</replaceable>)"
+msgid "<function>toSimplifiedChinese</function>(<replaceable>str</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9644,7 +9669,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:887
-msgid "toTraditionalChinese(<replaceable>str</replaceable>)"
+msgid "<function>toTraditionalChinese</function>(<replaceable>str</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9654,7 +9679,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:898
-msgid "now()"
+msgid "<function>now</function>()"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9664,7 +9689,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:902
-msgid "today()"
+msgid "<function>today</function>()"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9674,7 +9699,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:906
-msgid "startOfWeek(<replaceable>timestamp</replaceable>)"
+msgid "<function>startOfWeek</function>(<replaceable>timestamp</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9684,7 +9709,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:910
-msgid "startOfMonth(<replaceable>timestamp</replaceable>)"
+msgid "<function>startOfMonth</function>(<replaceable>timestamp</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9694,7 +9719,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:914
-msgid "startOfYear(<replaceable>timestamp</replaceable>)"
+msgid "<function>startOfYear</function>(<replaceable>timestamp</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9704,7 +9729,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:918
-msgid "toDateStr(<replaceable>timestamp</replaceable>)"
+msgid "<function>toDateStr</function>(<replaceable>timestamp</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9714,7 +9739,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:922
-msgid "abs(<replaceable>value</replaceable>)"
+msgid "<function>abs</function>(<replaceable>value</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9724,7 +9749,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:926
-msgid "allof(<replaceable>booleans</replaceable>)"
+msgid "<function>allof</function>(<replaceable>booleans</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9734,7 +9759,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:930
-msgid "allequal(<replaceable>array</replaceable>)"
+msgid "<function>allequal</function>(<replaceable>array</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9744,7 +9769,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:934
-msgid "isWithin(<replaceable>value</replaceable>, <replaceable>min</replaceable>, <replaceable>max</replaceable>)"
+msgid "<function>isWithin</function>(<replaceable>value</replaceable>, <replaceable>min</replaceable>, <replaceable>max</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9774,7 +9799,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:951
-msgid "inRange(<replaceable>value</replaceable>, <replaceable>min</replaceable>, <replaceable>max</replaceable>)"
+msgid "<function>inRange</function>(<replaceable>value</replaceable>, <replaceable>min</replaceable>, <replaceable>max</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9804,7 +9829,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:968
-msgid "logError(<replaceable>value1</replaceable>, <replaceable>value2</replaceable>, ...), logWarn(<replaceable>value1</replaceable>, <replaceable>value2</replaceable>, ...), logInfo(<replaceable>value1</replaceable>, <replaceable>value2</replaceable>, ...)"
+msgid "<function>logError</function>(<replaceable>value1</replaceable>, <replaceable>value2</replaceable>, ...), <function>logWarn</function>(<replaceable>value1</replaceable>, <replaceable>value2</replaceable>, ...), <function>logInfo</function>(<replaceable>value1</replaceable>, <replaceable>value2</replaceable>, ...)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9834,7 +9859,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:984
-msgid "if(<replaceable>condition</replaceable>, <replaceable>trueValue</replaceable>, <replaceable>falseValue</replaceable>)"
+msgid "<function>if</function>(<replaceable>condition</replaceable>, <replaceable>trueValue</replaceable>, <replaceable>falseValue</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9859,7 +9884,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:999
-msgid "ifEach(<replaceable>conditionArray</replaceable>, <replaceable>trueValue</replaceable>, <replaceable>falseValue</replaceable>)"
+msgid "<function>ifEach</function>(<replaceable>conditionArray</replaceable>, <replaceable>trueValue</replaceable>, <replaceable>falseValue</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9884,7 +9909,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:1017
-msgid "choose(<replaceable>index</replaceable>, <replaceable>value0</replaceable>, <replaceable>value1</replaceable>, ...)"
+msgid "<function>choose</function>(<replaceable>index</replaceable>, <replaceable>value0</replaceable>, <replaceable>value1</replaceable>, ...)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9909,7 +9934,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:1033
-msgid "chooseEach(<replaceable>indexArray</replaceable>, <replaceable>value0</replaceable>, <replaceable>value1</replaceable>, ...)"
+msgid "<function>chooseEach</function>(<replaceable>indexArray</replaceable>, <replaceable>value0</replaceable>, <replaceable>value1</replaceable>, ...)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>
@@ -9934,7 +9959,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><term>
 #: ./English/Filters.xml:1049
-msgid "andEach(<replaceable>value1</replaceable>, <replaceable>value2</replaceable>), orEach(<replaceable>value1</replaceable>, <replaceable>value2</replaceable>), notEach(<replaceable>value</replaceable>)"
+msgid "<function>andEach</function>(<replaceable>value1</replaceable>, <replaceable>value2</replaceable>), <function>orEach</function>(<replaceable>value1</replaceable>, <replaceable>value2</replaceable>), <function>notEach</function>(<replaceable>value</replaceable>)"
 msgstr ""
 
 #. type: Content of: <article><section><section><section><variablelist><varlistentry><listitem><para>

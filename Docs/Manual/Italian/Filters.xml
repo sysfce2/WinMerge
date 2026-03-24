@@ -393,66 +393,66 @@ applica un attributo utilizzando un prefisso.</para>
           <title>Attributi fondamentali</title>
           <variablelist>
             <varlistentry>
-              <term>Esiste</term>
+              <term><varname>Exists</varname></term>
               <listitem><para>Restituisce <literal>true</literal> se il file esiste,
 <literal>false</literal> altrimenti</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Nome</term>
+              <term><varname>Name</varname></term>
               <listitem><para>Nome del file</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>BaseName</term>
+              <term><varname>BaseName</varname></term>
               <listitem><para>Restituisce il nome del file senza estensione.Ad esempio, "document.txt"
 restituisce "documento".</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Estensione</term>
+              <term><varname>Extension</varname></term>
               <listitem><para>Estensione del file</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>ÈCartella</term>
+              <term><varname>IsFolder</varname></term>
               <listitem><para>Restituisce vero se l'elemento è una cartella/cartella, falso se è un file.</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Cartella</term>
+              <term><varname>Folder</varname></term>
               <listitem><para>Restituisce il percorso relativo escludendo il nome del file e la cartella
 di base</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Percorsorel</term>
+              <term><varname>RelPath</varname></term>
               <listitem><para>Restituisce il percorso relativo dalla cartella principale di confronto,
 inclusi sia il percorso della cartella che il nome del file. Ad esempio, se
 si confronta "C:\Project" e il file si trova in "C:\Project\src\main.cpp",
 RelPath restituisce "src\main.cpp".</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Percorso completo</term>
+              <term><varname>FullPath</varname></term>
               <listitem><para>Restituisce il percorso completo del file</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Misurare</term>
+              <term><varname>Size</varname></term>
               <listitem><para>Dimensioni del file</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Data</term>
+              <term><varname>Date</varname></term>
               <listitem><para>Ultima data e ora modificata</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>DataStr</term>
+              <term><varname>DateStr</varname></term>
               <listitem><para>Stringa della data dell'ultima modifica nel formato
 <literal>aaaa-MM-gg</literal></para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Tempo di creazione</term>
+              <term><varname>CreationTime</varname></term>
               <listitem><para>Timestamp della data di creazione</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Attributi</term>
+              <term><varname>Attributes</varname></term>
               <listitem><para>Restituisce gli attributi del file come valore intero</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>AttrStr</term>
+              <term><varname>AttrStr</varname></term>
               <listitem>
                 <para>Restituisce la stringa dell'attributo del file.Esempi:
 <literal>"R"</literal> per sola lettura, <literal>"H"</literal> per
@@ -472,7 +472,7 @@ definito.</para>
 
           <variablelist>
             <varlistentry>
-              <term>Contenuto</term>
+              <term><varname>Content</varname></term>
               <listitem><para>Contenuto del file.Restituisce un valore di tipo FileContent.Con questo tipo
 è possibile utilizzare solo <literal>contains</literal> e
 <literal>recontains</literal>.</para></listitem>
@@ -489,30 +489,30 @@ definito.</para>
 
           <variablelist>
             <varlistentry>
-              <term>File</term>
+              <term><varname>Files</varname></term>
               <listitem><para>Numero di file direttamente contenuti nella cartella.</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>File ricorsivi</term>
+              <term><varname>RecursiveFiles</varname></term>
               <listitem><para>Numero di file contenuti nella cartella, incluse tutte le sottocartelle.</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Elementi</term>
+              <term><varname>Items</varname></term>
               <listitem><para>Numero di elementi (file e sottocartelle) contenuti direttamente nella
 cartella.</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Elementi ricorsivi</term>
+              <term><varname>RecursiveItems</varname></term>
               <listitem><para>Numero di elementi (file e sottocartelle) contenuti nella cartella, incluse
 tutte le sottocartelle.</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>Dimensione totale</term>
+              <term><varname>TotalSize</varname></term>
               <listitem><para>Dimensione totale di tutti i file direttamente contenuti nella cartella, in
 byte.</para></listitem>
             </varlistentry>
             <varlistentry>
-              <term>RecursiveTotalSize</term>
+              <term><varname>RecursiveTotalSize</varname></term>
               <listitem><para>Dimensione totale di tutti i file contenuti nella cartella, incluse tutte le
 sottocartelle, in byte.</para></listitem>
             </varlistentry>
@@ -549,7 +549,7 @@ Windows (ad esempio, <literal>System.Title</literal>,
 
           <variablelist>
             <varlistentry>
-              <term>Puntello</term>
+              <term><varname>Prop</varname></term>
               <listitem>
                 <para>
 Restituisce una matrice di valori di proprietà (Sinistra, Centro, Destra)
@@ -559,7 +559,7 @@ per il nome della proprietà canonica specificata.Esempio:
             </varlistentry>
 
             <varlistentry>
-              <term>LeftProp</term>
+              <term><varname>LeftProp</varname></term>
               <listitem>
                 <para>
 Valore della proprietà del file sul lato sinistro.Esempio:
@@ -568,14 +568,14 @@ Valore della proprietà del file sul lato sinistro.Esempio:
             </varlistentry>
 
             <varlistentry>
-              <term>MiddleProp</term>
+              <term><varname>MiddleProp</varname></term>
               <listitem>
                 <para>Valore della proprietà del file centrale (nel confronto a 3 vie).</para>
               </listitem>
             </varlistentry>
 
             <varlistentry>
-              <term>GiustoProp</term>
+              <term><varname>RightProp</varname></term>
               <listitem>
                 <para>Valore della proprietà del file sul lato destro.</para>
               </listitem>
@@ -745,15 +745,15 @@ esista alcuna corrispondenza.</para>
 
         <variablelist>
           <varlistentry>
-            <term>lineCount(<replaceable>contenuto</replaceable>)</term>
+            <term><function>lineCount</function>(<replaceable>content</replaceable>)</term>
             <listitem><para>Restituisce il numero di righe nel contenuto del file o nell'array del
 contenuto del file come <literal>Intero</literal>.Se
 <replaceable>content</replaceable> è un array, il risultato è un array di
 numeri interi.Esempio: <literal>lineCount(Content)</literal></para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>sublines(<replaceable>contenuto</replaceable>,
-<replaceable>inizio</replaceable>, <replaceable>conteggio</replaceable>)</term>
+            <term><function>sublines</function>(<replaceable>content</replaceable>,
+<replaceable>start</replaceable>, <replaceable>count</replaceable>)</term>
             <listitem>
               <para>
 Estrae il numero specificato di righe a partire dall'indice di riga
@@ -764,21 +764,21 @@ stringhe.</para>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>strlen(<replaceable>fonte</replaceable>)</term>
+            <term><function>strlen</function>(<replaceable>source</replaceable>)</term>
             <listitem><para>Restituisce la lunghezza della stringa come <literal>Intero</literal>.Se
 <replaceable>source</replaceable> è un array di stringhe, il risultato è un
 array di numeri interi.Esempio: <literal>strlen(Nome)</literal></para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>substr(<replaceable>sorgente</replaceable>,
-<replaceable>inizio</replaceable>, <replaceable>conteggio</replaceable>)</term>
+            <term><function>substr</function>(<replaceable>source</replaceable>,
+<replaceable>start</replaceable>, <replaceable>count</replaceable>)</term>
             <listitem><para>Restituisce un intervallo specifico di testo dalla <emphasis>stringa o
 dall'array di stringhe</emphasis> come <literal>Stringa</literal>.Se
 <replaceable>source</replaceable> è un array di stringhe, il risultato è un
 array di stringhe.Esempio: <literal>substr(Nome, 0, 3)</literal></para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>sostituire(str, da, a)</term>
+            <term><function>replace</function>(str, from, to)</term>
             <listitem>
               <para>
 Sostituisce tutte le occorrenze della stringa
@@ -789,7 +789,7 @@ stringhe a cui sono applicate le sostituzioni.Esempio:
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>regexReplace(str, modello, sostituzione)</term>
+            <term><function>regexReplace</function>(str, pattern, replacement)</term>
             <listitem>
               <para>
 Sostituisce tutte le corrispondenze del modello di espressione regolare con
@@ -802,7 +802,7 @@ sottolineatura.</para>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>sostituisciConLista(str, percorsofile)</term>
+            <term><function>replaceWithList</function>(str, filepath)</term>
             <listitem>
               <para>
 Sostituisce più stringhe in <replaceable>str</replaceable> utilizzando le
@@ -826,7 +826,7 @@ applica le sostituzioni dal file al nome del file</para></listitem>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>regexReplaceWithList(str, percorsofile)</term>
+            <term><function>regexReplaceWithList</function>(str, filepath)</term>
             <listitem>
               <para>
 Sostituisce le stringhe in <replaceable>str</replaceable> utilizzando
@@ -851,7 +851,7 @@ al nome del file</para></listitem>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>normalizza Unicode(str[, modulo])</term>
+            <term><function>normalizeUnicode</function>(str[, form])</term>
             <listitem>
               <para>
 Normalizza la stringa Unicode.Il parametro facoltativo del modulo specifica
@@ -864,7 +864,7 @@ risultato è un array di stringhe normalizzate.Esempio:
           </varlistentry>
           <varlistentry>
             <term>
-toLower(<replaceable>str</replaceable>)</term>
+<function>toLower</function>(<replaceable>str</replaceable>)</term>
             <listitem>
               <para>
 Converte tutti i caratteri della stringa in minuscolo.Se
@@ -875,7 +875,7 @@ restituisce <literal>"hello world"</literal></para>
           </varlistentry>
           <varlistentry>
             <term>
-toUpper(<replaceable>str</replaceable>)</term>
+<function>toUpper</function>(<replaceable>str</replaceable>)</term>
             <listitem>
               <para>
 Converte tutti i caratteri della stringa in maiuscolo.Se
@@ -886,7 +886,7 @@ restituisce <literal>"HELLO WORLD"</literal></para>
           </varlistentry>
           <varlistentry>
             <term>
-toHalfWidth(<replaceable>str</replaceable>)</term>
+<function>toHalfWidth</function>(<replaceable>str</replaceable>)</term>
             <listitem>
               <para>
 Converte i caratteri a larghezza intera in caratteri a metà
@@ -898,7 +898,7 @@ stringhe convertite.</para>
           </varlistentry>
           <varlistentry>
             <term>
-toFullWidth(<replaceable>str</replaceable>)</term>
+<function>toFullWidth</function>(<replaceable>str</replaceable>)</term>
             <listitem>
               <para>
 Converte i caratteri a mezza larghezza in caratteri a larghezza
@@ -910,7 +910,7 @@ stringhe convertite.</para>
           </varlistentry>
           <varlistentry>
             <term>
-toKatakana(<replaceable>str</replaceable>)</term>
+<function>toKatakana</function>(<replaceable>str</replaceable>)</term>
             <listitem>
               <para>
 Converte i caratteri hiragana in katakana.I caratteri non hiragana rimangono
@@ -920,7 +920,7 @@ array di stringhe convertite.</para>
           </varlistentry>
           <varlistentry>
             <term>
-toHiragana(<replaceable>str</replaceable>)</term>
+<function>toHiragana</function>(<replaceable>str</replaceable>)</term>
             <listitem>
               <para>
 Converte i caratteri katakana in hiragana.I caratteri non katakana rimangono
@@ -930,7 +930,7 @@ array di stringhe convertite.</para>
           </varlistentry>
           <varlistentry>
             <term>
-toCinese semplificato(<replaceable>str</replaceable>)</term>
+<function>toSimplifiedChinese</function>(<replaceable>str</replaceable>)</term>
             <listitem>
               <para>
 Converte i caratteri cinesi tradizionali in caratteri cinesi semplificati.I
@@ -941,7 +941,7 @@ stringhe convertite.</para>
           </varlistentry>
           <varlistentry>
             <term>
-toCinese tradizionale(<replaceable>str</replaceable>)</term>
+<function>toTraditionalChinese</function>(<replaceable>str</replaceable>)</term>
             <listitem>
               <para>
 Converte i caratteri cinesi semplificati in caratteri cinesi tradizionali.I
@@ -951,53 +951,53 @@ stringhe convertite.</para>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>ora()</term>
+            <term><function>now</function>()</term>
             <listitem><para>Restituisce la data e l'ora correnti come valore
 <literal>Timestamp</literal>.</para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>oggi()</term>
+            <term><function>today</function>()</term>
             <listitem><para>Restituisce la data odierna come valore <literal>Timestamp</literal> che
 rappresenta <literal>00:00:00.000</literal> all'inizio della giornata.</para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>startOfWeek(<replaceable>timestamp</replaceable>)</term>
+            <term><function>startOfWeek</function>(<replaceable>timestamp</replaceable>)</term>
             <listitem><para>Restituisce il primo giorno della settimana, che è sempre domenica,
 indipendentemente dalle impostazioni locali.</para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>startOfMonth(<replaceable>timestamp</replaceable>)</term>
+            <term><function>startOfMonth</function>(<replaceable>timestamp</replaceable>)</term>
             <listitem><para>Restituisce il primo giorno del mese.</para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>startOfYear(<replaceable>timestamp</replaceable>)</term>
+            <term><function>startOfYear</function>(<replaceable>timestamp</replaceable>)</term>
             <listitem><para>Restituisce il primo giorno dell'anno.</para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>toDateStr(<replaceable>timestamp</replaceable>)</term>
+            <term><function>toDateStr</function>(<replaceable>timestamp</replaceable>)</term>
             <listitem><para>Converte il timestamp specificato in una stringa di data nel formato
 <literal>aaaa-MM-gg</literal>.Se <replaceable>timestamp</replaceable> è un
 array di timestamp, il risultato è un array di stringhe.</para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>abs(<replaceable>valore</replaceable>)</term>
+            <term><function>abs</function>(<replaceable>value</replaceable>)</term>
             <listitem><para>Restituisce il valore assoluto dell'<emphasis>intero o dell'array di
 interi</emphasis>.Se <replaceable>value</replaceable> è un array di numeri
 interi, il risultato è un array di numeri interi.</para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>allof(<replaceable>booleani</replaceable>)</term>
+            <term><function>allof</function>(<replaceable>booleans</replaceable>)</term>
             <listitem><para>Restituisce <literal>true</literal> se tutti gli elementi
 nell'<emphasis>array booleano</emphasis> soddisfano la condizione.</para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>allequal(<replaceable>array</replaceable>)</term>
+            <term><function>allequal</function>(<replaceable>array</replaceable>)</term>
             <listitem><para>Restituisce <literal>true</literal> se tutti i valori nell'array sono
 uguali.</para></listitem>
           </varlistentry>
           <varlistentry>
-            <term>isWithin(<replaceable>valore</replaceable>, <replaceable>min</replaceable>,
-<replaceable>max</replaceable>)</term>
+            <term><function>isWithin</function>(<replaceable>value</replaceable>,
+<replaceable>min</replaceable>, <replaceable>max</replaceable>)</term>
             <listitem>
               <para>
 Restituisce <literal>true</literal> se <replaceable>valore</replaceable> è
@@ -1019,8 +1019,8 @@ dimensioni dei file sono comprese tra 1KB e 10MB</para></listitem>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>inRange(<replaceable>valore</replaceable>, <replaceable>min</replaceable>,
-<replaceable>max</replaceable>)</term>
+            <term><function>inRange</function>(<replaceable>value</replaceable>,
+<replaceable>min</replaceable>, <replaceable>max</replaceable>)</term>
             <listitem>
               <para>
 Restituisce <literal>true</literal> se <replaceable>value</replaceable> è
@@ -1041,11 +1041,11 @@ controlla se qualche file è stato modificato questo mese (escluso oggi)</para><
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>logError(<replaceable>valore1</replaceable>,
+            <term><function>logError</function>(<replaceable>value1</replaceable>,
 <replaceable>value2</replaceable>, ...),
-logWarn(<replaceable>value1</replaceable>,
+<function>logWarn</function>(<replaceable>value1</replaceable>,
 <replaceable>value2</replaceable>, ...),
-logInfo(<replaceable>value1</replaceable>,
+<function>logInfo</function>(<replaceable>value1</replaceable>,
 <replaceable>value2</replaceable>, ...)</term>
             <listitem>
               <para>
@@ -1067,7 +1067,7 @@ vera, quindi controlla il nome</para></listitem>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>if(<replaceable>condizione</replaceable>,
+            <term><function>if</function>(<replaceable>condition</replaceable>,
 <replaceable>trueValue</replaceable>, <replaceable>falseValue</replaceable>)</term>
             <listitem>
               <para>
@@ -1087,7 +1087,7 @@ o 0 se il file non esiste</para></listitem>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>ifEach(<replaceable>conditionArray</replaceable>,
+            <term><function>ifEach</function>(<replaceable>conditionArray</replaceable>,
 <replaceable>trueValue</replaceable>, <replaceable>falseValue</replaceable>)</term>
             <listitem>
               <para>
@@ -1110,8 +1110,8 @@ controlla se qualche file è compreso tra 100KB e 10MB</para></listitem>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>choose(<replaceable>indice</replaceable>,
-<replaceable>valore0</replaceable>, <replaceable>valore1</replaceable>, ...)</term>
+            <term><function>choose</function>(<replaceable>index</replaceable>,
+<replaceable>value0</replaceable>, <replaceable>value1</replaceable>, ...)</term>
             <listitem>
               <para>
 Seleziona un valore dagli argomenti in base a
@@ -1131,7 +1131,7 @@ limiti, restituisce l'ultimo valore)</para></listitem>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>chooseEach(<replaceable>indexArray</replaceable>,
+            <term><function>chooseEach</function>(<replaceable>indexArray</replaceable>,
 <replaceable>value0</replaceable>, <replaceable>value1</replaceable>, ...)</term>
             <listitem>
               <para>
@@ -1151,11 +1151,11 @@ restituisce <literal>array("terzo", "primo", "secondo")</literal></para></listit
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>andEach(<replaceable>valore1</replaceable>,
-<replaceable>valore2</replaceable>),
-orEach(<replaceable>valore1</replaceable>,
-<replaceable>valore2</replaceable>),
-notEach(<replaceable>valore</replaceable>)</term>
+            <term><function>andEach</function>(<replaceable>value1</replaceable>,
+<replaceable>value2</replaceable>),
+<function>orEach</function>(<replaceable>value1</replaceable>,
+<replaceable>value2</replaceable>),
+<function>notEach</function>(<replaceable>value</replaceable>)</term>
             <listitem>
               <para>
 Operazioni logiche per elementi.Queste funzioni operano su booleani, array
