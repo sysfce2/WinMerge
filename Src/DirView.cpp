@@ -3427,7 +3427,7 @@ void CDirView::OnPluginSettings(UINT nID)
 		String filteredFilenames = ctxt.GetFilteredFilenames(GetDiffItem(sel));
 		ctxt.FetchPluginInfos(filteredFilenames, &infoUnpacker, &infoPrediffer);
 		GetDiffContext().FetchPluginInfos(filteredFilenames, &infoUnpacker, &infoPrediffer);
-		CSelectPluginDlg dlg(infoUnpacker->GetPluginPipeline(), filteredFilenames,
+		CSelectPluginDlg dlg(unpacker ? infoUnpacker->GetPluginPipeline() : infoPrediffer->GetPluginPipeline(), filteredFilenames,
 			unpacker ? CSelectPluginDlg::PluginType::Unpacker : CSelectPluginDlg::PluginType::Prediffer, false, this);
 		if (dlg.DoModal() != IDOK)
 			return;
