@@ -229,14 +229,22 @@ std::string EnvironmentImpl::osArchitectureImpl()
 		return "AMD64"s;
 	case PROCESSOR_ARCHITECTURE_IA32_ON_WIN64:
 		return "IA64/32"s;
+#ifdef PROCESSOR_ARCHITECTURE_NEUTRAL
 	case PROCESSOR_ARCHITECTURE_NEUTRAL:
 		return "NEUTRAL"s;
+#endif
+#ifdef PROCESSOR_ARCHITECTURE_ARM64
 	case PROCESSOR_ARCHITECTURE_ARM64:
 		return "ARM64"s;
+#endif
+#ifdef PROCESSOR_ARCHITECTURE_ARM32_ON_WIN64
 	case PROCESSOR_ARCHITECTURE_ARM32_ON_WIN64:
 		return "IA64/ARM"s;
+#endif
+#ifdef PROCESSOR_ARCHITECTURE_IA32_ON_ARM64
 	case PROCESSOR_ARCHITECTURE_IA32_ON_ARM64:
 		return "ARM64/IA32"s;
+#endif
 	default:
 		return "Unknown";
 	}
