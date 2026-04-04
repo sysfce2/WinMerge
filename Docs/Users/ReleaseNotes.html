@@ -41,8 +41,9 @@ for the production.</p>
 <h2 id="what-is-new-in-21655-beta">What Is New in 2.16.55 Beta</h2>
 <h3 id="general">General</h3>
 <ul>
-<li>Fix incorrect GetAsyncKeyState usage for modifier key detection (PR
-#3257)</li>
+<li><p>Fix incorrect GetAsyncKeyState usage for modifier key detection
+(PR #3257)</p></li>
+<li><p>Update POCO C++ Libraries to 1.15.1 (PR #3292)</p></li>
 </ul>
 <h3 id="file-compare">File compare</h3>
 <ul>
@@ -65,6 +66,8 @@ winimerge/#33)</p></li>
 <ul>
 <li><p>BugFix: Fix an issue where skipped items were not properly
 filtered during folder/file comparison. (PR #3267)</p></li>
+<li><p>BugFix: Fix potential hang in DiffWorker shutdown (PR
+#3300)</p></li>
 <li><p>Extend “Merge renamed items” option to support moved items (PR
 #3181)</p></li>
 <li><p>Refactor compare engines to use DiffContext (PR #3197)</p></li>
@@ -84,6 +87,10 @@ FullQuickCompare (PR #3201)</p></li>
 (PR #3268)</p></li>
 <li><p>Add display filter attributes and UI for filtering by comparison
 results (PR #3284)</p></li>
+<li><p>Add ability to hide empty folders in tree mode (PR
+#3293)</p></li>
+<li><p>Add Unpacker and Prediffer fields to file filter expressions (PR
+#3295)</p></li>
 </ul>
 <h3 id="plugins">Plugins</h3>
 <ul>
@@ -100,25 +107,28 @@ order number to individual tsv, txt or html files (#3212)</p></li>
 <ul>
 <li>Brazilian (PR #3185,#3194,#3219,#3231,#3245,#3275,#3287)</li>
 <li>Chinese Simplified (PR #3183,#3191,#3220,#3228,#3244)</li>
-<li>Corsican (PR #3259)</li>
+<li>Corsican (PR #3259,#3299)</li>
 <li>French (PR #3239)</li>
-<li>German (PR #3187,#3196,#3217,#3232,#3237,#3251,#3274,#3288)</li>
+<li>German (PR
+#3187,#3196,#3217,#3232,#3237,#3251,#3274,#3288,#3297)</li>
 <li>Hungarian (PR #3186,#3238,#3252)</li>
 <li>Italian (PR
 #3199,#3218,#3229,#3235,#3236,#3246,#3249,#3269,#3272,#3285)</li>
 <li>Japanese (PR #3258)</li>
-<li>Korean (PR #3247,#3279)</li>
-<li>Lithuanian (PR #3184,#3192,#3230,#3276)</li>
+<li>Korean (PR #3247,#3279,#3301)</li>
+<li>Lithuanian (PR #3184,#3192,#3230,#3276,#3290)</li>
 <li>Polish (PR #3233,#3273)</li>
 <li>Russian (PR #3226,#3281)</li>
-<li>Turkish (PR #3204,#3221,#3227,#3250,#3271,#3286)</li>
+<li>Turkish (PR #3204,#3221,#3227,#3250,#3271,#3286,#3298)</li>
 <li>Ukrainian (PR #)</li>
 </ul></li>
 </ul>
 <h3 id="documentation">Documentation</h3>
 <ul>
-<li>Added: Community standard files (like issue templates, pr template).
-(PR #3225)</li>
+<li><p>Added: Community standard files (like issue templates, pr
+template). (PR #3225)</p></li>
+<li><p>Add context IDs to PO files &amp; strip comments for releases (PR
+#3296)</p></li>
 </ul>
 <h2 id="known-issues">Known issues</h2>
 <ul>

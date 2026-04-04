@@ -19,6 +19,8 @@ Please submit bug reports to our bug-tracker.
 
 * Fix incorrect GetAsyncKeyState usage for modifier key detection (PR #3257)
 
+* Update POCO C++ Libraries to 1.15.1 (PR #3292)
+
 ### File compare
 
 * BugFix: Fix keyboard input issue after Alt+mouse operations (PR #3254)
@@ -43,6 +45,8 @@ Please submit bug reports to our bug-tracker.
 * BugFix: Fix an issue where skipped items were not properly filtered during
     folder/file comparison. (PR #3267)
 
+* BugFix: Fix potential hang in DiffWorker shutdown (PR #3300)
+
 * Extend “Merge renamed items” option to support moved items (PR #3181)
 
 * Refactor compare engines to use DiffContext (PR #3197)
@@ -64,7 +68,11 @@ Please submit bug reports to our bug-tracker.
 
 * Add display filter attributes and UI for filtering by comparison results
     (PR #3284)
-    
+
+* Add ability to hide empty folders in tree mode (PR #3293)
+
+* Add Unpacker and Prediffer fields to file filter expressions (PR #3295)
+
 ### Plugins
 
 * Add PrettifyPO and ValidatePO plugins for .po/.pot files (PR #3190)
@@ -79,23 +87,25 @@ Please submit bug reports to our bug-tracker.
 * Translation updates:
   * Brazilian (PR #3185,#3194,#3219,#3231,#3245,#3275,#3287)
   * Chinese Simplified (PR #3183,#3191,#3220,#3228,#3244)
-  * Corsican (PR #3259)
+  * Corsican (PR #3259,#3299)
   * French (PR #3239)
-  * German (PR #3187,#3196,#3217,#3232,#3237,#3251,#3274,#3288)
+  * German (PR #3187,#3196,#3217,#3232,#3237,#3251,#3274,#3288,#3297)
   * Hungarian (PR #3186,#3238,#3252)
   * Italian (PR #3199,#3218,#3229,#3235,#3236,#3246,#3249,#3269,#3272,#3285)
   * Japanese (PR #3258)
-  * Korean (PR #3247,#3279)
-  * Lithuanian (PR #3184,#3192,#3230,#3276)
+  * Korean (PR #3247,#3279,#3301)
+  * Lithuanian (PR #3184,#3192,#3230,#3276,#3290)
   * Polish (PR #3233,#3273)
   * Russian (PR #3226,#3281)
-  * Turkish (PR #3204,#3221,#3227,#3250,#3271,#3286)
+  * Turkish (PR #3204,#3221,#3227,#3250,#3271,#3286,#3298)
   * Ukrainian (PR #)
 
 ### Documentation
 
 * Added: Community standard files (like issue templates, pr template).
     (PR #3225)
+
+* Add context IDs to PO files & strip comments for releases (PR #3296)
 
 ## Known issues
 
