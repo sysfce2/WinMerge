@@ -6680,6 +6680,7 @@ msgstr ""
 #. IDS_COLDESC_NSDIFFS
 #: Merge.rc:4793
 msgid "Number of differences in file (excluding ignored)."
+msgstr ""
 
 #. IDS_COLDESC_BINARY
 #: Merge.rc:4794
