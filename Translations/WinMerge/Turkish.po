@@ -2856,8 +2856,7 @@ msgid "Visit the WinMerge Homepage!"
 msgstr "WinMerge sitesini ziyaret edin!"
 
 #. IDD_PLUGINS_EDITPLUGIN, IDOK
-#: Merge.rc:1938 Merge.rc:2080 Merge.rc:2431 Merge.rc:2455 Merge.rc:2469 Merge.rc:2497 Merge.rc:2588 Merge.rc:2613 Merge.rc:2674 Merge.rc:2691 Merge.rc:2703 Merge.rc:2867 Merge.rc:2927
-#: Merge.rc:3062 Merge.rc:3104 Merge.rc:3147 Merge.rc:3197
+#: Merge.rc:1938 Merge.rc:2080 Merge.rc:2431 Merge.rc:2455 Merge.rc:2469 Merge.rc:2497 Merge.rc:2588 Merge.rc:2613 Merge.rc:2674 Merge.rc:2691 Merge.rc:2703 Merge.rc:2867 Merge.rc:2927 Merge.rc:3062 Merge.rc:3104 Merge.rc:3147 Merge.rc:3197
 msgid "OK"
 msgstr "Tamam"
 
@@ -2957,8 +2956,7 @@ msgid "Se&lect..."
 msgstr "&Seç..."
 
 #. IDD_PLUGINS_EDITPLUGIN, IDCANCEL
-#: Merge.rc:1981 Merge.rc:2001 Merge.rc:2025 Merge.rc:2046 Merge.rc:2081 Merge.rc:2432 Merge.rc:2456 Merge.rc:2470 Merge.rc:2498 Merge.rc:2551 Merge.rc:2589 Merge.rc:2614 Merge.rc:2675
-#: Merge.rc:2692 Merge.rc:2704 Merge.rc:2868 Merge.rc:2928 Merge.rc:3087 Merge.rc:3105 Merge.rc:3148 Merge.rc:3198
+#: Merge.rc:1981 Merge.rc:2001 Merge.rc:2025 Merge.rc:2046 Merge.rc:2081 Merge.rc:2432 Merge.rc:2456 Merge.rc:2470 Merge.rc:2498 Merge.rc:2551 Merge.rc:2589 Merge.rc:2614 Merge.rc:2675 Merge.rc:2692 Merge.rc:2704 Merge.rc:2868 Merge.rc:2928 Merge.rc:3087 Merge.rc:3105 Merge.rc:3148 Merge.rc:3198
 msgid "Cancel"
 msgstr "İptal"
 
@@ -3218,8 +3216,7 @@ msgid "Language:"
 msgstr "Dil:"
 
 #. IDD_PROPPAGE_COMPARE_WEBPAGE, IDC_COMPARE_DEFAULTS
-#: Merge.rc:2119 Merge.rc:2299 Merge.rc:2321 Merge.rc:2352 Merge.rc:2369 Merge.rc:2386 Merge.rc:2394 Merge.rc:2430 Merge.rc:2454 Merge.rc:2633 Merge.rc:2644 Merge.rc:2653 Merge.rc:2887
-#: Merge.rc:2922 Merge.rc:2985 Merge.rc:3010 Merge.rc:3024 Merge.rc:3038 Merge.rc:3054
+#: Merge.rc:2119 Merge.rc:2299 Merge.rc:2321 Merge.rc:2352 Merge.rc:2369 Merge.rc:2386 Merge.rc:2394 Merge.rc:2430 Merge.rc:2454 Merge.rc:2633 Merge.rc:2644 Merge.rc:2653 Merge.rc:2887 Merge.rc:2922 Merge.rc:2985 Merge.rc:3010 Merge.rc:3024 Merge.rc:3038 Merge.rc:3054
 msgid "Defaults"
 msgstr "Varsayılanlar"
 

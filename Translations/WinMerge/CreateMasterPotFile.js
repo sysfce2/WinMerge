@@ -290,9 +290,7 @@ function CreateMasterPotFile(sPotPath, oStrings) {
     }
     if (bInsertLineNumbers) {
       var aReferences = oString.References.split("\t");
-      for (var i = 0; i < aReferences.length; i++) { //For all references...
-        oPotFile.Write("#: " + aReferences[i] + "\n");
-      }
+      oPotFile.Write("#: " + aReferences.join(" ") + "\n");
     }
     if (oString.Id.indexOf("%") >= 0) { //If c-format...
       oPotFile.Write("#, c-format\n");

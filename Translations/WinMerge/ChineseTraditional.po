@@ -24,81 +24,67 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 
 #. LANGUAGE, SUBLANGUAGE
-#: Merge.rc:26
-#: Merge.rc:59
-#: Merge.rc:5453
+#: Merge.rc:26 Merge.rc:59 Merge.rc:5453
 msgid "LANG_ENGLISH, SUBLANG_ENGLISH_US"
 msgstr "LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_TO_MIDDLE_R
-#: Merge.rc:79
-#: Merge.rc:87
+#: Merge.rc:79 Merge.rc:87
 msgid "Copy to Middle"
 msgstr "複製到中間"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_TO_RIGHT_M
-#: Merge.rc:80
-#: Merge.rc:84
+#: Merge.rc:80 Merge.rc:84
 msgid "C&opy to Right\tAlt+Right"
 msgstr "複製到右側  (&O)\tAlt+Right"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_FROM_MIDDLE_R
-#: Merge.rc:81
-#: Merge.rc:89
+#: Merge.rc:81 Merge.rc:89
 msgid "Copy from Middle"
 msgstr "從中間複製"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_FROM_RIGHT_M
-#: Merge.rc:82
-#: Merge.rc:86
+#: Merge.rc:82 Merge.rc:86
 msgid "Copy fro&m Right\tAlt+Shift+Left"
 msgstr "從右側複製 (&M)\tAlt+Shift+Left"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_TO_LEFT_R
-#: Merge.rc:83
-#: Merge.rc:88
+#: Merge.rc:83 Merge.rc:88
 msgid "Cop&y to Left\tAlt+Left"
 msgstr "複製到左側 (&Y)\tAlt+Left"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_FROM_LEFT_R
-#: Merge.rc:85
-#: Merge.rc:90
+#: Merge.rc:85 Merge.rc:90
 msgid "Copy &from Left\tAlt+Shift+Right"
 msgstr "從左側複製 (&F)\tAlt+Shift+Right"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_LINES_TO_MIDDLE_R
-#: Merge.rc:92
-#: Merge.rc:100
+#: Merge.rc:92 Merge.rc:100
 msgid "Copy Selected Lines to Middle"
 msgstr "複製所選行到中間"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_LINES_TO_RIGHT_M
-#: Merge.rc:93
-#: Merge.rc:97
+#: Merge.rc:93 Merge.rc:97
 msgid "Copy Selected Lines to Right"
 msgstr "將所選行複製到右側"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_LINES_FROM_MIDDLE_R
-#: Merge.rc:94
-#: Merge.rc:102
+#: Merge.rc:94 Merge.rc:102
 msgid "Copy Selected Lines from Middle"
 msgstr "複製（中間）已選取行"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_LINES_FROM_RIGHT_M
-#: Merge.rc:95
-#: Merge.rc:99
+#: Merge.rc:95 Merge.rc:99
 msgid "Copy Selected Lines from Right"
 msgstr "複製（右側）已選取行"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_LINES_TO_LEFT_R
-#: Merge.rc:96
-#: Merge.rc:101
+#: Merge.rc:96 Merge.rc:101
 msgid "Copy Selected Lines to Left"
 msgstr "將所選行複製到左側"
 
 #. IDR_POPUP_MERGEVIEW, ID_COPY_LINES_FROM_LEFT_R
-#: Merge.rc:98
-#: Merge.rc:103
+#: Merge.rc:98 Merge.rc:103
 msgid "Copy Selected Lines from Left"
 msgstr "複製（左側）已選取行"
 
@@ -123,8 +109,7 @@ msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&3"
 msgstr "複製（右側）已選取差異 到剪貼簿\tCtrl+&3"
 
 #. IDR_MERGEDOCTYPE, ID_SELECTLINEDIFF
-#: Merge.rc:110
-#: Merge.rc:673
+#: Merge.rc:110 Merge.rc:673
 msgid "Select Line &Difference\tF4"
 msgstr "選取行內差異 (&D)\tF4"
 
@@ -154,8 +139,7 @@ msgid "Cu&t"
 msgstr "剪下 (&T)"
 
 #. IDR_POPUP_DIRVIEW
-#: Merge.rc:118
-#: Merge.rc:943
+#: Merge.rc:118 Merge.rc:943
 msgid "&Copy"
 msgstr "複製 (&C)"
 
@@ -165,31 +149,17 @@ msgid "&Paste"
 msgstr "貼上 (&P)"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:121
-#: Merge.rc:875
-#: Merge.rc:882
+#: Merge.rc:121 Merge.rc:875 Merge.rc:882
 msgid "&Scripts"
 msgstr "隨譯即行碼 (&S)"
 
 #. IDS_NO_EDIT_SCRIPTS
-#: Merge.rc:123
-#: Merge.rc:338
-#: Merge.rc:447
-#: Merge.rc:654
-#: Merge.rc:659
-#: Merge.rc:865
-#: Merge.rc:877
-#: Merge.rc:884
-#: Merge.rc:940
-#: Merge.rc:1183
-#: Merge.rc:5028
+#: Merge.rc:123 Merge.rc:338 Merge.rc:447 Merge.rc:654 Merge.rc:659 Merge.rc:865 Merge.rc:877 Merge.rc:884 Merge.rc:940 Merge.rc:1183 Merge.rc:5028
 msgid "< Empty >"
 msgstr "< 空 >"
 
 #. IDR_POPUP_LOCATIONBAR, ID_EDIT_WMGOTO
-#: Merge.rc:126
-#: Merge.rc:691
-#: Merge.rc:1081
+#: Merge.rc:126 Merge.rc:691 Merge.rc:1081
 msgid "&Go to...\tCtrl+G"
 msgstr "跳至 (&G)...\tCtrl+G"
 
@@ -209,40 +179,27 @@ msgid "Op&en"
 msgstr "開啟 (&E)"
 
 #. IDR_POPUP_DIRVIEW, ID_DIR_OPEN_RIGHT
-#: Merge.rc:132
-#: Merge.rc:981
-#: Merge.rc:988
-#: Merge.rc:995
+#: Merge.rc:132 Merge.rc:981 Merge.rc:988 Merge.rc:995
 msgid "With &Registered Application"
 msgstr "用登錄的應用程式 (&R)"
 
 #. IDR_POPUP_DIRVIEW, ID_DIR_OPEN_RIGHT_WITHEDITOR
-#: Merge.rc:133
-#: Merge.rc:982
-#: Merge.rc:989
-#: Merge.rc:996
+#: Merge.rc:133 Merge.rc:982 Merge.rc:989 Merge.rc:996
 msgid "With &External Editor\tCtrl+Alt+E"
 msgstr "用外部編輯器 (&E) \tCtrl+Alt+E"
 
 #. IDR_POPUP_DIRVIEW, ID_DIR_OPEN_RIGHT_WITH
-#: Merge.rc:134
-#: Merge.rc:983
-#: Merge.rc:990
-#: Merge.rc:997
+#: Merge.rc:134 Merge.rc:983 Merge.rc:990 Merge.rc:997
 msgid "&With..."
 msgstr "用 (&W)..."
 
 #. IDR_POPUP_DIRVIEW, ID_DIR_OPEN_RIGHT_PARENT_FOLDER
-#: Merge.rc:135
-#: Merge.rc:984
-#: Merge.rc:991
-#: Merge.rc:998
+#: Merge.rc:135 Merge.rc:984 Merge.rc:991 Merge.rc:998
 msgid "Open &Parent Folder..."
 msgstr "開啟父資料夾... (&P)"
 
 #. IDR_POPUP_IMG_CTXT, ID_FILE_SHELLMENU
-#: Merge.rc:137
-#: Merge.rc:1239
+#: Merge.rc:137 Merge.rc:1239
 msgid "S&hell Menu"
 msgstr "右鍵選單 (&H)"
 
@@ -257,8 +214,7 @@ msgid "Auto-Fit All Columns"
 msgstr "自動調整所有欄位寬度"
 
 #. IDR_POPUP_WEBPAGEDIFFVIEW, ID_WEB_VIEWDIFFERENCES
-#: Merge.rc:154
-#: Merge.rc:271
+#: Merge.rc:154 Merge.rc:271
 msgid "View &Differences"
 msgstr "檢視差異 (&D)"
 
@@ -278,12 +234,7 @@ msgid "Ins&ertion/Deletion Detection"
 msgstr "插入/刪除 偵測 (&E)"
 
 #. IDR_MERGEDOCTYPE, ID_TOOLBAR_NONE
-#: Merge.rc:176
-#: Merge.rc:209
-#: Merge.rc:216
-#: Merge.rc:358
-#: Merge.rc:507
-#: Merge.rc:751
+#: Merge.rc:176 Merge.rc:209 Merge.rc:216 Merge.rc:358 Merge.rc:507 Merge.rc:751
 msgid "&None"
 msgstr "關閉 (&N)"
 
@@ -298,17 +249,12 @@ msgid "&Horizontal"
 msgstr "水平 (&H)"
 
 #. IDR_POPUP_IMG_CTXT, ID_IMG_CURPANE_PREVPAGE
-#: Merge.rc:181
-#: Merge.rc:189
-#: Merge.rc:1230
+#: Merge.rc:181 Merge.rc:189 Merge.rc:1230
 msgid "&Previous Page"
 msgstr "前一頁 (&P)"
 
 #. IDS_PREVIEWBAR_NEXTPAGE
-#: Merge.rc:182
-#: Merge.rc:190
-#: Merge.rc:1231
-#: Merge.rc:5322
+#: Merge.rc:182 Merge.rc:190 Merge.rc:1231 Merge.rc:5322
 msgid "&Next Page"
 msgstr "後一頁 (&N)"
 
@@ -318,50 +264,42 @@ msgid "&Active Pane"
 msgstr "啟動框 (&A)"
 
 #. IDR_POPUP_IMG_CTXT, ID_IMG_CURPANE_ROTATE_RIGHT_90
-#: Merge.rc:185
-#: Merge.rc:1225
+#: Merge.rc:185 Merge.rc:1225
 msgid "Rotate &Right 90deg"
 msgstr "向右旋轉 90 度 (&R)"
 
 #. IDR_POPUP_IMG_CTXT, ID_IMG_CURPANE_ROTATE_LEFT_90
-#: Merge.rc:186
-#: Merge.rc:1226
+#: Merge.rc:186 Merge.rc:1226
 msgid "Rotate &Left 90deg"
 msgstr "向左旋轉 90 度 (&L)"
 
 #. IDR_POPUP_IMG_CTXT, ID_IMG_CURPANE_FLIP_VERTICALLY
-#: Merge.rc:187
-#: Merge.rc:1227
+#: Merge.rc:187 Merge.rc:1227
 msgid "Flip V&ertically"
 msgstr "垂直翻轉 (&E)"
 
 #. IDR_POPUP_IMG_CTXT, ID_IMG_CURPANE_FLIP_HORIZONTALLY
-#: Merge.rc:188
-#: Merge.rc:1228
+#: Merge.rc:188 Merge.rc:1228
 msgid "Flip H&orizontally"
 msgstr "水平翻轉 (&O)"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:193
-#: Merge.rc:699
+#: Merge.rc:193 Merge.rc:699
 msgid "&Zoom"
 msgstr "縮放 (&Z)"
 
 #. IDR_MERGEDOCTYPE, ID_VIEW_ZOOMIN
-#: Merge.rc:202
-#: Merge.rc:701
+#: Merge.rc:202 Merge.rc:701
 msgid "Zoom &In\tCtrl++"
 msgstr "放大 (&I)\tCtrl++"
 
 #. IDR_MERGEDOCTYPE, ID_VIEW_ZOOMOUT
-#: Merge.rc:203
-#: Merge.rc:702
+#: Merge.rc:203 Merge.rc:702
 msgid "Zoom &Out\tCtrl+-"
 msgstr "縮小 (&O)\tCtrl+-"
 
 #. IDR_MERGEDOCTYPE, ID_VIEW_ZOOMNORMAL, Zoom to normal
-#: Merge.rc:205
-#: Merge.rc:704
+#: Merge.rc:205 Merge.rc:704
 msgid "&Normal\tCtrl+*"
 msgstr "恢復原始 (&N)\tCtrl+*"
 
@@ -386,33 +324,27 @@ msgid "Dragging &Mode"
 msgstr "拖動模式 (&M)"
 
 #. IDR_POPUP_IMG_CTXT, ID_IMG_DRAGGINGMODE_MOVE
-#: Merge.rc:217
-#: Merge.rc:955
-#: Merge.rc:1233
+#: Merge.rc:217 Merge.rc:955 Merge.rc:1233
 msgid "&Move"
 msgstr "移動 (&M)"
 
 #. IDR_POPUP_IMG_CTXT, ID_IMG_DRAGGINGMODE_ADJUST_OFFSET
-#: Merge.rc:218
-#: Merge.rc:1234
+#: Merge.rc:218 Merge.rc:1234
 msgid "&Adjust Offset"
 msgstr "調整誤差 (&A)"
 
 #. IDR_POPUP_IMG_CTXT, ID_IMG_DRAGGINGMODE_VERTICAL_WIPE
-#: Merge.rc:219
-#: Merge.rc:1235
+#: Merge.rc:219 Merge.rc:1235
 msgid "&Vertical Wipe"
 msgstr "垂直抹除 (&V)"
 
 #. IDR_POPUP_IMG_CTXT, ID_IMG_DRAGGINGMODE_HORIZONTAL_WIPE
-#: Merge.rc:220
-#: Merge.rc:1236
+#: Merge.rc:220 Merge.rc:1236
 msgid "&Horizontal Wipe"
 msgstr "水平抹除 (&H)"
 
 #. IDR_POPUP_IMG_CTXT, ID_IMG_DRAGGINGMODE_RECTANGLE_SELECT
-#: Merge.rc:221
-#: Merge.rc:1237
+#: Merge.rc:221 Merge.rc:1237
 msgid "Rectangle &Select"
 msgstr "矩形選取 (&S)"
 
@@ -447,44 +379,37 @@ msgid "Compare Extracted &Text from Images"
 msgstr "比較從圖片中擷取的文字 (&T)"
 
 #. IDD_OPEN, IDOK
-#: Merge.rc:272
-#: Merge.rc:1980
+#: Merge.rc:272 Merge.rc:1980
 msgid "Co&mpare"
 msgstr "比較 (&M)"
 
 #. IDR_POPUP_WEBPAGE_COMPARE, ID_WEB_COMPARE_SCREENSHOTS
-#: Merge.rc:274
-#: Merge.rc:1247
+#: Merge.rc:274 Merge.rc:1247
 msgid "&Screenshots"
 msgstr "截圖 (&S)"
 
 #. IDR_POPUP_WEBPAGE_COMPARE, ID_WEB_COMPARE_FULLSIZE_SCREENSHOTS
-#: Merge.rc:275
-#: Merge.rc:1248
+#: Merge.rc:275 Merge.rc:1248
 msgid "&Full Size Screenshots"
 msgstr "完整尺寸截圖 (&F)"
 
 #. IDR_POPUP_WEBPAGE_COMPARE, ID_WEB_COMPARE_HTMLS
-#: Merge.rc:276
-#: Merge.rc:1249
+#: Merge.rc:276 Merge.rc:1249
 msgid "&HTMLs"
 msgstr "HTML檔案 (&H)"
 
 #. IDR_POPUP_WEBPAGE_COMPARE, ID_WEB_COMPARE_TEXTS
-#: Merge.rc:277
-#: Merge.rc:1250
+#: Merge.rc:277 Merge.rc:1250
 msgid "&Texts"
 msgstr "文字檔 (&T)"
 
 #. IDR_POPUP_WEBPAGE_COMPARE, ID_WEB_COMPARE_RESOURCETREES
-#: Merge.rc:278
-#: Merge.rc:1251
+#: Merge.rc:278 Merge.rc:1251
 msgid "&Resource Trees"
 msgstr "資源樹 (&R)"
 
 #. IDR_POPUP_RENAMEMOVE_MENU, ID_RENAME_MOVE_KEY_MENU_SIZE
-#: Merge.rc:280
-#: Merge.rc:1775
+#: Merge.rc:280 Merge.rc:1775
 msgid "&Size"
 msgstr "大小 (&S)"
 
@@ -499,32 +424,27 @@ msgid "&Event Sync"
 msgstr "事件同步 (&E)"
 
 #. IDR_POPUP_WEBPAGE_SYNC_EVENTS, ID_WEB_SYNC_ENABLED
-#: Merge.rc:291
-#: Merge.rc:1259
+#: Merge.rc:291 Merge.rc:1259
 msgid "&Enabled"
 msgstr "已啟用 (&E)"
 
 #. IDR_POPUP_WEBPAGE_SYNC_EVENTS, ID_WEB_SYNC_SCROLL
-#: Merge.rc:293
-#: Merge.rc:1261
+#: Merge.rc:293 Merge.rc:1261
 msgid "&Scroll"
 msgstr "捲動 (&S)"
 
 #. IDR_POPUP_WEBPAGE_SYNC_EVENTS, ID_WEB_SYNC_CLICK
-#: Merge.rc:294
-#: Merge.rc:1262
+#: Merge.rc:294 Merge.rc:1262
 msgid "&Click"
 msgstr "點擊 (&C)"
 
 #. IDR_POPUP_WEBPAGE_SYNC_EVENTS, ID_WEB_SYNC_INPUT
-#: Merge.rc:295
-#: Merge.rc:1263
+#: Merge.rc:295 Merge.rc:1263
 msgid "&Input"
 msgstr "輸入 (&I)"
 
 #. IDR_POPUP_WEBPAGE_SYNC_EVENTS, ID_WEB_SYNC_GOBACKFORWARD
-#: Merge.rc:296
-#: Merge.rc:1264
+#: Merge.rc:296 Merge.rc:1264
 msgid "&Go Back/Forward"
 msgstr "返回/前進 (&G)"
 
@@ -554,132 +474,67 @@ msgid "&All Profiles"
 msgstr "所有配置檔 (&A)"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:310
-#: Merge.rc:411
-#: Merge.rc:586
+#: Merge.rc:310 Merge.rc:411 Merge.rc:586
 msgid "&File"
 msgstr "檔案 (&F)"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:312
-#: Merge.rc:413
-#: Merge.rc:588
+#: Merge.rc:312 Merge.rc:413 Merge.rc:588
 msgid "&New"
 msgstr "新增 (&N)"
 
 #. IDR_POPUP_COMPARE, ID_MERGE_COMPARE_TEXT
-#: Merge.rc:314
-#: Merge.rc:322
-#: Merge.rc:415
-#: Merge.rc:423
-#: Merge.rc:590
-#: Merge.rc:598
-#: Merge.rc:649
-#: Merge.rc:935
-#: Merge.rc:1159
-#: Merge.rc:1171
+#: Merge.rc:314 Merge.rc:322 Merge.rc:415 Merge.rc:423 Merge.rc:590 Merge.rc:598 Merge.rc:649 Merge.rc:935 Merge.rc:1159 Merge.rc:1171
 msgid "&Text"
 msgstr "文字 (&T)"
 
 #. IDR_POPUP_COMPARE, ID_MERGE_COMPARE_TABLE
-#: Merge.rc:315
-#: Merge.rc:323
-#: Merge.rc:416
-#: Merge.rc:424
-#: Merge.rc:591
-#: Merge.rc:599
-#: Merge.rc:650
-#: Merge.rc:936
-#: Merge.rc:1160
-#: Merge.rc:1172
+#: Merge.rc:315 Merge.rc:323 Merge.rc:416 Merge.rc:424 Merge.rc:591 Merge.rc:599 Merge.rc:650 Merge.rc:936 Merge.rc:1160 Merge.rc:1172
 msgid "T&able"
 msgstr "表格 (&A)"
 
 #. IDR_POPUP_COMPARE, ID_MERGE_COMPARE_HEX
-#: Merge.rc:316
-#: Merge.rc:324
-#: Merge.rc:417
-#: Merge.rc:425
-#: Merge.rc:592
-#: Merge.rc:600
-#: Merge.rc:651
-#: Merge.rc:937
-#: Merge.rc:1161
-#: Merge.rc:1173
+#: Merge.rc:316 Merge.rc:324 Merge.rc:417 Merge.rc:425 Merge.rc:592 Merge.rc:600 Merge.rc:651 Merge.rc:937 Merge.rc:1161 Merge.rc:1173
 msgid "&Binary"
 msgstr "二進制 (&B)"
 
 #. IDS_IMAGE_MENU
-#: Merge.rc:317
-#: Merge.rc:325
-#: Merge.rc:418
-#: Merge.rc:426
-#: Merge.rc:593
-#: Merge.rc:601
-#: Merge.rc:652
-#: Merge.rc:938
-#: Merge.rc:1162
-#: Merge.rc:1174
-#: Merge.rc:5123
+#: Merge.rc:317 Merge.rc:325 Merge.rc:418 Merge.rc:426 Merge.rc:593 Merge.rc:601 Merge.rc:652 Merge.rc:938 Merge.rc:1162 Merge.rc:1174 Merge.rc:5123
 msgid "&Image"
 msgstr "圖片 (&I)"
 
 #. IDR_POPUP_COMPARE, ID_MERGE_COMPARE_WEBPAGE
-#: Merge.rc:318
-#: Merge.rc:326
-#: Merge.rc:419
-#: Merge.rc:427
-#: Merge.rc:594
-#: Merge.rc:602
-#: Merge.rc:653
-#: Merge.rc:939
-#: Merge.rc:1163
-#: Merge.rc:1175
+#: Merge.rc:318 Merge.rc:326 Merge.rc:419 Merge.rc:427 Merge.rc:594 Merge.rc:602 Merge.rc:653 Merge.rc:939 Merge.rc:1163 Merge.rc:1175
 msgid "&Webpage"
 msgstr "網頁 (&W)"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:320
-#: Merge.rc:421
-#: Merge.rc:596
+#: Merge.rc:320 Merge.rc:421 Merge.rc:596
 msgid "New (&3 panes)"
 msgstr "新增三方比較 (&3)"
 
 #. IDR_MERGEDOCTYPE, ID_FILE_OPEN
-#: Merge.rc:328
-#: Merge.rc:429
-#: Merge.rc:604
+#: Merge.rc:328 Merge.rc:429 Merge.rc:604
 msgid "&Open...\tCtrl+O"
 msgstr "開啟 (&O)...\tCtrl+O"
 
 #. IDR_MERGEDOCTYPE, ID_FILE_OPENCONFLICT
-#: Merge.rc:329
-#: Merge.rc:430
-#: Merge.rc:605
+#: Merge.rc:329 Merge.rc:430 Merge.rc:605
 msgid "Open Conflic&t File..."
 msgstr "開啟衝突檔 (&T)..."
 
 #. IDR_MERGEDOCTYPE, ID_FILE_OPENCLIPBOARD
-#: Merge.rc:330
-#: Merge.rc:431
-#: Merge.rc:606
+#: Merge.rc:330 Merge.rc:431 Merge.rc:606
 msgid "Open C&lipboard"
 msgstr "開啟剪貼簿 (&L)"
 
 #. IDR_POPUP_PROJECT, ID_FILE_OPENPROJECT
-#: Merge.rc:332
-#: Merge.rc:433
-#: Merge.rc:608
-#: Merge.rc:1191
+#: Merge.rc:332 Merge.rc:433 Merge.rc:608 Merge.rc:1191
 msgid "Open Pro&ject...\tCtrl+J"
 msgstr "開啟專案 (&J)...\tCtrl+J"
 
 #. IDD_OPEN, ID_SAVE_PROJECT
-#: Merge.rc:333
-#: Merge.rc:434
-#: Merge.rc:609
-#: Merge.rc:1193
-#: Merge.rc:1979
+#: Merge.rc:333 Merge.rc:434 Merge.rc:609 Merge.rc:1193 Merge.rc:1979
 msgid "Sa&ve Project..."
 msgstr "儲存專案 (&V)..."
 
@@ -689,332 +544,238 @@ msgid "Recent Projects"
 msgstr "最近開啟的專案"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:336
-#: Merge.rc:445
-#: Merge.rc:657
+#: Merge.rc:336 Merge.rc:445 Merge.rc:657
 msgid "Recent F&iles or Folders"
 msgstr "最近開啟檔案或資料夾 (&I)"
 
 #. IDR_MERGEDOCTYPE, ID_APP_EXIT
-#: Merge.rc:341
-#: Merge.rc:450
-#: Merge.rc:662
+#: Merge.rc:341 Merge.rc:450 Merge.rc:662
 msgid "E&xit\tCtrl+Q"
 msgstr "結束 (&X)\tCtrl+Q"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:343
-#: Merge.rc:452
-#: Merge.rc:664
+#: Merge.rc:343 Merge.rc:452 Merge.rc:664
 msgid "&Edit"
 msgstr "編輯 (&E)"
 
 #. IDR_MERGEDOCTYPE, ID_EDIT_PASTE
-#: Merge.rc:345
-#: Merge.rc:671
+#: Merge.rc:345 Merge.rc:671
 msgid "&Paste\tCtrl+V"
 msgstr "貼上 (&P)\tCtrl+V"
 
 #. IDR_MERGEDOCTYPE, ID_OPTIONS
-#: Merge.rc:347
-#: Merge.rc:456
-#: Merge.rc:693
+#: Merge.rc:347 Merge.rc:456 Merge.rc:693
 msgid "&Options...\tCtrl+,"
 msgstr "選項 (&O)...\tCtrl+,"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:349
-#: Merge.rc:458
-#: Merge.rc:695
+#: Merge.rc:349 Merge.rc:458 Merge.rc:695
 msgid "&View"
 msgstr "檢視 (&V)"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:351
-#: Merge.rc:500
-#: Merge.rc:744
+#: Merge.rc:351 Merge.rc:500 Merge.rc:744
 msgid "Ta&b Bar"
 msgstr "分頁欄 (&B)"
 
 #. IDR_MERGEDOCTYPE, ID_VIEW_TAB_BAR
-#: Merge.rc:353
-#: Merge.rc:502
-#: Merge.rc:746
+#: Merge.rc:353 Merge.rc:502 Merge.rc:746
 msgid "&View Tab Bar"
 msgstr "檢視分頁欄 (&V)"
 
 #. IDR_MERGEDOCTYPE, ID_VIEW_TAB_BAR_ON_TITLE_BAR
-#: Merge.rc:354
-#: Merge.rc:503
-#: Merge.rc:747
+#: Merge.rc:354 Merge.rc:503 Merge.rc:747
 msgid "&On Title Bar"
 msgstr "標題列置頂 (&O)"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:356
-#: Merge.rc:505
-#: Merge.rc:749
+#: Merge.rc:356 Merge.rc:505 Merge.rc:749
 msgid "&Toolbar"
 msgstr "工具列 (&T)"
 
 #. IDR_MERGEDOCTYPE, ID_TOOLBAR_SMALL
-#: Merge.rc:359
-#: Merge.rc:508
-#: Merge.rc:752
+#: Merge.rc:359 Merge.rc:508 Merge.rc:752
 msgid "&Small"
 msgstr "小圖示 (&S)"
 
 #. IDR_MERGEDOCTYPE, ID_TOOLBAR_MEDIUM
-#: Merge.rc:360
-#: Merge.rc:509
-#: Merge.rc:753
+#: Merge.rc:360 Merge.rc:509 Merge.rc:753
 msgid "&Medium"
 msgstr "中圖示 (&M)"
 
 #. IDR_MERGEDOCTYPE, ID_TOOLBAR_BIG
-#: Merge.rc:361
-#: Merge.rc:510
-#: Merge.rc:754
+#: Merge.rc:361 Merge.rc:510 Merge.rc:754
 msgid "&Big"
 msgstr "大圖示 (&B)"
 
 #. IDR_MERGEDOCTYPE, ID_TOOLBAR_HUGE
-#: Merge.rc:362
-#: Merge.rc:511
-#: Merge.rc:755
+#: Merge.rc:362 Merge.rc:511 Merge.rc:755
 msgid "&Huge"
 msgstr "超大圖示 (&H)"
 
 #. IDS_VIEW_MENU_BAR
-#: Merge.rc:364
-#: Merge.rc:513
-#: Merge.rc:757
-#: Merge.rc:5357
+#: Merge.rc:364 Merge.rc:513 Merge.rc:757 Merge.rc:5357
 msgid "Men&u Bar"
 msgstr "選單列 (&U)"
 
 #. IDR_DIRDOCTYPE, ID_VIEW_OUTPUT_BAR
-#: Merge.rc:365
-#: Merge.rc:515
+#: Merge.rc:365 Merge.rc:515
 msgid "&Output Pane"
 msgstr "輸出窗格 (&O)"
 
 #. IDR_MERGEDOCTYPE, ID_VIEW_STATUS_BAR
-#: Merge.rc:366
-#: Merge.rc:516
-#: Merge.rc:758
+#: Merge.rc:366 Merge.rc:516 Merge.rc:758
 msgid "&Status Bar"
 msgstr "狀態列 (&S)"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:368
-#: Merge.rc:539
-#: Merge.rc:847
+#: Merge.rc:368 Merge.rc:539 Merge.rc:847
 msgid "&Tools"
 msgstr "工具 (&T)"
 
 #. IDR_MERGEDOCTYPE, ID_TOOLS_FILTERS
-#: Merge.rc:370
-#: Merge.rc:542
-#: Merge.rc:849
+#: Merge.rc:370 Merge.rc:542 Merge.rc:849
 msgid "&Filters..."
 msgstr "篩選器 (&F)..."
 
 #. IDR_MERGEDOCTYPE, ID_TOOLS_GENERATEPATCH
-#: Merge.rc:371
-#: Merge.rc:543
-#: Merge.rc:850
+#: Merge.rc:371 Merge.rc:543 Merge.rc:850
 msgid "&Generate Patch..."
 msgstr "產生補綴 (&G)..."
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:373
-#: Merge.rc:546
-#: Merge.rc:853
+#: Merge.rc:373 Merge.rc:546 Merge.rc:853
 msgid "&Plugins"
 msgstr "外掛 (&P)"
 
 #. IDD_PLUGINS_LIST, IDC_PLUGIN_SETTINGS
-#: Merge.rc:375
-#: Merge.rc:548
-#: Merge.rc:855
-#: Merge.rc:2494
-#: Merge.rc:2926
+#: Merge.rc:375 Merge.rc:548 Merge.rc:855 Merge.rc:2494 Merge.rc:2926
 msgid "P&lugin Settings..."
 msgstr "外掛設定 (&L)..."
 
 #. IDR_MERGEDOCTYPE, ID_PREDIFFER_MANUAL
-#: Merge.rc:377
-#: Merge.rc:550
-#: Merge.rc:857
+#: Merge.rc:377 Merge.rc:550 Merge.rc:857
 msgid "Ma&nual Prediffer"
 msgstr "手動預差異化 (&N)"
 
 #. IDR_MERGEDOCTYPE, ID_PREDIFFER_AUTO
-#: Merge.rc:378
-#: Merge.rc:551
-#: Merge.rc:858
+#: Merge.rc:378 Merge.rc:551 Merge.rc:858
 msgid "A&utomatic Prediffer"
 msgstr "自動預差異化 (&U)"
 
 #. IDR_MERGEDOCTYPE, ID_UNPACK_MANUAL
-#: Merge.rc:380
-#: Merge.rc:553
-#: Merge.rc:860
+#: Merge.rc:380 Merge.rc:553 Merge.rc:860
 msgid "&Manual Unpacking"
 msgstr "手動解壓縮 (&M)"
 
 # "自動解壓縮 (&A)"
 #. IDR_MERGEDOCTYPE, ID_UNPACK_AUTO
-#: Merge.rc:381
-#: Merge.rc:554
-#: Merge.rc:861
+#: Merge.rc:381 Merge.rc:554 Merge.rc:861
 msgid "&Automatic Unpacking"
 msgstr "自動解開非純文字檔 (&A)"
 
 #. IDR_MERGEDOCTYPE, ID_RELOAD_PLUGINS
-#: Merge.rc:383
-#: Merge.rc:558
-#: Merge.rc:889
+#: Merge.rc:383 Merge.rc:558 Merge.rc:889
 msgid "&Reload Plugins"
 msgstr "重新載入外掛 (&R)"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:385
-#: Merge.rc:560
-#: Merge.rc:891
+#: Merge.rc:385 Merge.rc:560 Merge.rc:891
 msgid "&Window"
 msgstr "視窗 (&W)"
 
 #. IDR_MERGEDOCTYPE, ID_FILE_CLOSE
-#: Merge.rc:387
-#: Merge.rc:562
-#: Merge.rc:893
+#: Merge.rc:387 Merge.rc:562 Merge.rc:893
 msgid "Cl&ose\tCtrl+W"
 msgstr "關閉 (&O)\tCtrl+W"
 
 #. IDR_MERGEDOCTYPE, ID_WINDOW_CLOSEALL
-#: Merge.rc:388
-#: Merge.rc:563
-#: Merge.rc:894
+#: Merge.rc:388 Merge.rc:563 Merge.rc:894
 msgid "Clo&se All"
 msgstr "關閉全部 (&S)"
 
 #. IDR_MERGEDOCTYPE, ID_NEXT_PANE
-#: Merge.rc:390
-#: Merge.rc:565
-#: Merge.rc:896
+#: Merge.rc:390 Merge.rc:565 Merge.rc:896
 msgid "Change &Pane\tF6"
 msgstr "切換窗格 (&P)\tF6"
 
 #. IDR_MERGEDOCTYPE, ID_WINDOW_TILE_HORZ
-#: Merge.rc:392
-#: Merge.rc:567
-#: Merge.rc:900
+#: Merge.rc:392 Merge.rc:567 Merge.rc:900
 msgid "Tile &Horizontally"
 msgstr "水平並排 (&H)"
 
 #. IDR_MERGEDOCTYPE, ID_WINDOW_TILE_VERT
-#: Merge.rc:393
-#: Merge.rc:568
-#: Merge.rc:901
+#: Merge.rc:393 Merge.rc:568 Merge.rc:901
 msgid "Tile &Vertically"
 msgstr "垂直並排 (&V)"
 
 #. IDR_MERGEDOCTYPE, ID_WINDOW_CASCADE
-#: Merge.rc:394
-#: Merge.rc:569
-#: Merge.rc:902
+#: Merge.rc:394 Merge.rc:569 Merge.rc:902
 msgid "&Cascade"
 msgstr "前後疊放 (&C)"
 
 #. IDS_MESSAGEBOX_HELP
-#: Merge.rc:396
-#: Merge.rc:571
-#: Merge.rc:904
-#: Merge.rc:3200
-#: Merge.rc:4189
+#: Merge.rc:396 Merge.rc:571 Merge.rc:904 Merge.rc:3200 Merge.rc:4189
 msgid "&Help"
 msgstr "說明 (&H)"
 
 #. IDR_MERGEDOCTYPE, ID_HELP_CONTENTS
-#: Merge.rc:398
-#: Merge.rc:573
-#: Merge.rc:906
+#: Merge.rc:398 Merge.rc:573 Merge.rc:906
 msgid "&WinMerge Help\tF1"
 msgstr "WinMerge 說明 (&W)\tF1"
 
 #. IDR_MERGEDOCTYPE, ID_HELP_RELEASENOTES
-#: Merge.rc:400
-#: Merge.rc:575
-#: Merge.rc:908
+#: Merge.rc:400 Merge.rc:575 Merge.rc:908
 msgid "R&elease Notes"
 msgstr "版本資訊 (&E)"
 
 #. IDR_MERGEDOCTYPE, ID_HELP_TRANSLATIONS
-#: Merge.rc:401
-#: Merge.rc:576
-#: Merge.rc:909
+#: Merge.rc:401 Merge.rc:576 Merge.rc:909
 msgid "&Translations"
 msgstr "翻譯 (&T)"
 
 #. IDR_MERGEDOCTYPE, ID_HELP_GETCONFIG
-#: Merge.rc:402
-#: Merge.rc:577
-#: Merge.rc:910
+#: Merge.rc:402 Merge.rc:577 Merge.rc:910
 msgid "C&onfiguration"
 msgstr "組態 (&O)"
 
 #. IDR_MERGEDOCTYPE, ID_HELP_GNULICENSE
-#: Merge.rc:404
-#: Merge.rc:579
-#: Merge.rc:912
+#: Merge.rc:404 Merge.rc:579 Merge.rc:912
 msgid "&GNU General Public License"
 msgstr "GNU 公共授權證 (&G)"
 
 #. IDR_MERGEDOCTYPE, ID_APP_ABOUT
-#: Merge.rc:405
-#: Merge.rc:580
-#: Merge.rc:913
+#: Merge.rc:405 Merge.rc:580 Merge.rc:913
 msgid "&About WinMerge..."
 msgstr "關於 WinMerge (&A)..."
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:436
-#: Merge.rc:629
+#: Merge.rc:436 Merge.rc:629
 msgid "&Read-Only"
 msgstr "唯讀 (&R)"
 
 #. IDR_MERGEDOCTYPE, ID_FILE_LEFT_READONLY
-#: Merge.rc:438
-#: Merge.rc:631
+#: Merge.rc:438 Merge.rc:631
 msgid "L&eft Read-Only"
 msgstr "左側唯讀 (&E)"
 
 #. IDR_MERGEDOCTYPE, ID_FILE_MIDDLE_READONLY
-#: Merge.rc:439
-#: Merge.rc:632
+#: Merge.rc:439 Merge.rc:632
 msgid "M&iddle Read-Only"
 msgstr "中間唯讀 (&I)"
 
 #. IDR_MERGEDOCTYPE, ID_FILE_RIGHT_READONLY
-#: Merge.rc:440
-#: Merge.rc:633
+#: Merge.rc:440 Merge.rc:633
 msgid "Ri&ght Read-Only"
 msgstr "右側唯讀 (&G)"
 
 #. IDD_ENCODINGERROR, IDC_FILEENCODING
-#: Merge.rc:443
-#: Merge.rc:646
-#: Merge.rc:1038
-#: Merge.rc:3063
+#: Merge.rc:443 Merge.rc:646 Merge.rc:1038 Merge.rc:3063
 msgid "&File Encoding..."
 msgstr "檔案編碼 (&F)..."
 
 #. IDR_POPUP_OUTPUTVIEW, ID_EDIT_SELECT_ALL
-#: Merge.rc:454
-#: Merge.rc:674
-#: Merge.rc:1343
+#: Merge.rc:454 Merge.rc:674 Merge.rc:1343
 msgid "Select &All\tCtrl+A"
 msgstr "全選 (&A)\tCtrl+A"
 
@@ -1129,38 +890,32 @@ msgid "Show &Empty Folders"
 msgstr ""
 
 #. IDR_MERGEDOCTYPE, ID_VIEW_SELECTFONT
-#: Merge.rc:490
-#: Merge.rc:697
+#: Merge.rc:490 Merge.rc:697
 msgid "Select &Font..."
 msgstr "選取字型 (&F)..."
 
 #. IDR_MERGEDOCTYPE, ID_VIEW_USEDEFAULTFONT
-#: Merge.rc:491
-#: Merge.rc:698
+#: Merge.rc:491 Merge.rc:698
 msgid "Use Default Font"
 msgstr "使用預設字型"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:493
-#: Merge.rc:736
+#: Merge.rc:493 Merge.rc:736
 msgid "Sw&ap Panes"
 msgstr "窗格對調 (&A)"
 
 #. IDR_MERGEDOCTYPE, ID_SWAPPANES_SWAP12
-#: Merge.rc:495
-#: Merge.rc:738
+#: Merge.rc:495 Merge.rc:738
 msgid "Swap &1st | 2nd"
 msgstr "將第 1 和第 2 對調 (&1)"
 
 #. IDR_MERGEDOCTYPE, ID_SWAPPANES_SWAP23
-#: Merge.rc:496
-#: Merge.rc:739
+#: Merge.rc:496 Merge.rc:739
 msgid "Swap &2nd | 3rd"
 msgstr "將第 2 和第 3 對調 (&2)"
 
 #. IDR_MERGEDOCTYPE, ID_SWAPPANES_SWAP13
-#: Merge.rc:497
-#: Merge.rc:740
+#: Merge.rc:497 Merge.rc:740
 msgid "Swap 1st | &3rd"
 msgstr "將第 1 和第 3 對調 (&3)"
 
@@ -1175,20 +930,17 @@ msgid "Com&pare Statistics..."
 msgstr "統計比較結果 (&P)"
 
 #. IDR_MERGEDOCTYPE, ID_REFRESH
-#: Merge.rc:520
-#: Merge.rc:763
+#: Merge.rc:520 Merge.rc:763
 msgid "Refresh\tF5"
 msgstr "重整\tF5"
 
 #. IDR_POPUP_DIRVIEW, ID_RESCAN
-#: Merge.rc:521
-#: Merge.rc:1030
+#: Merge.rc:521 Merge.rc:1030
 msgid "&Refresh Selected\tCtrl+F5"
 msgstr "重整已選取項 (&R)\tCtrl+F5"
 
 #. IDR_MERGEDOCTYPE
-#: Merge.rc:523
-#: Merge.rc:765
+#: Merge.rc:523 Merge.rc:765
 msgid "&Merge"
 msgstr "合併 (&M)"
 
@@ -1198,44 +950,37 @@ msgid "Co&mpare\tEnter"
 msgstr "比較 (&M)\tEnter"
 
 #. IDR_MERGEDOCTYPE, ID_NEXTDIFF
-#: Merge.rc:527
-#: Merge.rc:767
+#: Merge.rc:527 Merge.rc:767
 msgid "&Next Difference\tAlt+Down"
 msgstr "下一個差異 (&N)\tAlt+Down"
 
 #. IDR_MERGEDOCTYPE, ID_PREVDIFF
-#: Merge.rc:528
-#: Merge.rc:768
+#: Merge.rc:528 Merge.rc:768
 msgid "&Previous Difference\tAlt+Up"
 msgstr "上一個差異 (&P)\tAlt+Up"
 
 #. IDR_MERGEDOCTYPE, ID_FIRSTDIFF
-#: Merge.rc:530
-#: Merge.rc:773
+#: Merge.rc:530 Merge.rc:773
 msgid "&First Difference\tAlt+Home"
 msgstr "首個差異 (&F)\tAlt+Home"
 
 #. IDR_MERGEDOCTYPE, ID_CURDIFF
-#: Merge.rc:531
-#: Merge.rc:774
+#: Merge.rc:531 Merge.rc:774
 msgid "&Current Difference\tAlt+Enter"
 msgstr "目前差異 (&C)\tAlt+Enter"
 
 #. IDR_MERGEDOCTYPE, ID_LASTDIFF
-#: Merge.rc:532
-#: Merge.rc:775
+#: Merge.rc:532 Merge.rc:775
 msgid "&Last Difference\tAlt+End"
 msgstr "最後一個差異 (&L)\tAlt+End"
 
 #. IDR_MERGEDOCTYPE, ID_L2R
-#: Merge.rc:534
-#: Merge.rc:830
+#: Merge.rc:534 Merge.rc:830
 msgid "Copy to &Right\tAlt+Right"
 msgstr "複製到右側 (&R)\tAlt+Right"
 
 #. IDR_MERGEDOCTYPE, ID_R2L
-#: Merge.rc:535
-#: Merge.rc:831
+#: Merge.rc:535 Merge.rc:831
 msgid "Copy to L&eft\tAlt+Left"
 msgstr "複製到左側 (&E)\tAlt+Left"
 
@@ -1245,21 +990,17 @@ msgid "&Delete\tDel"
 msgstr "刪除 (&D)\tDel"
 
 #. IDR_POPUP_DIRVIEW, ID_TOOLS_CUSTOMIZECOLUMNS
-#: Merge.rc:541
-#: Merge.rc:1042
+#: Merge.rc:541 Merge.rc:1042
 msgid "&Customize Columns..."
 msgstr "自訂欄位 (&C)..."
 
 #. IDR_MERGEDOCTYPE, ID_TOOLS_GENERATEREPORT
-#: Merge.rc:544
-#: Merge.rc:851
+#: Merge.rc:544 Merge.rc:851
 msgid "Generate &Report..."
 msgstr "產生報告 (&R)..."
 
 #. IDD_ENCODINGERROR, IDC_PLUGIN
-#: Merge.rc:556
-#: Merge.rc:867
-#: Merge.rc:3064
+#: Merge.rc:556 Merge.rc:867 Merge.rc:3064
 msgid "&Edit with Unpacker..."
 msgstr "解壓縮編輯 (&E)"
 
@@ -1274,20 +1015,17 @@ msgid "Sav&e"
 msgstr "儲存 (&E)"
 
 #. IDR_POPUP_SAVE, ID_FILE_SAVE_LEFT
-#: Merge.rc:614
-#: Merge.rc:1201
+#: Merge.rc:614 Merge.rc:1201
 msgid "Save &Left"
 msgstr "儲存左側 (&L)"
 
 #. IDR_POPUP_SAVE, ID_FILE_SAVE_MIDDLE
-#: Merge.rc:615
-#: Merge.rc:1202
+#: Merge.rc:615 Merge.rc:1202
 msgid "Save &Middle"
 msgstr "儲存中間 (&M)"
 
 #. IDR_POPUP_SAVE, ID_FILE_SAVE_RIGHT
-#: Merge.rc:616
-#: Merge.rc:1203
+#: Merge.rc:616 Merge.rc:1203
 msgid "Save &Right"
 msgstr "儲存右側 (&R)"
 
@@ -1297,20 +1035,17 @@ msgid "Save &As"
 msgstr "儲存為 (&A)"
 
 #. IDR_POPUP_SAVE, ID_FILE_SAVEAS_LEFT
-#: Merge.rc:620
-#: Merge.rc:1205
+#: Merge.rc:620 Merge.rc:1205
 msgid "Save &Left As..."
 msgstr "儲存左側為 (&L)..."
 
 #. IDR_POPUP_SAVE, ID_FILE_SAVEAS_MIDDLE
-#: Merge.rc:621
-#: Merge.rc:1206
+#: Merge.rc:621 Merge.rc:1206
 msgid "Save &Middle As..."
 msgstr "儲存中間為 (&M)..."
 
 #. IDR_POPUP_SAVE, ID_FILE_SAVEAS_RIGHT
-#: Merge.rc:622
-#: Merge.rc:1207
+#: Merge.rc:622 Merge.rc:1207
 msgid "Save &Right As..."
 msgstr "儲存右側為 (&R)..."
 
@@ -1365,8 +1100,7 @@ msgid "Cu&t\tCtrl+X"
 msgstr "剪下 (&U)\tCtrl+X"
 
 #. IDR_POPUP_OUTPUTVIEW, ID_EDIT_COPY
-#: Merge.rc:670
-#: Merge.rc:1342
+#: Merge.rc:670 Merge.rc:1342
 msgid "&Copy\tCtrl+C"
 msgstr "複製 (&C)\tCtrl+C"
 
@@ -1534,8 +1268,7 @@ msgid "Lo&cation Pane"
 msgstr "位置窗格 (&P)"
 
 #. IDS_OUTPUTBAR_CAPTION
-#: Merge.rc:761
-#: Merge.rc:4902
+#: Merge.rc:761 Merge.rc:4902
 msgid "Output Pane"
 msgstr "輸出窗格"
 
@@ -1620,24 +1353,12 @@ msgid "Copy from &Left to"
 msgstr "從左側複製至 (&L)"
 
 #. IDD_LOAD_SAVE_CODEPAGE, IDC_AFFECTS_MIDDLE_BTN
-#: Merge.rc:799
-#: Merge.rc:810
-#: Merge.rc:815
-#: Merge.rc:826
-#: Merge.rc:970
-#: Merge.rc:2545
-#: Merge.rc:2817
+#: Merge.rc:799 Merge.rc:810 Merge.rc:815 Merge.rc:826 Merge.rc:970 Merge.rc:2545 Merge.rc:2817
 msgid "&Middle"
 msgstr "中間 (&M)"
 
 #. IDD_LOAD_SAVE_CODEPAGE, IDC_AFFECTS_RIGHT_BTN
-#: Merge.rc:800
-#: Merge.rc:805
-#: Merge.rc:816
-#: Merge.rc:821
-#: Merge.rc:971
-#: Merge.rc:2546
-#: Merge.rc:2819
+#: Merge.rc:800 Merge.rc:805 Merge.rc:816 Merge.rc:821 Merge.rc:971 Merge.rc:2546 Merge.rc:2819
 msgid "&Right"
 msgstr "右側 (&R)"
 
@@ -1647,13 +1368,7 @@ msgid "Copy from &Middle to"
 msgstr "從中間複製至 (&M)"
 
 #. IDD_LOAD_SAVE_CODEPAGE, IDC_AFFECTS_LEFT_BTN
-#: Merge.rc:804
-#: Merge.rc:809
-#: Merge.rc:820
-#: Merge.rc:825
-#: Merge.rc:969
-#: Merge.rc:2544
-#: Merge.rc:2815
+#: Merge.rc:804 Merge.rc:809 Merge.rc:820 Merge.rc:825 Merge.rc:969 Merge.rc:2544 Merge.rc:2815
 msgid "&Left"
 msgstr "左側 (&L)"
 
@@ -1773,8 +1488,7 @@ msgid "Compare in New &Window"
 msgstr "在新視窗中比較 (&W)"
 
 #. IDR_POPUP_DIRVIEW, ID_MERGE_COMPARE_NONHORIZONTALLY
-#: Merge.rc:924
-#: Merge.rc:931
+#: Merge.rc:924 Merge.rc:931
 msgid "Compare Non-hor&izontally..."
 msgstr "非水平比較 (&I)..."
 
@@ -1809,86 +1523,61 @@ msgid "Co&mpare As"
 msgstr "比較為 (&M)"
 
 #. IDS_COPY_LEFT_TO_MIDDLE2
-#: Merge.rc:945
-#: Merge.rc:957
-#: Merge.rc:4502
+#: Merge.rc:945 Merge.rc:957 Merge.rc:4502
 #, c-format
 msgid "Left to Middle (%1 of %2)"
 msgstr "左側到中間 (%1／%2)"
 
 #. IDS_COPY_LEFT_TO_RIGHT2
-#: Merge.rc:946
-#: Merge.rc:958
-#: Merge.rc:4501
+#: Merge.rc:946 Merge.rc:958 Merge.rc:4501
 #, c-format
 msgid "Left to Right (%1 of %2)"
 msgstr "左側到右側 (%1／%2)"
 
 #. IDS_MOVE_LEFT_TO2
-#: Merge.rc:947
-#: Merge.rc:959
-#: Merge.rc:1022
-#: Merge.rc:4513
-#: Merge.rc:4542
+#: Merge.rc:947 Merge.rc:959 Merge.rc:1022 Merge.rc:4513 Merge.rc:4542
 #, c-format
 msgid "Left to... (%1 of %2)"
 msgstr "左側到... (%1／%2)"
 
 #. IDS_COPY_MIDDLE_TO_LEFT2
-#: Merge.rc:948
-#: Merge.rc:960
-#: Merge.rc:4499
+#: Merge.rc:948 Merge.rc:960 Merge.rc:4499
 #, c-format
 msgid "Middle to Left (%1 of %2)"
 msgstr "中間到左側 (%1／%2)"
 
 #. IDS_COPY_MIDDLE_TO_RIGHT2
-#: Merge.rc:949
-#: Merge.rc:961
-#: Merge.rc:4500
+#: Merge.rc:949 Merge.rc:961 Merge.rc:4500
 #, c-format
 msgid "Middle to Right (%1 of %2)"
 msgstr "中間到右側 (%1／%2)"
 
 #. IDS_MOVE_MIDDLE_TO2
-#: Merge.rc:950
-#: Merge.rc:962
-#: Merge.rc:1023
-#: Merge.rc:4514
-#: Merge.rc:4543
+#: Merge.rc:950 Merge.rc:962 Merge.rc:1023 Merge.rc:4514 Merge.rc:4543
 #, c-format
 msgid "Middle to... (%1 of %2)"
 msgstr "中間到... (%1／%2)"
 
 #. IDS_COPY_RIGHT_TO_MIDDLE2
-#: Merge.rc:951
-#: Merge.rc:963
-#: Merge.rc:4498
+#: Merge.rc:951 Merge.rc:963 Merge.rc:4498
 #, c-format
 msgid "Right to Middle (%1 of %2)"
 msgstr "右側到中間 (%1／%2)"
 
 #. IDS_COPY_RIGHT_TO_LEFT2
-#: Merge.rc:952
-#: Merge.rc:964
-#: Merge.rc:4497
+#: Merge.rc:952 Merge.rc:964 Merge.rc:4497
 #, c-format
 msgid "Right to Left (%1 of %2)"
 msgstr "右側到左側 (%1／%2)"
 
 #. IDS_MOVE_RIGHT_TO2
-#: Merge.rc:953
-#: Merge.rc:965
-#: Merge.rc:1024
-#: Merge.rc:4515
-#: Merge.rc:4544
+#: Merge.rc:953 Merge.rc:965 Merge.rc:1024 Merge.rc:4515 Merge.rc:4544
 #, c-format
 msgid "Right to... (%1 of %2)"
 msgstr "右側到... (%1／%2)"
 
 #. IDD_EDIT_MARKER, IDC_EDIT_MARKER_DELETE
-#: Merge.rc:967
-#: Merge.rc:2036
+#: Merge.rc:967 Merge.rc:2036
 msgid "&Delete"
 msgstr "刪除 (&D)"
 
@@ -1903,8 +1592,7 @@ msgid "&All"
 msgstr "全部 (&A)"
 
 #. IDD_EDIT_REPLACE, IDC_EDIT_SCOPE_SELECTION
-#: Merge.rc:974
-#: Merge.rc:2019
+#: Merge.rc:974 Merge.rc:2019
 msgid "&Selection"
 msgstr "選取區 (&S)"
 
@@ -1939,41 +1627,31 @@ msgid "Cop&y Paths"
 msgstr "複製徑名 (&Y)"
 
 #. IDS_DEL_LEFT_FMT2
-#: Merge.rc:1003
-#: Merge.rc:1012
-#: Merge.rc:4530
+#: Merge.rc:1003 Merge.rc:1012 Merge.rc:4530
 #, c-format
 msgid "Left (%1 of %2)"
 msgstr "左側 (%1／%2)"
 
 #. IDS_DEL_MIDDLE_FMT2
-#: Merge.rc:1004
-#: Merge.rc:1013
-#: Merge.rc:4531
+#: Merge.rc:1004 Merge.rc:1013 Merge.rc:4531
 #, c-format
 msgid "Middle (%1 of %2)"
 msgstr "中間 (%1／%2)"
 
 #. IDS_DEL_RIGHT_FMT2
-#: Merge.rc:1005
-#: Merge.rc:1014
-#: Merge.rc:4532
+#: Merge.rc:1005 Merge.rc:1014 Merge.rc:4532
 #, c-format
 msgid "Right (%1 of %2)"
 msgstr "右側 (%1／%2)"
 
 #. IDS_DEL_BOTH_FMT2
-#: Merge.rc:1006
-#: Merge.rc:1015
-#: Merge.rc:4533
+#: Merge.rc:1006 Merge.rc:1015 Merge.rc:4533
 #, c-format
 msgid "Both (%1 of %2)"
 msgstr "兩邊 (%1／%2)"
 
 #. IDS_DEL_ALL_FMT2
-#: Merge.rc:1007
-#: Merge.rc:1016
-#: Merge.rc:4538
+#: Merge.rc:1007 Merge.rc:1016 Merge.rc:4538
 #, c-format
 msgid "All (%1 of %2)"
 msgstr "全部 (%1／%2)"
@@ -1999,22 +1677,19 @@ msgid "&Zip"
 msgstr "Zip (&Z)"
 
 #. IDS_COPY_BOTH_TO2
-#: Merge.rc:1025
-#: Merge.rc:4516
+#: Merge.rc:1025 Merge.rc:4516
 #, c-format
 msgid "Both to... (%1 of %2)"
 msgstr "兩邊到... (%1／%2)"
 
 #. IDS_COPY_ALL_TO2
-#: Merge.rc:1026
-#: Merge.rc:4517
+#: Merge.rc:1026 Merge.rc:4517
 #, c-format
 msgid "All to... (%1 of %2)"
 msgstr "全部到... (%1／%2)"
 
 #. IDS_COPY_DIFFERENCES_TO2
-#: Merge.rc:1027
-#: Merge.rc:4518
+#: Merge.rc:1027 Merge.rc:4518
 #, c-format
 msgid "Differences to... (%1 of %2)"
 msgstr "差異到... (%1／%2)"
@@ -2080,26 +1755,17 @@ msgid "Unpacker Settings"
 msgstr "解壓縮程式設定"
 
 #. IDS_USERCHOICE_NONE
-#: Merge.rc:1064
-#: Merge.rc:1070
-#: Merge.rc:1789
-#: Merge.rc:1793
-#: Merge.rc:5030
+#: Merge.rc:1064 Merge.rc:1070 Merge.rc:1789 Merge.rc:1793 Merge.rc:5030
 msgid "<None>"
 msgstr "<無>"
 
 #. IDS_USERCHOICE_AUTOMATIC
-#: Merge.rc:1065
-#: Merge.rc:1071
-#: Merge.rc:5031
+#: Merge.rc:1065 Merge.rc:1071 Merge.rc:5031
 msgid "<Automatic>"
 msgstr "<自動>"
 
 #. IDD_OPEN, IDC_SELECT_PREDIFFER
-#: Merge.rc:1066
-#: Merge.rc:1072
-#: Merge.rc:1970
-#: Merge.rc:1974
+#: Merge.rc:1066 Merge.rc:1072 Merge.rc:1970 Merge.rc:1974
 msgid "&Select..."
 msgstr "選取 (&S)..."
 
@@ -2129,142 +1795,107 @@ msgid "&All Moved Blocks"
 msgstr "顯示移位區塊 (&A)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS
-#: Merge.rc:1094
-#: Merge.rc:1127
+#: Merge.rc:1094 Merge.rc:1127
 msgid "W&hitespaces"
 msgstr "空格 (&H)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_WHITESPACE_COMPARE
-#: Merge.rc:1096
-#: Merge.rc:1129
+#: Merge.rc:1096 Merge.rc:1129
 msgid "Com&pare"
 msgstr "比較之 (&P)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_WHITESPACE_IGNORE
-#: Merge.rc:1097
-#: Merge.rc:1130
+#: Merge.rc:1097 Merge.rc:1130
 msgid "I&gnore Changes"
 msgstr "忽略其變更 (&G)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_WHITESPACE_IGNOREALL
-#: Merge.rc:1098
-#: Merge.rc:1131
+#: Merge.rc:1098 Merge.rc:1131
 msgid "Ig&nore All"
 msgstr "忽略全部 (&N)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_IGNORE_BLANKLINES
-#: Merge.rc:1100
-#: Merge.rc:1133
+#: Merge.rc:1100 Merge.rc:1133
 msgid "Ignore Blan&k Lines"
 msgstr "忽略空白行 (&K)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_IGNORE_CASE
-#: Merge.rc:1101
-#: Merge.rc:1134
+#: Merge.rc:1101 Merge.rc:1134
 msgid "Ignore &Case"
 msgstr "忽略大小寫 (&C)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_IGNORE_EOL
-#: Merge.rc:1102
-#: Merge.rc:1135
+#: Merge.rc:1102 Merge.rc:1135
 msgid "Igno&re EOL Differences (Windows/Unix/Mac)"
 msgstr "忽略行尾差異（Windows/Unix/Mac）(&R)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_IGNORE_CODEPAGE
-#: Merge.rc:1103
-#: Merge.rc:1136
+#: Merge.rc:1103 Merge.rc:1136
 msgid "Ignore Codepage &Differences"
 msgstr "忽略字碼頁不同 (&D)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_IGNORE_NUMBERS
-#: Merge.rc:1104
-#: Merge.rc:1137
+#: Merge.rc:1104 Merge.rc:1137
 msgid "Ignore Num&bers"
 msgstr "忽略數字 (&B)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_IGNORE_COMMENTS
-#: Merge.rc:1105
-#: Merge.rc:1138
+#: Merge.rc:1105 Merge.rc:1138
 msgid "Ignore C&omment Differences"
 msgstr "忽略註解差異 (&O)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_IGNORE_MISSING_TRAILING_EOL
-#: Merge.rc:1106
-#: Merge.rc:1139
+#: Merge.rc:1106 Merge.rc:1139
 msgid "Ignore &Missing Trailing EOL"
 msgstr "忽略缺少結尾行尾換行符號 (&M)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS, ID_PROJECT_DIFF_OPTIONS_IGNORE_LINE_BREAKS
-#: Merge.rc:1107
-#: Merge.rc:1140
+#: Merge.rc:1107 Merge.rc:1140
 msgid "Ignore Line &Breaks (Treat as Spaces)"
 msgstr "忽略換行符號（視為空格） (&B)"
 
 #. IDD_PROPPAGE_COMPARE_FOLDER, IDC_RECURS_CHECK
-#: Merge.rc:1109
-#: Merge.rc:2963
+#: Merge.rc:1109 Merge.rc:2963
 msgid "&Include Subfolders"
 msgstr "包括子資料夾 (&I)"
 
 #. IDR_POPUP_PROJECT_DIFF_OPTIONS
-#: Merge.rc:1110
-#: Merge.rc:1142
+#: Merge.rc:1110 Merge.rc:1142
 msgid "&Compare Method"
 msgstr "檔案比較方式 (&C)"
 
 #. IDS_COMPMETHOD_FULL_CONTENTS
-#: Merge.rc:1112
-#: Merge.rc:1144
-#: Merge.rc:1328
-#: Merge.rc:4282
+#: Merge.rc:1112 Merge.rc:1144 Merge.rc:1328 Merge.rc:4282
 msgid "Full Contents"
 msgstr "完整內容"
 
 #. IDS_COMPMETHOD_QUICK_CONTENTS
-#: Merge.rc:1113
-#: Merge.rc:1145
-#: Merge.rc:1329
-#: Merge.rc:4283
+#: Merge.rc:1113 Merge.rc:1145 Merge.rc:1329 Merge.rc:4283
 msgid "Quick Contents"
 msgstr "快速內容"
 
 #. IDS_COMPMETHOD_BINARY_CONTENTS
-#: Merge.rc:1114
-#: Merge.rc:1146
-#: Merge.rc:1330
-#: Merge.rc:4284
+#: Merge.rc:1114 Merge.rc:1146 Merge.rc:1330 Merge.rc:4284
 msgid "Binary Contents"
 msgstr "二進制內容"
 
 #. IDS_COMPMETHOD_MODDATE
-#: Merge.rc:1115
-#: Merge.rc:1147
-#: Merge.rc:1331
-#: Merge.rc:4285
+#: Merge.rc:1115 Merge.rc:1147 Merge.rc:1331 Merge.rc:4285
 msgid "Modified Date"
 msgstr "修改日期"
 
 #. IDS_COMPMETHOD_DATESIZE
-#: Merge.rc:1116
-#: Merge.rc:1148
-#: Merge.rc:1332
-#: Merge.rc:4286
+#: Merge.rc:1116 Merge.rc:1148 Merge.rc:1332 Merge.rc:4286
 msgid "Modified Date and Size"
 msgstr "修改日期與大小"
 
 #. IDS_COMPMETHOD_SIZE
-#: Merge.rc:1117
-#: Merge.rc:1149
-#: Merge.rc:1333
-#: Merge.rc:4287
+#: Merge.rc:1117 Merge.rc:1149 Merge.rc:1333 Merge.rc:4287
 msgid "Size"
 msgstr "大小"
 
 #. IDS_COMPMETHOD_EXISTENCE
-#: Merge.rc:1118
-#: Merge.rc:1150
-#: Merge.rc:1334
-#: Merge.rc:4288
+#: Merge.rc:1118 Merge.rc:1150 Merge.rc:1334 Merge.rc:4288
 msgid "Existence"
 msgstr "存在"
 
@@ -2274,62 +1905,52 @@ msgid "&Load Project..."
 msgstr "載入專案... (&L)"
 
 #. IDR_POPUP_PLUGIN_COMMAND_LINE_MENU, ID_PLUGIN_COMMAND_LINE_ARGALL
-#: Merge.rc:1272
-#: Merge.rc:1301
+#: Merge.rc:1272 Merge.rc:1301
 msgid "${*} - All Arguments"
 msgstr "${*} - 所有引數"
 
 #. IDR_POPUP_PLUGIN_COMMAND_LINE_MENU, ID_PLUGIN_COMMAND_LINE_ARG1
-#: Merge.rc:1273
-#: Merge.rc:1302
+#: Merge.rc:1273 Merge.rc:1302
 msgid "${1} - First Argument"
 msgstr "${1} - 第一個引數"
 
 #. IDR_POPUP_PLUGIN_COMMAND_LINE_MENU, ID_PLUGIN_COMMAND_LINE_ARG2
-#: Merge.rc:1274
-#: Merge.rc:1303
+#: Merge.rc:1274 Merge.rc:1303
 msgid "${2} - Second Argument"
 msgstr "${2} - 第二個引數"
 
 #. IDR_POPUP_PLUGIN_COMMAND_LINE_MENU, ID_PLUGIN_COMMAND_LINE_ARG3
-#: Merge.rc:1275
-#: Merge.rc:1304
+#: Merge.rc:1275 Merge.rc:1304
 msgid "${3} - Third Argument"
 msgstr "${3} - 第三個引數"
 
 #. IDR_POPUP_PLUGIN_COMMAND_LINE_MENU, ID_PLUGIN_COMMAND_LINE_ARG4
-#: Merge.rc:1276
-#: Merge.rc:1305
+#: Merge.rc:1276 Merge.rc:1305
 msgid "${4} - Fourth Argument"
 msgstr "${4} - 第四個引數"
 
 #. IDR_POPUP_PLUGIN_COMMAND_LINE_MENU, ID_PLUGIN_COMMAND_LINE_ARG5
-#: Merge.rc:1277
-#: Merge.rc:1306
+#: Merge.rc:1277 Merge.rc:1306
 msgid "${5} - Fifth Argument"
 msgstr "${5} - 第五個引數"
 
 #. IDR_POPUP_PLUGIN_COMMAND_LINE_MENU, ID_PLUGIN_COMMAND_LINE_ARG6
-#: Merge.rc:1278
-#: Merge.rc:1307
+#: Merge.rc:1278 Merge.rc:1307
 msgid "${6} - Sixth Argument"
 msgstr "${6} - 第六個引數"
 
 #. IDR_POPUP_PLUGIN_COMMAND_LINE_MENU, ID_PLUGIN_COMMAND_LINE_ARG7
-#: Merge.rc:1279
-#: Merge.rc:1308
+#: Merge.rc:1279 Merge.rc:1308
 msgid "${7} - Seventh Argument"
 msgstr "${7} - 第七個引數"
 
 #. IDR_POPUP_PLUGIN_COMMAND_LINE_MENU, ID_PLUGIN_COMMAND_LINE_ARG8
-#: Merge.rc:1280
-#: Merge.rc:1309
+#: Merge.rc:1280 Merge.rc:1309
 msgid "${8} - Eighth Argument"
 msgstr "${8} - 第八個引數"
 
 #. IDR_POPUP_PLUGIN_COMMAND_LINE_MENU, ID_PLUGIN_COMMAND_LINE_ARG9
-#: Merge.rc:1281
-#: Merge.rc:1310
+#: Merge.rc:1281 Merge.rc:1310
 msgid "${9} - Ninth Argument"
 msgstr "${9} - 第九個引數"
 
@@ -2484,368 +2105,262 @@ msgid "Add &File Condition"
 msgstr "新增檔案條件 (&F)"
 
 #. IDR_POPUP_FILTERMENU
-#: Merge.rc:1372
-#: Merge.rc:1551
+#: Merge.rc:1372 Merge.rc:1551
 msgid "File &Size"
 msgstr "檔案大小 (&S)"
 
 #. IDR_POPUP_FILTERMENU_DIFF_SIZE, ID_FILTERMENU_DIFF_SIZE_LT_1KB
-#: Merge.rc:1374
-#: Merge.rc:1527
-#: Merge.rc:1564
-#: Merge.rc:1629
-#: Merge.rc:1707
+#: Merge.rc:1374 Merge.rc:1527 Merge.rc:1564 Merge.rc:1629 Merge.rc:1707
 msgid "Less than 1KB"
 msgstr "小於1KB"
 
 #. IDR_POPUP_FILTERMENU_DIFF_SIZE, ID_FILTERMENU_DIFF_SIZE_GE_1KB
-#: Merge.rc:1375
-#: Merge.rc:1528
-#: Merge.rc:1565
-#: Merge.rc:1630
-#: Merge.rc:1708
+#: Merge.rc:1375 Merge.rc:1528 Merge.rc:1565 Merge.rc:1630 Merge.rc:1708
 msgid "1KB or more"
 msgstr "1KB 以上"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_LT_10KB
-#: Merge.rc:1376
-#: Merge.rc:1529
-#: Merge.rc:1631
+#: Merge.rc:1376 Merge.rc:1529 Merge.rc:1631
 msgid "Less than 10KB"
 msgstr "小於10KB"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_GE_10KB
-#: Merge.rc:1377
-#: Merge.rc:1530
-#: Merge.rc:1632
+#: Merge.rc:1377 Merge.rc:1530 Merge.rc:1632
 msgid "10KB or more"
 msgstr "10KB 以上"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_LT_100KB
-#: Merge.rc:1378
-#: Merge.rc:1531
-#: Merge.rc:1633
+#: Merge.rc:1378 Merge.rc:1531 Merge.rc:1633
 msgid "Less than 100KB"
 msgstr "小於100KB"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_GE_100KB
-#: Merge.rc:1379
-#: Merge.rc:1532
-#: Merge.rc:1634
+#: Merge.rc:1379 Merge.rc:1532 Merge.rc:1634
 msgid "100KB or more"
 msgstr "100KB 以上"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_LT_1MB
-#: Merge.rc:1380
-#: Merge.rc:1533
-#: Merge.rc:1635
+#: Merge.rc:1380 Merge.rc:1533 Merge.rc:1635
 msgid "Less than 1MB"
 msgstr "小於 1MB"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_GE_1MB
-#: Merge.rc:1381
-#: Merge.rc:1534
-#: Merge.rc:1636
+#: Merge.rc:1381 Merge.rc:1534 Merge.rc:1636
 msgid "1MB or more"
 msgstr "1MB 以上"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_LT_10MB
-#: Merge.rc:1382
-#: Merge.rc:1535
-#: Merge.rc:1637
+#: Merge.rc:1382 Merge.rc:1535 Merge.rc:1637
 msgid "Less than 10MB"
 msgstr "小於 10MB"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_GE_10MB
-#: Merge.rc:1383
-#: Merge.rc:1536
-#: Merge.rc:1638
+#: Merge.rc:1383 Merge.rc:1536 Merge.rc:1638
 msgid "10MB or more"
 msgstr "10MB 以上"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_LT_100MB
-#: Merge.rc:1384
-#: Merge.rc:1537
-#: Merge.rc:1639
+#: Merge.rc:1384 Merge.rc:1537 Merge.rc:1639
 msgid "Less than 100MB"
 msgstr "小於 100MB"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_GE_100MB
-#: Merge.rc:1385
-#: Merge.rc:1538
-#: Merge.rc:1640
+#: Merge.rc:1385 Merge.rc:1538 Merge.rc:1640
 msgid "100MB or more"
 msgstr "100MB 以上"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_LT_1GB
-#: Merge.rc:1386
-#: Merge.rc:1539
-#: Merge.rc:1641
+#: Merge.rc:1386 Merge.rc:1539 Merge.rc:1641
 msgid "Less than 1GB"
 msgstr "小於 1GB"
 
 #. IDR_POPUP_FILTERMENU_SIZE, ID_FILTERMENU_SIZE_GE_1GB
-#: Merge.rc:1387
-#: Merge.rc:1642
+#: Merge.rc:1387 Merge.rc:1642
 msgid "1GB or more"
 msgstr "1GB 以上"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_RANGE
-#: Merge.rc:1388
-#: Merge.rc:1465
-#: Merge.rc:1517
-#: Merge.rc:1523
-#: Merge.rc:1540
-#: Merge.rc:1566
-#: Merge.rc:1587
-#: Merge.rc:1643
-#: Merge.rc:1709
-#: Merge.rc:1734
+#: Merge.rc:1388 Merge.rc:1465 Merge.rc:1517 Merge.rc:1523 Merge.rc:1540 Merge.rc:1566 Merge.rc:1587 Merge.rc:1643 Merge.rc:1709 Merge.rc:1734
 msgid "Custom Range..."
 msgstr "自訂範圍..."
 
 #. IDR_POPUP_FILTERMENU
-#: Merge.rc:1390
-#: Merge.rc:1471
-#: Merge.rc:1568
+#: Merge.rc:1390 Merge.rc:1471 Merge.rc:1568
 msgid "&Last Modified"
 msgstr "上次修改時間 (&L)"
 
 #. IDR_POPUP_FILTERMENU_DATE
-#: Merge.rc:1392
-#: Merge.rc:1473
-#: Merge.rc:1651
+#: Merge.rc:1392 Merge.rc:1473 Merge.rc:1651
 msgid "&Hour"
 msgstr "小時 (&H)"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_HOUR_BEFORE_1
-#: Merge.rc:1394
-#: Merge.rc:1475
-#: Merge.rc:1653
+#: Merge.rc:1394 Merge.rc:1475 Merge.rc:1653
 msgid "More than 1 hour ago"
 msgstr "1個多小時前"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_HOUR_WITHIN_1
-#: Merge.rc:1395
-#: Merge.rc:1476
-#: Merge.rc:1654
+#: Merge.rc:1395 Merge.rc:1476 Merge.rc:1654
 msgid "Within 1 hour"
 msgstr "1小時內"
 
 #. IDR_POPUP_FILTERMENU_DATE
-#: Merge.rc:1397
-#: Merge.rc:1478
-#: Merge.rc:1656
+#: Merge.rc:1397 Merge.rc:1478 Merge.rc:1656
 msgid "&Day"
 msgstr "日 (&D)"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_DAY_BEFORE_TODAY
-#: Merge.rc:1399
-#: Merge.rc:1480
-#: Merge.rc:1658
+#: Merge.rc:1399 Merge.rc:1480 Merge.rc:1658
 msgid "Before today"
 msgstr "今天之前"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_DAY_TODAY
-#: Merge.rc:1400
-#: Merge.rc:1481
-#: Merge.rc:1659
+#: Merge.rc:1400 Merge.rc:1481 Merge.rc:1659
 msgid "Today"
 msgstr "本日"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_DAY_BEFORE_YESTERDAY
-#: Merge.rc:1401
-#: Merge.rc:1482
-#: Merge.rc:1660
+#: Merge.rc:1401 Merge.rc:1482 Merge.rc:1660
 msgid "Before yesterday"
 msgstr "昨天之前"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_DAY_YESTERDAY
-#: Merge.rc:1402
-#: Merge.rc:1483
-#: Merge.rc:1661
+#: Merge.rc:1402 Merge.rc:1483 Merge.rc:1661
 msgid "Yesterday"
 msgstr "昨天"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_DAY_SINCE_YESTERDAY
-#: Merge.rc:1403
-#: Merge.rc:1484
-#: Merge.rc:1662
+#: Merge.rc:1403 Merge.rc:1484 Merge.rc:1662
 msgid "Since yesterday"
 msgstr "自昨天以來"
 
 #. IDR_POPUP_FILTERMENU_DATE
-#: Merge.rc:1405
-#: Merge.rc:1486
-#: Merge.rc:1664
+#: Merge.rc:1405 Merge.rc:1486 Merge.rc:1664
 msgid "&Week"
 msgstr "星期 (&W)"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_WEEK_BEFORE_THIS
-#: Merge.rc:1407
-#: Merge.rc:1488
-#: Merge.rc:1666
+#: Merge.rc:1407 Merge.rc:1488 Merge.rc:1666
 msgid "Before this week"
 msgstr "本週之前"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_WEEK_THIS
-#: Merge.rc:1408
-#: Merge.rc:1489
-#: Merge.rc:1667
+#: Merge.rc:1408 Merge.rc:1489 Merge.rc:1667
 msgid "This week"
 msgstr "本週"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_WEEK_BEFORE_LAST
-#: Merge.rc:1409
-#: Merge.rc:1490
-#: Merge.rc:1668
+#: Merge.rc:1409 Merge.rc:1490 Merge.rc:1668
 msgid "Before last week"
 msgstr "上週之前"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_WEEK_LAST
-#: Merge.rc:1410
-#: Merge.rc:1491
-#: Merge.rc:1669
+#: Merge.rc:1410 Merge.rc:1491 Merge.rc:1669
 msgid "Last week"
 msgstr "上個星期"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_WEEK_SINCE_LAST
-#: Merge.rc:1411
-#: Merge.rc:1492
-#: Merge.rc:1670
+#: Merge.rc:1411 Merge.rc:1492 Merge.rc:1670
 msgid "Since last week"
 msgstr "自上週以來"
 
 #. IDR_POPUP_FILTERMENU_DATE
-#: Merge.rc:1413
-#: Merge.rc:1494
-#: Merge.rc:1672
+#: Merge.rc:1413 Merge.rc:1494 Merge.rc:1672
 msgid "&Month"
 msgstr "月份 (&M)"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_MONTH_BEFORE_THIS
-#: Merge.rc:1415
-#: Merge.rc:1496
-#: Merge.rc:1674
+#: Merge.rc:1415 Merge.rc:1496 Merge.rc:1674
 msgid "Before this month"
 msgstr "本月之前"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_MONTH_THIS
-#: Merge.rc:1416
-#: Merge.rc:1497
-#: Merge.rc:1675
+#: Merge.rc:1416 Merge.rc:1497 Merge.rc:1675
 msgid "This month"
 msgstr "本月"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_MONTH_BEFORE_LAST
-#: Merge.rc:1417
-#: Merge.rc:1498
-#: Merge.rc:1676
+#: Merge.rc:1417 Merge.rc:1498 Merge.rc:1676
 msgid "Before last month"
 msgstr "上月之前"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_MONTH_LAST
-#: Merge.rc:1418
-#: Merge.rc:1499
-#: Merge.rc:1677
+#: Merge.rc:1418 Merge.rc:1499 Merge.rc:1677
 msgid "Last month"
 msgstr "上個月"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_MONTH_SINCE_LAST
-#: Merge.rc:1419
-#: Merge.rc:1500
-#: Merge.rc:1678
+#: Merge.rc:1419 Merge.rc:1500 Merge.rc:1678
 msgid "Since last month"
 msgstr "自上個月以來"
 
 #. IDR_POPUP_FILTERMENU_DATE
-#: Merge.rc:1421
-#: Merge.rc:1502
-#: Merge.rc:1680
+#: Merge.rc:1421 Merge.rc:1502 Merge.rc:1680
 msgid "&Year"
 msgstr "年 (&Y)"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_YEAR_BEFORE_THIS
-#: Merge.rc:1423
-#: Merge.rc:1504
-#: Merge.rc:1682
+#: Merge.rc:1423 Merge.rc:1504 Merge.rc:1682
 msgid "Before this year"
 msgstr "今年之前"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_YEAR_THIS
-#: Merge.rc:1424
-#: Merge.rc:1505
-#: Merge.rc:1683
+#: Merge.rc:1424 Merge.rc:1505 Merge.rc:1683
 msgid "This year"
 msgstr "本年"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_YEAR_BEFORE_LAST
-#: Merge.rc:1425
-#: Merge.rc:1506
-#: Merge.rc:1684
+#: Merge.rc:1425 Merge.rc:1506 Merge.rc:1684
 msgid "Before last year"
 msgstr "去年之前"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_YEAR_LAST
-#: Merge.rc:1426
-#: Merge.rc:1507
-#: Merge.rc:1685
+#: Merge.rc:1426 Merge.rc:1507 Merge.rc:1685
 msgid "Last year"
 msgstr "去年"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_YEAR_SINCE_LAST
-#: Merge.rc:1427
-#: Merge.rc:1508
-#: Merge.rc:1686
+#: Merge.rc:1427 Merge.rc:1508 Merge.rc:1686
 msgid "Since last year"
 msgstr "自去年以來"
 
 #. IDR_POPUP_FILTERMENU_DATE, ID_FILTERMENU_DATE_RANGE
-#: Merge.rc:1429
-#: Merge.rc:1510
-#: Merge.rc:1688
+#: Merge.rc:1429 Merge.rc:1510 Merge.rc:1688
 msgid "&Custom Range..."
 msgstr "自訂範圍 (&C)..."
 
 #. IDR_POPUP_FILTERMENU
-#: Merge.rc:1431
-#: Merge.rc:1589
+#: Merge.rc:1431 Merge.rc:1589
 msgid "&Attributes"
 msgstr "屬性 (&A)"
 
 #. IDR_POPUP_FILTERMENU_ATTR, ID_FILTERMENU_ATTR_READONLY
-#: Merge.rc:1433
-#: Merge.rc:1607
+#: Merge.rc:1433 Merge.rc:1607
 msgid "Read-only files"
 msgstr "唯獨檔"
 
 #. IDR_POPUP_FILTERMENU_ATTR, ID_FILTERMENU_ATTR_NOT_READONLY
-#: Merge.rc:1434
-#: Merge.rc:1608
+#: Merge.rc:1434 Merge.rc:1608
 msgid "Not read-only files"
 msgstr "非唯讀檔"
 
 #. IDR_POPUP_FILTERMENU_ATTR, ID_FILTERMENU_ATTR_HIDDEN
-#: Merge.rc:1435
-#: Merge.rc:1609
+#: Merge.rc:1435 Merge.rc:1609
 msgid "Hidden files"
 msgstr "隱藏檔案"
 
 #. IDR_POPUP_FILTERMENU_ATTR, ID_FILTERMENU_ATTR_NOT_HIDDEN
-#: Merge.rc:1436
-#: Merge.rc:1610
+#: Merge.rc:1436 Merge.rc:1610
 msgid "Not hidden files"
 msgstr "非隱藏檔"
 
 #. IDR_POPUP_FILTERMENU_ATTR, ID_FILTERMENU_ATTR_SYSTEM
-#: Merge.rc:1437
-#: Merge.rc:1611
+#: Merge.rc:1437 Merge.rc:1611
 msgid "System files"
 msgstr "系統檔"
 
 #. IDR_POPUP_FILTERMENU_ATTR, ID_FILTERMENU_ATTR_NOT_SYSTEM
-#: Merge.rc:1438
-#: Merge.rc:1612
+#: Merge.rc:1438 Merge.rc:1612
 msgid "Not system files"
 msgstr "非系統檔"
 
@@ -2960,10 +2475,7 @@ msgid "100000 or more"
 msgstr "100000 以上"
 
 #. IDR_POPUP_RENAMEMOVE_MENU, ID_RENAME_MOVE_KEY_MENU_PROPS
-#: Merge.rc:1467
-#: Merge.rc:1594
-#: Merge.rc:1761
-#: Merge.rc:1778
+#: Merge.rc:1467 Merge.rc:1594 Merge.rc:1761 Merge.rc:1778
 msgid "Additional &Properties..."
 msgstr "額外屬性 (&P)..."
 
@@ -3038,142 +2550,102 @@ msgid "Add &Difference Condition"
 msgstr "新增差異條件 (&D)"
 
 #. IDR_POPUP_FILTERMENU_DIFF_PROP, ID_FILTERMENU_DIFF_PROP_EQUAL
-#: Merge.rc:1553
-#: Merge.rc:1570
-#: Merge.rc:1591
-#: Merge.rc:1696
-#: Merge.rc:1717
-#: Merge.rc:1742
+#: Merge.rc:1553 Merge.rc:1570 Merge.rc:1591 Merge.rc:1696 Merge.rc:1717 Merge.rc:1742
 msgid "Equal"
 msgstr "相等"
 
 #. IDR_POPUP_FILTERMENU_DIFF_PROP, ID_FILTERMENU_DIFF_PROP_NOT_EQUAL
-#: Merge.rc:1554
-#: Merge.rc:1571
-#: Merge.rc:1592
-#: Merge.rc:1697
-#: Merge.rc:1718
-#: Merge.rc:1743
+#: Merge.rc:1554 Merge.rc:1571 Merge.rc:1592 Merge.rc:1697 Merge.rc:1718 Merge.rc:1743
 msgid "Not Equal"
 msgstr "不相等"
 
 #. IDR_POPUP_FILTERMENU_DIFF_PROP, ID_FILTERMENU_DIFF_PROP_LESS
-#: Merge.rc:1555
-#: Merge.rc:1572
-#: Merge.rc:1698
-#: Merge.rc:1719
-#: Merge.rc:1744
+#: Merge.rc:1555 Merge.rc:1572 Merge.rc:1698 Merge.rc:1719 Merge.rc:1744
 msgid "Less Than"
 msgstr "小於"
 
 #. IDR_POPUP_FILTERMENU_DIFF_PROP, ID_FILTERMENU_DIFF_PROP_LESS_EQUAL
-#: Merge.rc:1556
-#: Merge.rc:1573
-#: Merge.rc:1699
-#: Merge.rc:1720
-#: Merge.rc:1745
+#: Merge.rc:1556 Merge.rc:1573 Merge.rc:1699 Merge.rc:1720 Merge.rc:1745
 msgid "Less Than or Equal to"
 msgstr "小於或等於"
 
 #. IDR_POPUP_FILTERMENU_DIFF_PROP, ID_FILTERMENU_DIFF_PROP_GREATER
-#: Merge.rc:1557
-#: Merge.rc:1574
-#: Merge.rc:1700
-#: Merge.rc:1721
-#: Merge.rc:1746
+#: Merge.rc:1557 Merge.rc:1574 Merge.rc:1700 Merge.rc:1721 Merge.rc:1746
 msgid "Greater Than"
 msgstr "大於"
 
 #. IDR_POPUP_FILTERMENU_DIFF_PROP, ID_FILTERMENU_DIFF_PROP_GREATER_EQUAL
-#: Merge.rc:1558
-#: Merge.rc:1575
-#: Merge.rc:1701
-#: Merge.rc:1722
-#: Merge.rc:1747
+#: Merge.rc:1558 Merge.rc:1575 Merge.rc:1701 Merge.rc:1722 Merge.rc:1747
 msgid "Greater Than or Equal to"
 msgstr "大於或等於"
 
 #. IDR_POPUP_FILTERMENU_DIFF_SIZE, ID_FILTERMENU_DIFF_SIZE_LT_10B
-#: Merge.rc:1560
-#: Merge.rc:1703
+#: Merge.rc:1560 Merge.rc:1703
 msgid "Less than 10B"
 msgstr "小於 10B"
 
 #. IDR_POPUP_FILTERMENU_DIFF_SIZE, ID_FILTERMENU_DIFF_SIZE_GE_10B
-#: Merge.rc:1561
-#: Merge.rc:1704
+#: Merge.rc:1561 Merge.rc:1704
 msgid "10B or more"
 msgstr "10B 以上"
 
 #. IDR_POPUP_FILTERMENU_DIFF_SIZE, ID_FILTERMENU_DIFF_SIZE_LT_100B
-#: Merge.rc:1562
-#: Merge.rc:1705
+#: Merge.rc:1562 Merge.rc:1705
 msgid "Less than 100B"
 msgstr "小於 100B"
 
 #. IDR_POPUP_FILTERMENU_DIFF_SIZE, ID_FILTERMENU_DIFF_SIZE_GE_100B
-#: Merge.rc:1563
-#: Merge.rc:1706
+#: Merge.rc:1563 Merge.rc:1706
 msgid "100B or more"
 msgstr "100B 以上"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_LT_1SECOND
-#: Merge.rc:1577
-#: Merge.rc:1724
+#: Merge.rc:1577 Merge.rc:1724
 msgid "Less than 1 second"
 msgstr "小於 1秒"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_GE_1SECOND
-#: Merge.rc:1578
-#: Merge.rc:1725
+#: Merge.rc:1578 Merge.rc:1725
 msgid "1 second or more"
 msgstr "1秒或更久"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_LT_1MINUTE
-#: Merge.rc:1579
-#: Merge.rc:1726
+#: Merge.rc:1579 Merge.rc:1726
 msgid "Less than 1 minute"
 msgstr "小於 1分鐘"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_GE_1MINUTE
-#: Merge.rc:1580
-#: Merge.rc:1727
+#: Merge.rc:1580 Merge.rc:1727
 msgid "1 minute or more"
 msgstr "1分鐘或更久"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_LT_1HOUR
-#: Merge.rc:1581
-#: Merge.rc:1728
+#: Merge.rc:1581 Merge.rc:1728
 msgid "Less than 1 hour"
 msgstr "小於 1小時"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_GE_1HOUR
-#: Merge.rc:1582
-#: Merge.rc:1729
+#: Merge.rc:1582 Merge.rc:1729
 msgid "1 hour or more"
 msgstr "1小時或更久"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_LT_1DAY
-#: Merge.rc:1583
-#: Merge.rc:1730
+#: Merge.rc:1583 Merge.rc:1730
 msgid "Less than 1 day"
 msgstr "少於1天"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_GE_1DAY
-#: Merge.rc:1584
-#: Merge.rc:1731
+#: Merge.rc:1584 Merge.rc:1731
 msgid "1 day or more"
 msgstr "1天或以上"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_LT_1WEEK
-#: Merge.rc:1585
-#: Merge.rc:1732
+#: Merge.rc:1585 Merge.rc:1732
 msgid "Less than 1 week"
 msgstr "不到1週"
 
 #. IDR_POPUP_FILTERMENU_DIFF_DATE, ID_FILTERMENU_DIFF_DATE_GE_1WEEK
-#: Merge.rc:1586
-#: Merge.rc:1733
+#: Merge.rc:1586 Merge.rc:1733
 msgid "1 week or more"
 msgstr "1週或以上"
 
@@ -3313,11 +2785,7 @@ msgid "Open Regex Replace Lists Folder..."
 msgstr ""
 
 #. IDD_FILTERS_CONDITION, IDC_CONDITION_MATCHCASE
-#: Merge.rc:1799
-#: Merge.rc:1995
-#: Merge.rc:2014
-#: Merge.rc:2042
-#: Merge.rc:2585
+#: Merge.rc:1799 Merge.rc:1995 Merge.rc:2014 Merge.rc:2042 Merge.rc:2585
 msgid "Match &case"
 msgstr "區分大小寫 (&C)"
 
@@ -3392,23 +2860,7 @@ msgid "Visit the WinMerge Homepage!"
 msgstr "拜訪 WinMerge 首頁！"
 
 #. IDD_PLUGINS_EDITPLUGIN, IDOK
-#: Merge.rc:1938
-#: Merge.rc:2080
-#: Merge.rc:2431
-#: Merge.rc:2455
-#: Merge.rc:2469
-#: Merge.rc:2497
-#: Merge.rc:2588
-#: Merge.rc:2613
-#: Merge.rc:2674
-#: Merge.rc:2691
-#: Merge.rc:2703
-#: Merge.rc:2867
-#: Merge.rc:2927
-#: Merge.rc:3062
-#: Merge.rc:3104
-#: Merge.rc:3147
-#: Merge.rc:3197
+#: Merge.rc:1938 Merge.rc:2080 Merge.rc:2431 Merge.rc:2455 Merge.rc:2469 Merge.rc:2497 Merge.rc:2588 Merge.rc:2613 Merge.rc:2674 Merge.rc:2691 Merge.rc:2703 Merge.rc:2867 Merge.rc:2927 Merge.rc:3062 Merge.rc:3104 Merge.rc:3147 Merge.rc:3197
 msgid "OK"
 msgstr "確定"
 
@@ -3418,8 +2870,7 @@ msgid "Contributors"
 msgstr "貢獻者"
 
 #. IDD_SELECT_FILES_OR_FOLDERS
-#: Merge.rc:1945
-#: Merge.rc:3070
+#: Merge.rc:1945 Merge.rc:3070
 msgid "Select Files or Folders"
 msgstr "選取檔案或資料夾"
 
@@ -3439,9 +2890,7 @@ msgid "Swap 1st | 2nd"
 msgstr "將第一和第二對調"
 
 #. IDD_GENERATE_PATCH, IDC_DIFF_BROWSE_FILE1
-#: Merge.rc:1954
-#: Merge.rc:2310
-#: Merge.rc:2413
+#: Merge.rc:1954 Merge.rc:2310 Merge.rc:2413
 msgid "&Browse..."
 msgstr "瀏覽 (&B)..."
 
@@ -3461,8 +2910,7 @@ msgid "Swap 2nd | 3rd"
 msgstr "將第二和第三對調"
 
 #. IDD_PROPPAGE_SYSTEM, IDC_FILTER_USER_BROWSE
-#: Merge.rc:1960
-#: Merge.rc:2315
+#: Merge.rc:1960 Merge.rc:2315
 msgid "B&rowse..."
 msgstr "瀏覽 (&R)..."
 
@@ -3482,9 +2930,7 @@ msgid "Swap 1st | 3rd"
 msgstr "將第一和第三對調"
 
 #. IDD_PROPPAGE_BACKUPS, IDC_BACKUP_BROWSE
-#: Merge.rc:1966
-#: Merge.rc:2685
-#: Merge.rc:2883
+#: Merge.rc:1966 Merge.rc:2685 Merge.rc:2883
 msgid "Browse..."
 msgstr "瀏覽..."
 
@@ -3514,27 +2960,7 @@ msgid "Se&lect..."
 msgstr "選擇... (&L)"
 
 #. IDD_PLUGINS_EDITPLUGIN, IDCANCEL
-#: Merge.rc:1981
-#: Merge.rc:2001
-#: Merge.rc:2025
-#: Merge.rc:2046
-#: Merge.rc:2081
-#: Merge.rc:2432
-#: Merge.rc:2456
-#: Merge.rc:2470
-#: Merge.rc:2498
-#: Merge.rc:2551
-#: Merge.rc:2589
-#: Merge.rc:2614
-#: Merge.rc:2675
-#: Merge.rc:2692
-#: Merge.rc:2704
-#: Merge.rc:2868
-#: Merge.rc:2928
-#: Merge.rc:3087
-#: Merge.rc:3105
-#: Merge.rc:3148
-#: Merge.rc:3198
+#: Merge.rc:1981 Merge.rc:2001 Merge.rc:2025 Merge.rc:2046 Merge.rc:2081 Merge.rc:2432 Merge.rc:2456 Merge.rc:2470 Merge.rc:2498 Merge.rc:2551 Merge.rc:2589 Merge.rc:2614 Merge.rc:2675 Merge.rc:2692 Merge.rc:2704 Merge.rc:2868 Merge.rc:2928 Merge.rc:3087 Merge.rc:3105 Merge.rc:3148 Merge.rc:3198
 msgid "Cancel"
 msgstr "取消"
 
@@ -3544,9 +2970,7 @@ msgid "Status:"
 msgstr "狀態："
 
 #. IDD_PLUGINS_LIST, ID_HELP
-#: Merge.rc:1983
-#: Merge.rc:2082
-#: Merge.rc:2929
+#: Merge.rc:1983 Merge.rc:2082 Merge.rc:2929
 msgid "Help"
 msgstr "說明"
 
@@ -3561,23 +2985,17 @@ msgid "Find"
 msgstr "尋找"
 
 #. IDD_EDIT_MARKER, IDC_STATIC
-#: Merge.rc:1992
-#: Merge.rc:2009
-#: Merge.rc:2037
+#: Merge.rc:1992 Merge.rc:2009 Merge.rc:2037
 msgid "Fi&nd what:"
 msgstr "尋找 (&N)："
 
 #. IDD_EDIT_MARKER, IDC_EDIT_WHOLE_WORD
-#: Merge.rc:1994
-#: Merge.rc:2013
-#: Merge.rc:2041
+#: Merge.rc:1994 Merge.rc:2013 Merge.rc:2041
 msgid "Match &whole word only"
 msgstr "只匹配完整單詞 (&W)"
 
 #. IDD_EDIT_MARKER, IDC_EDIT_REGEXP
-#: Merge.rc:1996
-#: Merge.rc:2015
-#: Merge.rc:2043
+#: Merge.rc:1996 Merge.rc:2015 Merge.rc:2043
 msgid "Regular &expression"
 msgstr "正規表達式 (&E)"
 
@@ -3592,8 +3010,7 @@ msgid "&Don't close this dialog"
 msgstr "不要關閉此對話框 (&D)"
 
 #. IDD_EDIT_REPLACE, IDC_EDIT_SKIP
-#: Merge.rc:1999
-#: Merge.rc:2021
+#: Merge.rc:1999 Merge.rc:2021
 msgid "&Find Next"
 msgstr "找下一個 (&F)"
 
@@ -3643,8 +3060,7 @@ msgid "Replace &All"
 msgstr "全部取代 (&A)"
 
 #. IDS_OPTIONSPG_MARKERCOLORS
-#: Merge.rc:2030
-#: Merge.rc:4209
+#: Merge.rc:2030 Merge.rc:4209
 msgid "Markers"
 msgstr "標記"
 
@@ -3654,8 +3070,7 @@ msgid "Enable &markers"
 msgstr "開啟標記 (&M)"
 
 #. IDD_FILTERS_LINEFILTERS, IDC_LFILTER_ADDBTN
-#: Merge.rc:2035
-#: Merge.rc:2057
+#: Merge.rc:2035 Merge.rc:2057
 msgid "New"
 msgstr "新增"
 
@@ -3665,17 +3080,12 @@ msgid "&Background color:"
 msgstr "背景顏色 (&B)"
 
 #. IDS_MESSAGEBOX_OK
-#: Merge.rc:2044
-#: Merge.rc:2829
-#: Merge.rc:3086
-#: Merge.rc:4171
+#: Merge.rc:2044 Merge.rc:2829 Merge.rc:3086 Merge.rc:4171
 msgid "&Ok"
 msgstr "確定 (&O)"
 
 #. IDD_PLUGINS_EDITPLUGIN
-#: Merge.rc:2045
-#: Merge.rc:2525
-#: Merge.rc:3199
+#: Merge.rc:2045 Merge.rc:2525 Merge.rc:3199
 msgid "&Apply"
 msgstr "套用 (&A)"
 
@@ -3695,15 +3105,12 @@ msgid "Regular Expressions (one per line):"
 msgstr "正規表達式 (每行一式)："
 
 #. IDD_PLUGINS_LIST, IDC_PLUGIN_EDIT
-#: Merge.rc:2058
-#: Merge.rc:2924
+#: Merge.rc:2058 Merge.rc:2924
 msgid "Edit"
 msgstr "編輯"
 
 #. IDD_PLUGINS_LIST, IDC_PLUGIN_REMOVE
-#: Merge.rc:2059
-#: Merge.rc:2071
-#: Merge.rc:2925
+#: Merge.rc:2059 Merge.rc:2071 Merge.rc:2925
 msgid "Remove"
 msgstr "移除"
 
@@ -3725,8 +3132,7 @@ msgid "Enable"
 msgstr "啟用"
 
 #. IDD_PLUGINS_LIST, IDC_PLUGIN_ADD
-#: Merge.rc:2070
-#: Merge.rc:2923
+#: Merge.rc:2070 Merge.rc:2923
 msgid "Add"
 msgstr "新增"
 
@@ -3751,10 +3157,7 @@ msgid "Export..."
 msgstr "匯出..."
 
 #. IDS_OPTIONSPG_GENCOMPARE
-#: Merge.rc:2092
-#: Merge.rc:4199
-#: Merge.rc:4202
-#: Merge.rc:4219
+#: Merge.rc:2092 Merge.rc:4199 Merge.rc:4202 Merge.rc:4219
 msgid "General"
 msgstr "一般"
 
@@ -3821,34 +3224,12 @@ msgid "Language:"
 msgstr "語言："
 
 #. IDD_PROPPAGE_COMPARE_WEBPAGE, IDC_COMPARE_DEFAULTS
-#: Merge.rc:2119
-#: Merge.rc:2299
-#: Merge.rc:2321
-#: Merge.rc:2352
-#: Merge.rc:2369
-#: Merge.rc:2386
-#: Merge.rc:2394
-#: Merge.rc:2430
-#: Merge.rc:2454
-#: Merge.rc:2633
-#: Merge.rc:2644
-#: Merge.rc:2653
-#: Merge.rc:2887
-#: Merge.rc:2922
-#: Merge.rc:2985
-#: Merge.rc:3010
-#: Merge.rc:3024
-#: Merge.rc:3038
-#: Merge.rc:3054
+#: Merge.rc:2119 Merge.rc:2299 Merge.rc:2321 Merge.rc:2352 Merge.rc:2369 Merge.rc:2386 Merge.rc:2394 Merge.rc:2430 Merge.rc:2454 Merge.rc:2633 Merge.rc:2644 Merge.rc:2653 Merge.rc:2887 Merge.rc:2922 Merge.rc:2985 Merge.rc:3010 Merge.rc:3024 Merge.rc:3038 Merge.rc:3054
 msgid "Defaults"
 msgstr "預設值"
 
 #. IDS_OPTIONSPG_COLORS
-#: Merge.rc:2124
-#: Merge.rc:2140
-#: Merge.rc:2267
-#: Merge.rc:2292
-#: Merge.rc:4205
+#: Merge.rc:2124 Merge.rc:2140 Merge.rc:2267 Merge.rc:2292 Merge.rc:4205
 msgid "Colors"
 msgstr "色彩"
 
@@ -3883,10 +3264,7 @@ msgid "Delete &current scheme..."
 msgstr "刪除目前主題 (&C)..."
 
 #. IDD_PROPPAGE_COLORS_DIR, IDC_BACKGROUND_COLUMN_LABEL
-#: Merge.rc:2143
-#: Merge.rc:2238
-#: Merge.rc:2258
-#: Merge.rc:2272
+#: Merge.rc:2143 Merge.rc:2238 Merge.rc:2258 Merge.rc:2272
 msgid "Background"
 msgstr "背景"
 
@@ -3896,11 +3274,7 @@ msgid "Deleted"
 msgstr "被刪除"
 
 #. IDS_OPTIONSPG_TEXTCOLORS
-#: Merge.rc:2145
-#: Merge.rc:2207
-#: Merge.rc:2239
-#: Merge.rc:2273
-#: Merge.rc:4207
+#: Merge.rc:2145 Merge.rc:2207 Merge.rc:2239 Merge.rc:2273 Merge.rc:4207
 msgid "Text"
 msgstr "文字色"
 
@@ -3950,10 +3324,7 @@ msgid "Selected Word Diff:"
 msgstr "已選取的字的差異："
 
 #. IDD_INPUTBOX
-#: Merge.rc:2195
-#: Merge.rc:2230
-#: Merge.rc:2251
-#: Merge.rc:3099
+#: Merge.rc:2195 Merge.rc:2230 Merge.rc:2251 Merge.rc:3099
 msgid "Dialog"
 msgstr "對話"
 
@@ -4004,15 +3375,7 @@ msgid "User 2:"
 msgstr "使用者 2："
 
 #. IDD_PROPPAGE_COLORS_SYNTAX, IDC_SCOLOR_USER2_BOLD
-#: Merge.rc:2209
-#: Merge.rc:2211
-#: Merge.rc:2213
-#: Merge.rc:2215
-#: Merge.rc:2217
-#: Merge.rc:2219
-#: Merge.rc:2221
-#: Merge.rc:2223
-#: Merge.rc:2225
+#: Merge.rc:2209 Merge.rc:2211 Merge.rc:2213 Merge.rc:2215 Merge.rc:2217 Merge.rc:2219 Merge.rc:2221 Merge.rc:2223 Merge.rc:2225
 msgid "Bold"
 msgstr "粗體"
 
@@ -4037,8 +3400,7 @@ msgid "Selection:"
 msgstr "選取："
 
 #. IDD_PROPPAGE_COLORS_DIR, IDC_STATIC
-#: Merge.rc:2245
-#: Merge.rc:2286
+#: Merge.rc:2245 Merge.rc:2286
 msgid "Margin:"
 msgstr "邊距："
 
@@ -4093,10 +3455,7 @@ msgid "&Use custom system colors"
 msgstr "使用自訂系統顏色 (&U)"
 
 #. IDS_PRPCAT_SYSTEM
-#: Merge.rc:2304
-#: Merge.rc:4211
-#: Merge.rc:4212
-#: Merge.rc:4657
+#: Merge.rc:2304 Merge.rc:4211 Merge.rc:4212 Merge.rc:4657
 msgid "System"
 msgstr "系統"
 
@@ -4136,14 +3495,12 @@ msgid "C&ustom folder:"
 msgstr "自訂資料夾 (&U)："
 
 #. IDD_GENERATE_PATCH, IDC_DIFF_BROWSE_FILE2
-#: Merge.rc:2320
-#: Merge.rc:2416
+#: Merge.rc:2320 Merge.rc:2416
 msgid "Br&owse..."
 msgstr "瀏覽 (&O)..."
 
 #. IDS_OPTIONSPG_COMPARE
-#: Merge.rc:2326
-#: Merge.rc:4200
+#: Merge.rc:2326 Merge.rc:4200
 msgid "Compare"
 msgstr "比較"
 
@@ -4233,8 +3590,7 @@ msgid "Completely unhighlight the ignored differences"
 msgstr "完全取消對忽略的差異的突顯顯示"
 
 #. IDS_OPTIONSPG_EDITOR
-#: Merge.rc:2357
-#: Merge.rc:4201
+#: Merge.rc:2357 Merge.rc:4201
 msgid "Editor"
 msgstr "編輯器"
 
@@ -4316,8 +3672,7 @@ msgid ""
 msgstr "WinMerge 部分訊息可由使用者隱藏。\n按下「重設」按鈕可使所有訊息再次可見。"
 
 #. IDD_SELECT_FILES_OR_FOLDERS, IDC_RESET
-#: Merge.rc:2402
-#: Merge.rc:3085
+#: Merge.rc:2402 Merge.rc:3085
 msgid "Reset"
 msgstr "重設"
 
@@ -4342,8 +3697,7 @@ msgid "&Swap"
 msgstr "對調 (&S)"
 
 #. IDD_DIRCMP_REPORT, IDC_REPORT_COPYCLIPBOARD
-#: Merge.rc:2418
-#: Merge.rc:2690
+#: Merge.rc:2418 Merge.rc:2690
 msgid "&Copy to clipboard"
 msgstr "複製到剪貼簿 (&C)"
 
@@ -4418,8 +3772,7 @@ msgid "Select Plugin"
 msgstr "選擇外掛程式"
 
 #. IDD_PLUGINS_EDITPLUGIN, IDC_STATIC
-#: Merge.rc:2478
-#: Merge.rc:3115
+#: Merge.rc:2478 Merge.rc:3115
 msgid "Plugin &name:"
 msgstr "外掛程式名稱 (&N)："
 
@@ -4429,20 +3782,17 @@ msgid "&Target files:"
 msgstr "目標檔案 (&T)："
 
 #. IDD_PLUGINS_EDITPLUGIN, IDC_STATIC
-#: Merge.rc:2482
-#: Merge.rc:3117
+#: Merge.rc:2482 Merge.rc:3117
 msgid "Extensions list:"
 msgstr "副檔名清單："
 
 #. IDD_PLUGINS_EDITPLUGIN, IDC_STATIC
-#: Merge.rc:2484
-#: Merge.rc:3119
+#: Merge.rc:2484 Merge.rc:3119
 msgid "Description:"
 msgstr "描述："
 
 #. IDD_PLUGINS_EDITPLUGIN, IDC_STATIC
-#: Merge.rc:2486
-#: Merge.rc:3121
+#: Merge.rc:2486 Merge.rc:3121
 msgid "Default arguments:"
 msgstr "預設引數："
 
@@ -4457,8 +3807,7 @@ msgid "&Open files in same window type after unpacking"
 msgstr "解壓縮後以相同視窗類型開啟檔案 (&O)"
 
 #. IDD_PLUGINS_EDITPLUGIN, IDC_PLUGIN_PIPELINE_STATIC
-#: Merge.rc:2492
-#: Merge.rc:3129
+#: Merge.rc:2492 Merge.rc:3129
 msgid "&Plugin pipeline:"
 msgstr "外掛處理序 (&P)："
 
@@ -4483,8 +3832,7 @@ msgid "Continue"
 msgstr "繼續"
 
 #. IDD_PROPPAGE_COMPARE_FOLDER, IDC_STATIC
-#: Merge.rc:2509
-#: Merge.rc:2973
+#: Merge.rc:2509 Merge.rc:2973
 msgid "C&PU cores to use:"
 msgstr "使用的 CPU 核心數量 (&N)："
 
@@ -4499,9 +3847,7 @@ msgid "Items compared:"
 msgstr "比較過的項目："
 
 #. IDS_PREVIEWBAR_CLOSE
-#: Merge.rc:2526
-#: Merge.rc:2846
-#: Merge.rc:5328
+#: Merge.rc:2526 Merge.rc:2846 Merge.rc:5328
 msgid "&Close"
 msgstr "關閉 (&C)"
 
@@ -4541,8 +3887,7 @@ msgid "&Go to"
 msgstr "移至 (&G)"
 
 #. IDS_PROJECT_ITEM_FILE_FILTER
-#: Merge.rc:2556
-#: Merge.rc:4321
+#: Merge.rc:2556 Merge.rc:4321
 msgid "File Filters"
 msgstr "檔案篩選器"
 
@@ -4627,18 +3972,12 @@ msgid "Comparison Results"
 msgstr ""
 
 #. IDS_IDENTICAL
-#: Merge.rc:2601
-#: Merge.rc:2733
-#: Merge.rc:2794
-#: Merge.rc:4698
+#: Merge.rc:2601 Merge.rc:2733 Merge.rc:2794 Merge.rc:4698
 msgid "Identical"
 msgstr "完全相同"
 
 #. IDS_DIFFERENT
-#: Merge.rc:2602
-#: Merge.rc:2714
-#: Merge.rc:2755
-#: Merge.rc:4708
+#: Merge.rc:2602 Merge.rc:2714 Merge.rc:2755 Merge.rc:4708
 msgid "Different"
 msgstr "不同"
 
@@ -4693,9 +4032,7 @@ msgid "Right only (missing)"
 msgstr ""
 
 #. IDS_OPTIONSPG_CODEPAGE
-#: Merge.rc:2619
-#: Merge.rc:2811
-#: Merge.rc:4213
+#: Merge.rc:2619 Merge.rc:2811 Merge.rc:4213
 msgid "Codepage"
 msgstr "字碼頁"
 
@@ -4743,8 +4080,7 @@ msgstr ""
 "需要重新啟動程式。"
 
 #. IDS_OPTIONSPG_ARCHIVE
-#: Merge.rc:2638
-#: Merge.rc:4214
+#: Merge.rc:2638 Merge.rc:4214
 msgid "Archive Support"
 msgstr "支援壓縮"
 
@@ -4859,58 +4195,47 @@ msgid "Private Filter (current user only)"
 msgstr "個人篩選器(僅適用現在使用者)"
 
 #. IDD_COMPARE_STATISTICS3
-#: Merge.rc:2709
-#: Merge.rc:2750
+#: Merge.rc:2709 Merge.rc:2750
 msgid "Compare Statistics"
 msgstr "比較後的統計"
 
 #. IDD_COMPARE_STATISTICS3, IDC_STATIC
-#: Merge.rc:2712
-#: Merge.rc:2753
+#: Merge.rc:2712 Merge.rc:2753
 msgid "Folders:"
 msgstr "資料夾："
 
 #. IDD_COMPARE_STATISTICS3, IDC_STATIC
-#: Merge.rc:2713
-#: Merge.rc:2754
+#: Merge.rc:2713 Merge.rc:2754
 msgid "Files:"
 msgstr "檔案："
 
 #. IDD_COMPARE_STATISTICS3, IDC_STATIC
-#: Merge.rc:2719
-#: Merge.rc:2738
-#: Merge.rc:2760
-#: Merge.rc:2799
+#: Merge.rc:2719 Merge.rc:2738 Merge.rc:2760 Merge.rc:2799
 msgid "Binary:"
 msgstr "二進制："
 
 #. IDD_COMPARE_STATISTICS3, IDC_STATIC
-#: Merge.rc:2722
-#: Merge.rc:2763
+#: Merge.rc:2722 Merge.rc:2763
 msgid "Unique"
 msgstr "獨有"
 
 #. IDD_COMPARE_STATISTICS3, IDC_STATIC
-#: Merge.rc:2723
-#: Merge.rc:2764
+#: Merge.rc:2723 Merge.rc:2764
 msgid "Left:"
 msgstr "左側："
 
 #. IDD_COMPARE_STATISTICS3, IDC_STATIC
-#: Merge.rc:2728
-#: Merge.rc:2774
+#: Merge.rc:2728 Merge.rc:2774
 msgid "Right:"
 msgstr "右側："
 
 #. IDD_COMPARE_STATISTICS3, IDC_STATIC
-#: Merge.rc:2742
-#: Merge.rc:2803
+#: Merge.rc:2742 Merge.rc:2803
 msgid "Total:"
 msgstr "總計："
 
 #. IDD_COMPARE_STATISTICS3, IDOK
-#: Merge.rc:2745
-#: Merge.rc:2806
+#: Merge.rc:2745 Merge.rc:2806
 msgid "Close"
 msgstr "關閉"
 
@@ -4940,9 +4265,7 @@ msgid "Affects"
 msgstr "影響"
 
 #. IDD_LOAD_SAVE_CODEPAGE, IDC_RIGHT_FILES_LABEL
-#: Merge.rc:2816
-#: Merge.rc:2818
-#: Merge.rc:2820
+#: Merge.rc:2816 Merge.rc:2818 Merge.rc:2820
 msgid "(Affects)"
 msgstr "(影響)"
 
@@ -4967,8 +4290,7 @@ msgid "&Use same codepage for both"
 msgstr "兩檔都用相同的字碼頁 (&U)"
 
 #. IDS_MESSAGEBOX_CANCEL
-#: Merge.rc:2830
-#: Merge.rc:4172
+#: Merge.rc:2830 Merge.rc:4172
 msgid "&Cancel"
 msgstr "取消 (&C)"
 
@@ -5003,9 +4325,7 @@ msgid "&Test"
 msgstr "測試 (&T)"
 
 #. IDS_OPTIONSPG_TABLECOMPARE
-#: Merge.rc:2851
-#: Merge.rc:2990
-#: Merge.rc:4228
+#: Merge.rc:2851 Merge.rc:2990 Merge.rc:4228
 msgid "Table"
 msgstr "表格"
 
@@ -5030,28 +4350,22 @@ msgid "Custom &Delimiter-Separated Values"
 msgstr "被分隔符號分隔的自訂數值 (&E)"
 
 #. IDD_PROPPAGE_COMPARE_TABLE, IDC_STATIC
-#: Merge.rc:2859
-#: Merge.rc:2861
-#: Merge.rc:2996
-#: Merge.rc:3004
+#: Merge.rc:2859 Merge.rc:2861 Merge.rc:2996 Merge.rc:3004
 msgid "D&elimiter character:"
 msgstr "分隔字元 (&E)："
 
 #. IDD_PROPPAGE_COMPARE_TABLE, IDC_COMPARETABLE_ALLOWNEWLINE
-#: Merge.rc:2863
-#: Merge.rc:3006
+#: Merge.rc:2863 Merge.rc:3006
 msgid "&Allow newlines in quotes"
 msgstr "允許引號中的新行字元 (&A)"
 
 #. IDD_PROPPAGE_COMPARE_TABLE, IDC_STATIC
-#: Merge.rc:2865
-#: Merge.rc:3008
+#: Merge.rc:2865 Merge.rc:3008
 msgid "&Quote character:"
 msgstr "引號字元 (&Q)："
 
 #. IDS_OPTIONSPG_BACKUPS
-#: Merge.rc:2873
-#: Merge.rc:4216
+#: Merge.rc:2873 Merge.rc:4216
 msgid "Backup Files"
 msgstr "備份檔案"
 
@@ -5101,8 +4415,7 @@ msgid "A&ppend timestamp"
 msgstr "附上時間戳記 (&P)"
 
 #. IDS_CONFIRM_COPY_CAPTION
-#: Merge.rc:2892
-#: Merge.rc:4565
+#: Merge.rc:2892 Merge.rc:4565
 msgid "Confirm Copy"
 msgstr "確認複製"
 
@@ -5122,8 +4435,7 @@ msgid "To right"
 msgstr "到右側"
 
 #. IDS_MESSAGEBOX_DONT_ASK_AGAIN
-#: Merge.rc:2901
-#: Merge.rc:4191
+#: Merge.rc:2901 Merge.rc:4191
 msgid "Don't ask this &question again."
 msgstr "不要再詢問此問題 (&Q)"
 
@@ -5138,8 +4450,7 @@ msgid "No"
 msgstr "否"
 
 #. IDS_PROJECT_ITEM_PLUGIN
-#: Merge.rc:2909
-#: Merge.rc:4323
+#: Merge.rc:2909 Merge.rc:4323
 msgid "Plugins"
 msgstr "外掛程式"
 
@@ -5149,8 +4460,7 @@ msgid "&Enable plugins"
 msgstr "啟用外掛程式 (&E)"
 
 #. IDD_PLUGINS_EDITPLUGIN, IDC_STATIC
-#: Merge.rc:2913
-#: Merge.rc:3113
+#: Merge.rc:2913 Merge.rc:3113
 msgid "Plugin &type:"
 msgstr "外掛類型 (&T):"
 
@@ -5165,14 +4475,12 @@ msgid "&Plugin arguments:"
 msgstr "外掛程式參數 (&P)："
 
 #. IDD_PLUGINS_EDITPLUGIN, IDC_PLUGIN_AUTOMATIC
-#: Merge.rc:2920
-#: Merge.rc:3134
+#: Merge.rc:2920 Merge.rc:3134
 msgid "Enable &automatic unpacking/prediffing"
 msgstr "啟用外掛的自動解壓縮/預先差異功能 (&A)"
 
 #. IDS_OPTIONSPG_SHELL
-#: Merge.rc:2934
-#: Merge.rc:4217
+#: Merge.rc:2934 Merge.rc:4217
 msgid "Shell Integration"
 msgstr "併入檔案總管介面"
 
@@ -5237,8 +4545,7 @@ msgid "Clear all recent items"
 msgstr "清除所有最近的項目"
 
 #. IDS_OPTIONSPG_FOLDERCOMPARE
-#: Merge.rc:2954
-#: Merge.rc:4225
+#: Merge.rc:2954 Merge.rc:4225
 msgctxt "Options dialog|Categories"
 msgid "Folder"
 msgstr "資料夾"
@@ -5304,9 +4611,7 @@ msgid "M&erge renames and moves:"
 msgstr ""
 
 #. IDD_PROPPAGE_COMPARE_TABLE, IDC_STATIC
-#: Merge.rc:2994
-#: Merge.rc:2999
-#: Merge.rc:3002
+#: Merge.rc:2994 Merge.rc:2999 Merge.rc:3002
 msgid "File patterns:"
 msgstr "檔案模式："
 
@@ -5316,8 +4621,7 @@ msgid "Custom Delimiter-Separated Values"
 msgstr "被分隔符號分隔的自訂數值"
 
 #. IDS_OPTIONSPG_BINARYCOMPARE
-#: Merge.rc:3015
-#: Merge.rc:4227
+#: Merge.rc:3015 Merge.rc:4227
 msgctxt "Options dialog|Categories"
 msgid "Binary"
 msgstr "二進制"
@@ -5348,9 +4652,7 @@ msgid "&Character Set..."
 msgstr "字元設定 (&C)..."
 
 #. IDS_PRPCAT_IMAGE
-#: Merge.rc:3029
-#: Merge.rc:4226
-#: Merge.rc:4665
+#: Merge.rc:3029 Merge.rc:4226 Merge.rc:4665
 msgid "Image"
 msgstr "圖片"
 
@@ -5370,8 +4672,7 @@ msgid "OCR result:"
 msgstr "OCR 結果："
 
 #. IDS_OPTIONSPG_WEBPAGECOMPARE
-#: Merge.rc:3043
-#: Merge.rc:4229
+#: Merge.rc:3043 Merge.rc:4229
 msgid "Webpage"
 msgstr "網頁"
 
@@ -5726,8 +5027,7 @@ msgid "Compare/Merge"
 msgstr "比較/合併"
 
 #. IDS_OPTIONSPG_SYNTAXCOLORS
-#: Merge.rc:4204
-#: Merge.rc:4208
+#: Merge.rc:4204 Merge.rc:4208
 msgid "Syntax"
 msgstr "語法"
 
@@ -5747,8 +5047,7 @@ msgid "Project"
 msgstr "專案"
 
 #. IDS_COLHDR_NSDIFFS
-#: Merge.rc:4218
-#: Merge.rc:4640
+#: Merge.rc:4218 Merge.rc:4640
 msgid "Differences"
 msgstr "差異"
 
@@ -5817,8 +5116,7 @@ msgstr ""
 "請使用 1 - %1。"
 
 #. IDS_PROJECT_OPEN
-#: Merge.rc:4262
-#: Merge.rc:4318
+#: Merge.rc:4262 Merge.rc:4318
 msgid "Open"
 msgstr "開啟"
 
@@ -5892,14 +5190,12 @@ msgid "File Type"
 msgstr "檔案類型"
 
 #. IDS_COLHDR_EXTENSION
-#: Merge.rc:4304
-#: Merge.rc:4597
+#: Merge.rc:4304 Merge.rc:4597
 msgid "Extension"
 msgstr "副檔名"
 
 #. IDS_PRPCAT_MESSAGE
-#: Merge.rc:4310
-#: Merge.rc:4669
+#: Merge.rc:4310 Merge.rc:4669
 msgid "Message"
 msgstr "訊息"
 
@@ -5939,8 +5235,7 @@ msgid "Hidden Items"
 msgstr "隱藏的項目"
 
 #. IDS_PLUGINSLIST_NAME
-#: Merge.rc:4331
-#: Merge.rc:4956
+#: Merge.rc:4331 Merge.rc:4956
 msgid "Name"
 msgstr "名稱"
 
@@ -5960,8 +5255,7 @@ msgid "[F] "
 msgstr "[F] "
 
 #. IDS_PLUGINSLIST_DESC
-#: Merge.rc:4335
-#: Merge.rc:4958
+#: Merge.rc:4335 Merge.rc:4958
 msgid "Description"
 msgstr "描述"
 
@@ -6561,22 +5855,19 @@ msgid "Left to Middle (%1)"
 msgstr "左側到中間 (%1)"
 
 #. IDS_MOVE_LEFT_TO
-#: Merge.rc:4507
-#: Merge.rc:4539
+#: Merge.rc:4507 Merge.rc:4539
 #, c-format
 msgid "Left to... (%1)"
 msgstr "左側到... (%1)"
 
 #. IDS_MOVE_MIDDLE_TO
-#: Merge.rc:4508
-#: Merge.rc:4540
+#: Merge.rc:4508 Merge.rc:4540
 #, c-format
 msgid "Middle to... (%1)"
 msgstr "中間到... (%1)"
 
 #. IDS_MOVE_RIGHT_TO
-#: Merge.rc:4509
-#: Merge.rc:4541
+#: Merge.rc:4509 Merge.rc:4541
 #, c-format
 msgid "Right to... (%1)"
 msgstr "右側到... (%1)"
@@ -6911,15 +6202,12 @@ msgid "Binary"
 msgstr "二進制"
 
 #. IDS_PLUGINS_TYPE_UNPACKER
-#: Merge.rc:4642
-#: Merge.rc:4959
+#: Merge.rc:4642 Merge.rc:4959
 msgid "Unpacker"
 msgstr "解壓縮程式"
 
 #. IDS_PLUGIN_TYPE4
-#: Merge.rc:4643
-#: Merge.rc:4960
-#: Merge.rc:5267
+#: Merge.rc:4643 Merge.rc:4960 Merge.rc:5267
 msgid "Prediffer"
 msgstr "預差異化"
 
@@ -8397,8 +7685,7 @@ msgid "Ins/Del Detection"
 msgstr "插入/刪除 偵測"
 
 #. IDS_OVERLAY_MODE_NONE
-#: Merge.rc:5189
-#: Merge.rc:5194
+#: Merge.rc:5189 Merge.rc:5194
 msgctxt "ImgMergeFrame|LocationPane"
 msgid "None"
 msgstr "無"
@@ -9837,9 +9124,7 @@ msgid "Update external references (links)"
 msgstr "更新外部參照 (連結)"
 
 #. IDS_PLUGIN_COMPAREMSPOWERPOINTFILES_STR3
-#: Strings.rc:214
-#: Strings.rc:237
-#: Strings.rc:254
+#: Strings.rc:214 Strings.rc:237 Strings.rc:254
 msgid "Compare document properties"
 msgstr "比較文件屬性"
 
@@ -9873,10 +9158,7 @@ msgid "Compare formulas"
 msgstr "比較公式"
 
 #. IDS_PLUGIN_COMPAREMSVISIOFILES_STR4
-#: Strings.rc:222
-#: Strings.rc:242
-#: Strings.rc:261
-#: Strings.rc:274
+#: Strings.rc:222 Strings.rc:242 Strings.rc:261 Strings.rc:274
 msgid "Compare texts in shapes"
 msgstr "比較圖形中的文字"
 
@@ -9885,10 +9167,7 @@ msgstr "比較圖形中的文字"
 msgid "Compare headers and footers"
 msgstr "比較頁首和頁尾"
 
-#: Strings.rc:225
-#: Strings.rc:245
-#: Strings.rc:265
-#: Strings.rc:277
+#: Strings.rc:225 Strings.rc:245 Strings.rc:265 Strings.rc:277
 msgid ""
 "Cannot get Macros.\r\n"
 "Enable 'Trust access to Visual Basic Project' in MS Office Macro Security."
@@ -9908,10 +9187,7 @@ msgid "Include sheet order number in filename"
 msgstr ""
 
 #. IDS_PLUGIN_COMPAREMSVISIOFILES_STR5
-#: Strings.rc:232
-#: Strings.rc:243
-#: Strings.rc:263
-#: Strings.rc:275
+#: Strings.rc:232 Strings.rc:243 Strings.rc:263 Strings.rc:275
 msgid "Compare VBA macros"
 msgstr "比較 VBA 巨集"
 
