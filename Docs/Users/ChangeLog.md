@@ -60,6 +60,8 @@
 
 * Add Unpacker and Prediffer fields to file filter expressions (PR #3295)
 
+* Enable dynamic increase/decrease of compare threads (PR #3304)
+
 ### Plugins
 
 * Add PrettifyPO and ValidatePO plugins for .po/.pot files (PR #3190)
@@ -72,13 +74,13 @@
 ### Translations
 
 * Translation updates:
-  * Brazilian (PR #3185,#3194,#3219,#3231,#3245,#3275,#3287)
+  * Brazilian (PR #3185,#3194,#3219,#3231,#3245,#3275,#3287,#3303)
   * Chinese Simplified (PR #3183,#3191,#3220,#3228,#3244)
   * Corsican (PR #3259,#3299)
   * French (PR #3239)
   * German (PR #3187,#3196,#3217,#3232,#3237,#3251,#3274,#3288,#3297)
   * Hungarian (PR #3186,#3238,#3252)
-  * Italian (PR #3199,#3218,#3229,#3235,#3236,#3246,#3249,#3269,#3272,#3285)
+  * Italian (PR #3199,#3218,#3229,#3235,#3236,#3246,#3249,#3269,#3272,#3285,#3302)
   * Japanese (PR #3258)
   * Korean (PR #3247,#3279,#3301)
   * Lithuanian (PR #3184,#3192,#3230,#3276,#3290)
