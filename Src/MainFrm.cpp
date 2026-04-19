@@ -17,6 +17,7 @@
 #if !defined(__cppcheck__)
 #include <boost/range/mfc.hpp>
 #endif
+#include "ScopeExit.h"
 #include "Constants.h"
 #include "Merge.h"
 #include "FileFilterHelper.h"
@@ -111,11 +112,13 @@ const CMainFrame::MENUITEM_ICON CMainFrame::m_MenuIcons[] = {
 	{ ID_FILE_NEW_HEX,				IDB_FILE_NEW_HEX,				CMainFrame::MENU_ALL },
 	{ ID_FILE_NEW_IMAGE,			IDB_FILE_NEW_IMAGE,				CMainFrame::MENU_ALL },
 	{ ID_FILE_NEW_WEBPAGE,			IDB_FILE_NEW_WEBPAGE,			CMainFrame::MENU_ALL },
+	{ ID_FILE_NEW_FOLDER,			IDB_FILE_NEW_FOLDER,			CMainFrame::MENU_ALL },
 	{ ID_FILE_NEW3,					IDB_FILE_NEW3,					CMainFrame::MENU_ALL },
 	{ ID_FILE_NEW3_TABLE,			IDB_FILE_NEW3_TABLE,			CMainFrame::MENU_ALL },
 	{ ID_FILE_NEW3_HEX,				IDB_FILE_NEW3_HEX,				CMainFrame::MENU_ALL },
 	{ ID_FILE_NEW3_IMAGE,			IDB_FILE_NEW3_IMAGE,			CMainFrame::MENU_ALL },
 	{ ID_FILE_NEW3_WEBPAGE,			IDB_FILE_NEW3_WEBPAGE,			CMainFrame::MENU_ALL },
+	{ ID_FILE_NEW3_FOLDER,			IDB_FILE_NEW_FOLDER,			CMainFrame::MENU_ALL },
 	{ ID_EDIT_COPY,					IDB_EDIT_COPY,					CMainFrame::MENU_ALL },
 	{ ID_EDIT_CUT,					IDB_EDIT_CUT,					CMainFrame::MENU_ALL },
 	{ ID_EDIT_PASTE,				IDB_EDIT_PASTE,					CMainFrame::MENU_ALL },
@@ -250,11 +253,13 @@ BEGIN_MESSAGE_MAP(CMainFrame, CMDIFrameWnd)
 	ON_COMMAND(ID_FILE_NEW_HEX, (OnFileNew<2, ID_MERGE_COMPARE_HEX>))
 	ON_COMMAND(ID_FILE_NEW_IMAGE, (OnFileNew<2, ID_MERGE_COMPARE_IMAGE>))
 	ON_COMMAND(ID_FILE_NEW_WEBPAGE, (OnFileNew<2, ID_MERGE_COMPARE_WEBPAGE>))
+	ON_COMMAND(ID_FILE_NEW_FOLDER, (OnFileNew<2, ID_MERGE_COMPARE_FOLDER>))
 	ON_COMMAND(ID_FILE_NEW3, (OnFileNew<3, ID_MERGE_COMPARE_TEXT>))
 	ON_COMMAND(ID_FILE_NEW3_TABLE, (OnFileNew<3, ID_MERGE_COMPARE_TABLE>))
 	ON_COMMAND(ID_FILE_NEW3_HEX, (OnFileNew<3, ID_MERGE_COMPARE_HEX>))
 	ON_COMMAND(ID_FILE_NEW3_IMAGE, (OnFileNew<3, ID_MERGE_COMPARE_IMAGE>))
 	ON_COMMAND(ID_FILE_NEW3_WEBPAGE, (OnFileNew<3, ID_MERGE_COMPARE_WEBPAGE>))
+	ON_COMMAND(ID_FILE_NEW3_FOLDER,  (OnFileNew<3, ID_MERGE_COMPARE_FOLDER>))
 	ON_COMMAND(ID_FILE_OPEN, OnFileOpen)
 	ON_COMMAND(ID_FILE_OPENPROJECT, OnFileOpenProject)
 	ON_COMMAND(ID_FILE_SAVEPROJECT, OnSaveProject)
@@ -728,7 +733,7 @@ void CMainFrame::OnInitMenuPopup(CMenu* pPopupMenu, UINT nIndex, BOOL bSysMenu)
 			{
 				CMenu* pMenu = pPopupMenu;
 				// empty the menu
-				for (int i = pMenu->GetMenuItemCount() - 1; i > (ID_MERGE_COMPARE_WEBPAGE - ID_MERGE_COMPARE_TEXT); --i)
+				for (int i = pMenu->GetMenuItemCount() - 1; i > (ID_MERGE_COMPARE_FOLDER - ID_MERGE_COMPARE_TEXT); --i)
 					pMenu->DeleteMenu(i, MF_BYPOSITION);
 
 				CMainFrame::AppendPluginMenus(pMenu, filteredFilenames, FileTransform::UnpackerEventNames, true, ID_UNPACKERS_FIRST);
@@ -852,6 +857,9 @@ bool CMainFrame::ShowAutoMergeDoc(UINT nID, IDirDoc * pDirDoc,
 	case ID_MERGE_COMPARE_WEBPAGE:
 		return ShowWebDiffDoc(pDirDoc, nFiles, ifileloc, dwFlags,
 			strDesc, sReportFile, infoUnpacker, infoPrediffer, dynamic_cast<const OpenWebPageParams*>(pOpenParams));
+	case ID_MERGE_COMPARE_FOLDER:
+		return ShowDirDoc(nullptr, nFiles, ifileloc, dwFlags,
+			strDesc, sReportFile, infoUnpacker, infoPrediffer, dynamic_cast<const OpenFolderParams*>(pOpenParams));
 	default:
 		return ShowTextOrTableMergeDoc({}, pDirDoc, nFiles, ifileloc, dwFlags, strDesc, sReportFile, infoUnpacker, infoPrediffer, dynamic_cast<const OpenTextFileParams*>(pOpenParams));
 	}
@@ -893,6 +901,10 @@ bool CMainFrame::ShowMergeDoc(UINT nID, IDirDoc* pDirDoc,
 		return ShowWebDiffDoc(pDirDoc, nFiles, ifileloc, dwFlags,
 			strDesc, sReportFile, infoUnpacker, infoPrediffer,
 			dynamic_cast<const OpenWebPageParams*>(pOpenParams));
+	case ID_MERGE_COMPARE_FOLDER:
+		return ShowDirDoc(nullptr, nFiles, ifileloc, dwFlags,
+			strDesc, sReportFile, infoUnpacker, infoPrediffer,
+			dynamic_cast<const OpenFolderParams*>(pOpenParams));
 	default:
 		return ShowAutoMergeDoc(nID, pDirDoc, nFiles, ifileloc, dwFlags,
 			strDesc, sReportFile, infoUnpacker, infoPrediffer, pOpenParams);
@@ -1170,6 +1182,105 @@ bool CMainFrame::ShowTextMergeDoc(IDirDoc* pDirDoc, int nBuffers, const String t
 	return ShowTextMergeDoc(pDirDoc, nBuffers, fileloc, dwFlags, strDesc, _T(""), nullptr, nullptr, pOpenParams);
 }
 
+bool CMainFrame::ShowDirDoc(IDirDoc * pDirDoc, int nFiles, const FileLocation fileloc[],
+	const fileopenflags_t dwFlags[], const String strDesc[], const String& sReportFile /*= _T("")*/,
+	const PackingInfo* infoUnpacker /*= nullptr*/, const PrediffingInfo* infoPrediffer /*= nullptr*/,
+	const OpenFolderParams* pOpenParams /*= nullptr*/, CTempPathContext *pTempPathContext /*= nullptr*/)
+{
+	const bool bOldArchiveEnable = GetOptionsMgr()->GetBool(OPT_ARCHIVE_ENABLE);
+	const bool bOldArchiveProbeType = GetOptionsMgr()->GetBool(OPT_ARCHIVE_PROBETYPE);
+
+	GetOptionsMgr()->SaveOption(OPT_ARCHIVE_ENABLE, true);
+	GetOptionsMgr()->SaveOption(OPT_ARCHIVE_PROBETYPE, true);
+	Merge7zInitFlags();
+
+	auto guard = make_scope_exit([&bOldArchiveEnable, &bOldArchiveProbeType]() {
+			GetOptionsMgr()->SaveOption(OPT_ARCHIVE_ENABLE, bOldArchiveEnable);
+			GetOptionsMgr()->SaveOption(OPT_ARCHIVE_PROBETYPE, bOldArchiveProbeType);
+		});
+
+	Merge7zFormatMergePluginScope scope(infoUnpacker);
+
+	// Convert FileLocation array to PathContext
+	PathContext paths;
+	for (int i = 0; i < nFiles; ++i)
+		paths.SetPath(i, fileloc[i].filepath);
+
+	// Get read-only flags
+	std::array<bool, 3> bRO = GetROFromFlags(nFiles, dwFlags);
+
+	// Determine recursion setting
+	bool bRecurse2 = (pOpenParams && pOpenParams->m_bRecurse.has_value())
+		? *pOpenParams->m_bRecurse 
+		: GetOptionsMgr()->GetBool(OPT_CMP_INCLUDE_SUBDIRS);
+
+	// Decompress archives if needed and pTempPathContext is not provided
+	CTempPathContext *pTempPathContext2 = pTempPathContext;
+	if (pTempPathContext2 == nullptr)
+	{
+		// Add trailing '\' for directories if missing
+		for (int i = 0; i < nFiles; ++i)
+		{
+			if (!paths::EndsWithSlash(paths[i]) && !IsArchiveFile(paths[i]))
+				paths.SetPath(i, paths::AddTrailingSlash(paths[i]));
+		}
+
+		DecompressResult res = DecompressArchive(m_hWnd, paths);
+		if (FAILED(res.hr))
+		{
+			int ans = AfxMessageBox(I18n::LoadString(IDS_FAILED_EXTRACT_ARCHIVE_FILES).c_str(), MB_YESNO | MB_DONT_ASK_AGAIN | MB_ICONWARNING, IDS_FAILED_EXTRACT_ARCHIVE_FILES);
+			if (ans != IDYES)
+			{
+				delete res.pTempPathContext;
+				return false;
+			}
+		}
+		if (res.pTempPathContext)
+		{
+			paths = res.files;
+			pTempPathContext2 = res.pTempPathContext;
+		}
+	}
+
+	// Create new DirDoc if not provided
+	CDirDoc* pDirDoc2 = static_cast<CDirDoc*>(pDirDoc);
+	if (pDirDoc2 == nullptr)
+	{
+		CMultiDocTemplate* pDirTemplate = theApp.GetDirTemplate();
+		CDirDoc::m_nDirsTemp = nFiles;
+		if (m_pMenus[MENU_DIRVIEW] == nullptr)
+			pDirTemplate->m_hMenuShared = NewDirViewMenu();
+		pDirDoc2 = static_cast<CDirDoc*>(pDirTemplate->OpenDocumentFile(nullptr));
+		if (pDirDoc2 == nullptr)
+		{
+			if (pTempPathContext == nullptr)
+				delete pTempPathContext2;
+			return false;
+		}
+	}
+
+	// Initialize the comparison
+	pDirDoc2->InitCompare(paths, bRecurse2, pTempPathContext2);
+
+	// Apply OpenFolderParams if provided
+	if (pOpenParams)
+		pDirDoc2->SetHiddenItems(pOpenParams->m_hiddenItems);
+
+	// Set report file, descriptions, and title
+	pDirDoc2->SetReportFile(sReportFile);
+	pDirDoc2->SetDescriptions(strDesc);
+	pDirDoc2->SetTitle(nullptr);
+
+	// Set read-only flags for each pane
+	for (int i = 0; i < nFiles; ++i)
+		pDirDoc2->SetReadOnly(i, bRO[i]);
+
+	// Start the comparison
+	pDirDoc2->Rescan();
+
+	return true;
+}
+
 /**
  * @brief Show GNU licence information in notepad (local file) or in Web Browser
  */
@@ -1268,6 +1379,7 @@ static void AppendComparisonCommandLineParams(
 	case ID_MERGE_COMPARE_HEX:     params += _T("/t binary "); break;
 	case ID_MERGE_COMPARE_IMAGE:   params += _T("/t image "); break;
 	case ID_MERGE_COMPARE_WEBPAGE: params += _T("/t webpage "); break;
+	case ID_MERGE_COMPARE_FOLDER:  params += _T("/t folder "); break;
 	}
 
 	// Add OpenParams
@@ -1548,19 +1660,12 @@ bool CMainFrame::DoFileOrFolderOpen(const PathContext * pFiles /*= nullptr*/,
 	{
 		if (pDirDoc != nullptr)
 		{
-			// Anything that can go wrong inside InitCompare() will yield an
-			// exception. There is no point in checking return value.
-			pDirDoc->InitCompare(tFiles, bRecurse2, pTempPathContext);
+			FileLocation fileloc[3];
+			for (int nPane = 0; nPane < tFiles.GetSize(); nPane++)
+				fileloc[nPane].setPath(tFiles[nPane]);
 
-			if (pOpenFolderParams)
-				pDirDoc->SetHiddenItems(pOpenFolderParams->m_hiddenItems);
-			pDirDoc->SetReportFile(sReportFile);
-			pDirDoc->SetDescriptions(strDesc);
-			pDirDoc->SetTitle(nullptr);
-			for (int nIndex = 0; nIndex < tFiles.GetSize(); nIndex++)
-				pDirDoc->SetReadOnly(nIndex, bRO[nIndex]);
-
-			pDirDoc->Rescan();
+			ShowDirDoc(pDirDoc, tFiles.GetSize(), fileloc, dwFlags, strDesc, sReportFile,
+					infoUnpacker, infoPrediffer, dynamic_cast<const OpenFolderParams*>(pOpenParams), pTempPathContext);
 		}
 	}
 	else
@@ -2156,7 +2261,30 @@ bool CMainFrame::DoFileNew(UINT nID, int nPanes,
 			strDesc2[i] = strDesc[i];
 		fileloc[i].encoding.SetCodepage(ucr::getDefaultCodepage());
 	}
-	return ShowMergeDoc(nID, nullptr, nPanes, fileloc, dwFlags, strDesc2, _T(""), nullptr, infoPrediffer, pOpenParams);
+
+	if (nID != ID_MERGE_COMPARE_FOLDER)
+		return ShowMergeDoc(nID, nullptr, nPanes, fileloc, dwFlags, strDesc2, _T(""), nullptr, infoPrediffer, pOpenParams);
+
+	PathContext paths;
+	std::vector<std::shared_ptr<TempFolder>> newFolders;
+	unsigned dwFlags2[3] = {};
+
+	for (int i = 0; i < nPanes; ++i)
+	{
+		auto pTempFolder = std::make_shared<TempFolder>();
+		String path = pTempFolder->Create();
+		if (path.empty())
+			return false;
+		paths.SetPath(i, path);
+		newFolders.push_back(pTempFolder);
+		dwFlags2[i] = FFILEOPEN_NOMRU | (dwFlags ? dwFlags[i] : 0);
+	}
+
+	// Keep temp folders alive until WinMerge exits
+	for (auto& f : newFolders)
+		m_tempFolders.push_back(f);
+
+	return DoFileOrFolderOpen(&paths, dwFlags2, strDesc2);
 }
 
 /**
