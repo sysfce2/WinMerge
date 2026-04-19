@@ -17500,8 +17500,7 @@ msgid ""
 "type=\"indexterm\" id=\"1\"/>"
 msgstr ""
 "Syntaxe des filtres de fichiers<placeholder type=\"indexterm\" id=\"0\"/"
-"><placeholder type=\"indexterm\" id=\"1\"/><placeholder type=\"indexterm\" "
-"id=\"2\"/>"
+"><placeholder type=\"indexterm\" id=\"1\"/>"
 
 #. type: Content of: <article><section><section><para>
 #: English/Filters.xml:1464
